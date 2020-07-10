@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="freeagentComp" name="Free Agent Cheat" security="0" ip="f2ee111e" allowsDefaultBootModule="true" type="empty">
+
+  <ports>22, 21, 9418</ports>
+  <portsForCrack val="0" />
+
+  <file path="home" name="CreditsData.txt">
+%-- FREE AGENT CHEAT ACTIVATED --
+</file>
+
+<CreditsDaemon Title="Free Agent Cheat" ButtonText="Activate Cheat" ConditionalActionSetToRunOnButtonPressPath="Actions/Meta/Cheats/FreeAgent.xml"/>
+
+</Computer>

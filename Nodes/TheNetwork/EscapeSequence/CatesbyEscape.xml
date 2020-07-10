@@ -1,0 +1,9 @@
+<Computer id="MNCEscape0" name="Operator Terminal 6" security="2" ip="d754df07" type="2">
+	<portsForCrack val="2" />
+	<ports>22, 21, 554</ports>
+
+  <dlink target="MNCEscape1" />
+
+  <positionNear target="MNCEscape1" position="1" total="1" extraDistance="-0.3"/>
+
+</Computer>

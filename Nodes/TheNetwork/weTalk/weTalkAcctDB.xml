@@ -1,0 +1,443 @@
+<Computer id="wtAccountDB" name="weTalk Account Database" security="5" icon="DLCServer" ip="6bcdf784" allowsDefaultBootModule="true" type="3">
+
+  <ports>80, 443, 1433</ports>
+
+  <proxy time="1" />
+  <portsForCrack val="3" />
+  <firewall level="3" />
+  <trace time="130" />
+  <admin type="none"/>
+
+  <LogoCustomConnectDisplayDaemon logo="Media/weTalk2.png" title="Media/weTalk_txt.png" overdrawLogo="false" buttonAlignment="left" />
+
+  <DatabaseDaemon Permissions="private" DataType="OnlineAccount" Foldername="db" Color="122, 204, 51" AdminEmailAccount="darren@f582ec5c" AdminEmailHostID="wtMail" Name="weTalk Account Database">
+
+    <!-- legitimate entries marked with /!\ -->
+
+    <OnlineAccount>
+      <ID>5221</ID>
+      <Username>ikkzan3</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: 3HJVhE4sv</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>31935</ID>
+      <Username>cubeof11</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: 867NSCBys</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount><!-- /!\ -->
+      <ID>8172</ID>
+      <Username>theavocadogamer</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: bootymaster69</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount>
+      <ID>68246</ID>
+      <Username>natla</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: Wy3Rvd2wV</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>17268</ID>
+      <Username>jojdawp</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: JTAL7hgR9</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>79193</ID>
+      <Username>infanex</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: Zmz5QPJNx</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount><!-- /!\ -->
+      <ID>41890</ID>
+      <Username>fouriertform</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: bestfriend</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount>
+      <ID>4714</ID>
+      <Username>DarkNex22</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: s9WZqzXmA</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>64159</ID>
+      <Username>DiarrhoeaMan</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: kdScqmA8r</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount><!-- /!\ -->
+      <ID>21847</ID>
+      <Username>maskedero</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: preciosa</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount>
+      <ID>58779</ID>
+      <Username>rickerscott</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: xE7vUaV9M</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount>
+      <ID>28330</ID>
+      <Username>jipotte</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: r7WkTVRuS</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>31717</ID>
+      <Username>MrFluffers</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: rR2FsTqPj</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount><!-- /!\ -->
+      <ID>41315</ID>
+      <Username>raynestorm</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: L3tmein</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount>
+      <ID>32528</ID>
+      <Username>bowsara</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: LkezBwC3d</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount><!-- /!\ -->
+      <ID>19818</ID>
+      <Username>z_b_d</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: b0s7ra</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount>
+      <ID>95517</ID>
+      <Username>hngkong</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: fmP8CKrZx</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>94649</ID>
+      <Username>egom493</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: vwZS79zJc</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>86040</ID>
+      <Username>tallinislit</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: sgnycbMr3</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>72762</ID>
+      <Username>meb1</Username>
+      <BanStatus>true</BanStatus>
+      <Notes>Password: TjeaA4KRp</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount>
+      <ID>77869</ID>
+      <Username>HeySiri</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: 2FW596h8d</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount>
+      <ID>25195</ID>
+      <Username>MiceLeader</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: 43gYj7bLe</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount>
+      <ID>27396</ID>
+      <Username>Boris_Friend</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: dQ3KrLb7R</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>96642</ID>
+      <Username>Dr_Unk</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: PqJeQ6vrd</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>93396</ID>
+      <Username>migerard</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: NFG79DfEy</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>65418</ID>
+      <Username>the_creeper_slay0r</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: ELeyDWt27</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>89259</ID>
+      <Username>Boaz182</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: 7nkx4BMvz</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>84903</ID>
+      <Username>juniorturtle</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: qZzPy3GpC</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>18464</ID>
+      <Username>Ruerder</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: 8YfTePEzs</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>89580</ID>
+      <Username>Subsonic16</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: WC4us6Dp3</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>40589</ID>
+      <Username>w1lderness</Username>
+      <BanStatus>true</BanStatus>
+      <Notes>Password: gBdCWYUf2</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>71465</ID>
+      <Username>BlinkyGamer99</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: 5Avp23efB</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>9774</ID>
+      <Username>ThiefKeef</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: D7pwzhHZ3</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>54996</ID>
+      <Username>ggaRnD</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: LcghCy7jB</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>48251</ID>
+      <Username>Foxboy24</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: psEJ8MaGe</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>81716</ID>
+      <Username>s.nathan</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: P54ydwRnc</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>73909</ID>
+      <Username>SnowTurtle4</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: RvBAjP3hD</Notes>
+    </OnlineAccount>
+
+
+
+    <OnlineAccount>
+      <ID>73916</ID>
+      <Username>MzAlfredo</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: cuDx6vJCL</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>42195</ID>
+      <Username>typelogin</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: U4MxF6NgY</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>19154</ID>
+      <Username>talt3</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: jgzaCypT3</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>15599</ID>
+      <Username>theguy239</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: h9j7ewaxS</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>12794</ID>
+      <Username>GustavMeowski</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: 7edtTRPSh</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>41409</ID>
+      <Username>BigGust</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: cqMQ4dBEs</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>90935</ID>
+      <Username>Demonstuer</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: qxvGgw5rE</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>44874</ID>
+      <Username>mr_4w3s0me</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: 47qVfpvLP</Notes>
+    </OnlineAccount>
+
+
+
+    <OnlineAccount>
+      <ID>83277</ID>
+      <Username>thar264</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: rGeZu6tnJ</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>73929</ID>
+      <Username>TheOneMemeLord</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: MkCXwG6f3</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>17970</ID>
+      <Username>Dinomite</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: tTbDYu4JQ</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>92194</ID>
+      <Username>QwertyAznMan123</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: tgkMz3aPn</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>44975</ID>
+      <Username>Pancake97</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: mE5qtvfbu</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>85351</ID>
+      <Username>botpt</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: W6yPD53LX</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount>
+      <ID>5858</ID>
+      <Username>chris8978</Username>
+      <BanStatus>true</BanStatus>
+      <Notes>Password: VJXqNAr54</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>90946</ID>
+      <Username>mariolitt</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: MKTr3uRUW</Notes>
+    </OnlineAccount>
+
+    <OnlineAccount>
+      <ID>13921</ID>
+      <Username>pen15es</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: wY7EykC4c</Notes>
+    </OnlineAccount>
+
+
+    <OnlineAccount>
+      <ID>17077</ID>
+      <Username>Bailers</Username>
+      <BanStatus>false</BanStatus>
+      <Notes>Password: qdKTS5kVw</Notes>
+    </OnlineAccount>
+
+  </DatabaseDaemon>
+</Computer>

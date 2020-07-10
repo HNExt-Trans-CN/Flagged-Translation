@@ -1,0 +1,70 @@
+<Computer id="ellingtonPublic" name="Ellington University Website" ip="c20fae1f" security="1" allowsDefaultBootModule="true" type="3" >
+
+  <ports>80, 25, 443</ports>
+
+  <portsForCrack val="1" />
+  <firewall level="-1"/>
+  <trace time="-1" />
+  <admin type="progress"/>
+
+  <LogoDaemon Name="Ellington University" ShowsTitle="true" TextColor="100,100,160,200" LogoImagePath="Media/municipal.png" >
+Quality Teaching
+for a Challenging Future</LogoDaemon>
+
+  <file path="home/curricular_outlines" name="ENGINEERING_curricular_outline_LATEST.pdf">#BINARY#</file>
+  <file path="home/curricular_outlines" name="MATHS_curricular_outline_LATEST.pdf">#BINARY#</file>
+  <file path="home/curricular_outlines" name="SCIENCE_curricular_outline_LATEST.pdf">#BINARY#</file>
+
+  <file path="home/adm_mail" name="Proxy_ACTIVITYLOG_April14.eml">REQUEST_COUNT: 29045
+ENCRYPTED_REQUESTS: 27931
+
+EXTRAPOLATED_SUSPECT_QUERIES:
+"photolab keygen working"
+"goatse.cx"
+"boobs"
+"wetalk install"
+"how to log into wetalk"
+"wt://976babb8/login?username=theavocadogamer#password=bootymaster69"
+"install aftershock plugin"
+</file>
+
+<file path="home/adm_mail" name="BREACH_ATTEMPT_ALERT_0x2914ab.eml">!! WARNING !!
+
+This server (c20fae1f) has received (519) login attempts in the past minute.
+
+The following NIDs/hostnames were involved:
+---
+65b8da10 | Operator Terminal 14
+---
+END OF REPORT</file>
+
+<Memory>
+ <Commands>
+ </Commands>
+ <Data>
+   <Block>### PROXY ALERT ###
+
+ATTEMPTS TO CONNECT TO THE FOLLOWING NETWORK IDS HAVE BEEN LOGGED
+
+976babb8
+6bcdf784
+
+~~ Logged by SmartProxy ~~
+###</Block>
+<Block>weTalk_DATA_PAYLOAD
+~###~
+username
+###
+theavocadogamer
+###
+password
+###
+bootymaster69
+~###~</Block>
+ </Data>
+ <Images>
+   <Image>Media/municipal.png</Image>
+ </Images>
+</Memory>
+
+</Computer>

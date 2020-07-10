@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="eosRouter" name="Abrams Family WiFi" security="1" icon="chip" allowsDefaultBootModule="true" ip="acc9cad4" type="3">
+
+  <ports>25, 22, 80, 1433</ports>
+  <adminPass pass="jupiter"/>
+
+  <proxy time="-1" />
+  <portsForCrack val="2" />
+  <firewall level="6" solution="europa" />
+  <trace time="300" />
+  <admin type="progress"/>
+
+  <file path="home" name="jupiter_first_time_config.txt">If you can read this, then your JUPITER V5 router is working! Please make sure to follow these instructions to complete your setup:
+
+1). Change the administrator password. Right now it is set to "jupiter". This should be changed at your earliest convenience!
+
+2). The NID-to-EZdress resolution server is set to the MNC Public Resolution Server by default. You should use the resolution server given to you by your Network provider, to avoid network congestion and unnecessary telemetry.
+
+3). WPA3 should be set when possible. WPA2 is deprecated and is only used to support legacy devices such as ePhones prior to the X or Z models.
+
+4). To prevent MNC Security Council congestion due to the public nature of routers, trace times are 5 minutes. Router owners are expected to monitor their own logs to prevent network compromise.</file>
+
+  <dlink target="eosPC1"/>
+  <dlink target="eosPC2"/>
+  <dlink target="eosPC3"/>
+  <dlink target="eosPC4"/>
+
+</Computer>

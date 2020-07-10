@@ -1,0 +1,8 @@
+<ConditionalActions>
+
+  <Instantly>
+  	<CopyAsset DestFilePath="mail/accounts/dispatch/inbox" DestComp="jmail" SourceComp="fileHammerspace" SourceFileName="MedicalRecord_-_Jones_Randall" SourceFilePath="home" />
+  	<CopyAsset DestFilePath="bin" DestComp="MNCDrop" SourceComp="funRuiner" SourceFileName="SMTPOverflow.exe" SourceFilePath="bin" />
+  </Instantly>
+
+</ConditionalActions>

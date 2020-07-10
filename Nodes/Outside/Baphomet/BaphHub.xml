@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="baphHub" name="Atrium of Baphomet" security="5" allowsDefaultBootModule="true" type="1">
+
+  <ports>443, 21, 80, 6881, 1433, 554</ports>
+
+  <proxy time="2" />
+  <portsForCrack val="6" />
+  <firewall level="-1" />
+  <trace time="150" />
+  <admin type="fast" resetPassword="false" isSuper="false"/>
+
+  <account username="#PLAYERNAME#" password="swordfish" type="3" />
+
+  <DHSDaemon groupName="Baphomet" addsFactionPointOnMissionComplete="true" autoClearMissionsOnPlayerComplete="true" themeColor="190, 10, 10" allowContractAbbandon="false">
+   <agent name="SYSTEM" pass="paynoattentiontotheunhackableaccountsbehindthecurtain" color="145, 145, 145"/>
+   <agent name="#PLAYERNAME#" pass="swordfish" color="210,210,210"/>
+   <agent name="catesby" pass="paynoattentiontotheunhackableaccountsbehindthecurtain" color="255, 0, 0"/>
+   <agent name="keyes" pass="paynoattentiontotheunhackableaccountsbehindthecurtain" color="86, 153, 96"/>
+   <agent name="HACKER_KING_14" pass="HACKING" color="76, 254, 66"/>
+   <agent name="z1gz4g" pass="paynoattentiontotheunhackableaccountsbehindthecurtain" color="112, 209, 252"/>
+   <agent name="quicksilver" pass="paynoattentiontotheunhackableaccountsbehindthecurtain" color="196, 209, 143"/>
+   <agent name="n3t2unn3r" pass="paynoattentiontotheunhackableaccountsbehindthecurtain" color="203, 76, 14"/>
+   <agent name="whispr" pass="paynoattentiontotheunhackableaccountsbehindthecurtain" color="172, 87, 136"/>
+  </DHSDaemon>
+
+  <dlink target="baphDrop" />
+</Computer>

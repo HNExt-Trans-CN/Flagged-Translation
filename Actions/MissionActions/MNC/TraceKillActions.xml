@@ -1,0 +1,13 @@
+<ConditionalActions>
+  <Instantly>
+    <CopyAsset DestFilePath="mail/accounts/dispatch/inbox" DestComp="jmail" SourceComp="fileHammerspace" SourceFileName="MedicalRecord_-_Nowak_Kacper" SourceFilePath="home" />
+    <LaunchHackScript Filepath="HackerScripts/RansomAttack8.txt" DelayHost="FAH" Delay="0" SourceComp="operator8terminal" TargetComp="operator8terminal" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+  	<CopyAsset DestFilePath="bin" DestComp="MNCDrop" SourceComp="funRuiner" SourceFileName="Tracekill.exe" SourceFilePath="bin" />
+    <LaunchHackScript Filepath="HackerScripts/nerdForumKillThreads.txt" DelayHost="FAH" Delay="0" SourceComp="nerdForum_g" TargetComp="nerdForum_g" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+    <AddConditionalActions Filepath="Actions/MissionActions/MNC/TraceKillAddThreads.xml" DelayHost="FAH" Delay="2"/>
+  </Instantly>
+
+  <OnAdminGained target="gmanHome">
+    <LaunchHackScript Filepath="HackerScripts/GManConfrontation.txt" DelayHost="FAH" Delay="2" SourceComp="gmanHome" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+  </OnAdminGained>
+</ConditionalActions>

@@ -1,0 +1,23 @@
+config playerComp playerComp 0.01 $#%#$
+flash $#%#$
+delay 1 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+stopMusic $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+clearTerminal $#%#$
+delay 4 $#%#$
+flash $#%#$
+startMusic $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$
+delay 0.5 $#%#$
+flash $#%#$

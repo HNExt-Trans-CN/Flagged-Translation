@@ -1,0 +1,13 @@
+<Person id="maxwell_abrams" handle="diseld" firstName="Maxwell" lastName="Abrams" isMale="true">
+  <Birthplace name="Tulsa, Oklahoma, USA" />
+  <DOB>13/09/1987 09:00</DOB>
+  <Degrees>
+  </Degrees>
+  <Medical>
+    <Blood>O</Blood>
+    <Height>179</Height>
+    <Allergies>Pollen</Allergies>
+    <Perscription>Hectocriptine :: 20mg daily</Perscription>
+  </Medical>
+  <Notes>The father of the Abrams family. Mild-mannered and is trying to look out for his children</Notes>
+</Person>

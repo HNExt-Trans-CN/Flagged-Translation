@@ -1,0 +1,10 @@
+<ConditionalActions>
+  <HasFlags requiredFlags="detainmentsActive">
+    <HideNode DelayHost="FAH" Delay="10" TargetComp="nutrico_is_nasty" />
+    <ChangeIP DelayHost="FAH" Delay="10" TargetComp="nutrico_is_nasty" NewIP="00000000" />
+    <!-- NIN internal intentionally left out -->
+    <HideNode DelayHost="FAH" Delay="20" TargetComp="nin_vps" />
+    <ChangeIP DelayHost="FAH" Delay="20" TargetComp="nin_vps" NewIP="00000000" />
+  </HasFlags>
+
+</ConditionalActions>

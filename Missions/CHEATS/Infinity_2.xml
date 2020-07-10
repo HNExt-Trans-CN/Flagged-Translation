@@ -1,0 +1,23 @@
+<mission id="CHEAT_Infinity" activeCheck="true">
+  <goals>
+
+  </goals>
+
+  <missionStart val="9">addRankSilent</missionStart>
+  <nextMission>NONE</nextMission>
+
+  <email>
+    <sender>CHAOS CLAN</sender>
+    <subject>-- CHEAT ACTIVATED: Infinity --</subject>
+    <body>A NAME THAT APPEARS TO HAVE... PERMEANCE.
+
+YOU CAN NOW SEE MORE THAN THEY WOULD LET YOU.
+
+IF THIS IS YOUR FIRST EXCURSION, WE APOLOGISE. YOU MAY WANT TO PICK A DIFFERENT NAME.
+
+~ Z
+CHAOS CLAN</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

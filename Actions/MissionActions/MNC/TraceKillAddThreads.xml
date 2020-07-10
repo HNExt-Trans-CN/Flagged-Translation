@@ -1,0 +1,9 @@
+<ConditionalActions>
+  <Instantly>
+    <AddThreadToMissionBoard ThreadFilepath="Docs/ForumPosts/FreeChat/UPDATES/Board_g/4_Update.txt" TargetComp="nerdForum_g" />
+    <AddThreadToMissionBoard ThreadFilepath="Docs/ForumPosts/FreeChat/Board_g/1.txt" TargetComp="nerdForum_g" />
+    <AddThreadToMissionBoard ThreadFilepath="Docs/ForumPosts/FreeChat/Board_g/2.txt" TargetComp="nerdForum_g" />
+    <AddThreadToMissionBoard ThreadFilepath="Docs/ForumPosts/FreeChat/Board_g/3.txt" TargetComp="nerdForum_g" />
+    <AddThreadToMissionBoard ThreadFilepath="Docs/ForumPosts/FreeChat/Board_g/5.txt" TargetComp="nerdForum_g" />
+  </Instantly>
+</ConditionalActions>

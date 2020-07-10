@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="linda_abrams" handle="hapostor" firstName="Linda" lastName="Abrams" isMale="false">
+  <Birthplace name="Tulsa, Oklahoma, USA" />
+  <DOB>11/04/1986 10:00</DOB>
+  <Degrees>
+
+  </Degrees>
+  <Medical>
+    <Blood>O</Blood>
+    <Height>154</Height>
+    <Allergies>N/A</Allergies>
+  </Medical>
+
+  <Notes>The mother of the Abrams family. Rather naggy, and is a bit of a technophobe, but is ultimately not trying to mean harm to her kids -- despite what they may think about her anti-computer mindset.</Notes>
+</Person>

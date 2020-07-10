@@ -1,0 +1,36 @@
+body {
+  font-family: 'Times New Roman', serif;
+  color: white;
+  background: rgb(29,101,101);
+  background: radial-gradient(circle, rgba(29,101,101,1) 0%, rgba(67,81,102,0.9808123933167017) 100%);
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto; /* this centers the contents on the page */
+}
+
+/* This makes tables look old-timey: */
+table {
+    margin: 0 auto; /* this centers the nav bar, which is a table */
+    border-top: 1px solid #c0c0c0;
+    border-left: 1px solid #c0c0c0;
+    border-bottom: 1px solid #808080;
+    border-right: 1px solid #808080;
+}
+th, td {
+    padding: 5px;
+    border-top: 1px solid #808080;
+    border-left: 1px solid #808080;
+    border-bottom: 1px solid #c0c0c0;
+    border-right: 1px solid #c0c0c0;
+    background: rgba(255, 255, 255, 0.5); /* semi-transparent white */
+}
+/* Here's your special divider style, if you chose one: */
+hr {
+  border: none; background: url('Images/aqmarli.gif') left no-repeat; height: 14px; width: 576px;
+  margin: 0 auto; /* center the horizontal rule */
+}
+
+.img-container {
+  text-align: center;
+  display: block;
+}

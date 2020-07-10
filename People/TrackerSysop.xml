@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="trackersysop" handle="JaySon" firstName="Jason" lastName="Aubjekt" isMale="true">
+  <Birthplace name="Frankfurt, Germany" />
+  <DOB>11/04/2005 10:00</DOB>
+  <Degrees>
+  </Degrees>
+  <Medical>
+    <Blood>O</Blood>
+    <Height>178</Height>
+    <Allergies>NONE</Allergies>
+    <Perscription>Benzoyl Peroxide :: topical application daily</Perscription>
+    <Perscription>Zovirax :: 800 mg every 4 hours orally</Perscription>
+  </Medical>
+
+  <Notes>The sysop of bit4bit. Has acne and shingles. Gets roped into extorting XBC by SeaSharp, which leads to bad things happening</Notes>
+</Person>

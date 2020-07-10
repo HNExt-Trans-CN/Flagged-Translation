@@ -1,0 +1,67 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="torrentPC3"
+          name="Emily's MindPad X12"
+          ip="e5c7613e"
+          security="0"
+          allowsDefaultBootModule="false"
+          icon="DLCLaptop"
+          type="2" >
+
+  <ports>21, 22, 6881</ports>
+  <portRemap>6881=61105</portRemap>
+  <portsForCrack val="2" />
+  <trace time="-1" />
+  <firewall level="8" solution="free4all" additionalTime="-0.1"/>
+
+  <dlink target="torrentTracker" />
+
+  <file path="home/torrents" name="From.Insult.To.Injury.2021.FLAC.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="Hand.In.Hand.2019.FLAC.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="Equivalent.Exchange.2031.FLAC.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="Here.We.Go.2011.FLAC.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="Glass.Houses.2034.FLAC.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="All.Doubt.2018.FLAC.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="X-SERVER.PACK.0day.2036.5.12-XBC.torrent">#BINARYSMALL#</file>
+
+  <customthemefile path="home/stash" name="Ribbons_x-server.sys" themePath="Themes/RibbonsTheme.xml"/>
+  <customthemefile path="sys" name="Ribbons_x-server.sys" themePath="Themes/RibbonsTheme.xml"/>
+
+  <file path="home" name="journal.txt">I'm not sure what's up with JaySon. He seems a bit off-the-wall lately -- messing around with SeaSharp's hackery business to try and coerce a topsite into giving him pre runoff? I thought we were better than this.
+
+The tracker doesn't need to be "big". That just puts us all at more risk! I hope he can realise that this isn't right. I'll send him some private messages later.</file>
+
+  <file path="home" name="email_draft.txt">Hello doc!
+
+I need to renew my prescription with you. Please let me know when you can get back, I know that it's not an incredible time.
+
+Thanks!
+
+- Emily Coleman</file>
+
+  <Memory>
+   <Commands>
+      <Command>wget https://xserverhive.com/themes/Ribbons_x-server.sys</Command>
+      <Command>nano journal.txt</Command>
+      <Command>nano journal.txt</Command>
+      <Command>touch journal.txt</Command>
+   </Commands>
+   <Data>
+     <Block>## EMAIL DRAFT avi49j3 ##
+  # Changes need to be saved #
+
+  Hello doc!
+
+  I need to renew my prescription with you. Please let me know when you can get back, I know that it's not an incredible time.
+
+  Thanks!
+
+  - Emily Coleman</Block>
+   </Data>
+   <Images>
+     <Image>Media/Flavor/meme6.jpg</Image>
+     <Image>Media/Flavor/meme11.jpg</Image>
+     <Image>Media/Flavor/meme2.jpg</Image>
+   </Images>
+  </Memory>
+
+</Computer>

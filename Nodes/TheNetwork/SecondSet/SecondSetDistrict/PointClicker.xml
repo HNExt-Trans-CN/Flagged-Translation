@@ -1,0 +1,12 @@
+<Computer id="networkPointclicker" name="POINTCLICKER!" security="2" ip="bbc1332f" type="3" >
+  <ports>80, 443, 1433</ports>
+
+  <proxy time="1.5" />
+  <portsForCrack val="1" />
+  <firewall level="6" solution="POINTSSSSS" />
+  <trace time="150"/>
+
+  <PointClicker />
+
+  <positionNear target="district1Dir" position="6" total="8" extraDistance="-0.2"/>
+</Computer>

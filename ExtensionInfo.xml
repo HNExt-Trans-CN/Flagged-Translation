@@ -1,0 +1,91 @@
+<HacknetExtension>
+	<Name>Hacknet: Flagged</Name>
+	<AllowSaves>true</AllowSaves>
+
+  <StartingVisibleNodes></StartingVisibleNodes>
+
+  <StartingMission>Missions/StartingMission.xml</StartingMission>
+
+  <StartingActions>Actions/StartingActions.xml</StartingActions>
+
+  <Description>The Network isn't going to police itself!</Description>
+
+  <Faction>Factions/MNC.xml</Faction>
+  <Faction>Factions/SPOILERS.xml</Faction>
+
+  <StartsWithTutorial>False</StartsWithTutorial>
+
+  <HasIntroStartup>true</HasIntroStartup>
+
+  <StartingTheme>Themes/DragonThemeIntro.xml</StartingTheme>
+  <!--<StartingTheme>Themes/IntroTheme.xml</StartingTheme>-->
+
+  <IntroStartupSong>Music/GreetingsOperator.ogg</IntroStartupSong>
+
+  <SequencerTargetID>LOCAL.SEQUENCERTUNNEL</SequencerTargetID>
+  <SequencerSpinUpTime>7.2</SequencerSpinUpTime>
+  <SequencerFlagRequiredForStart>sequencerUnlocked</SequencerFlagRequiredForStart>
+  <ActionsToRunOnSequencerStart>Actions/Sequencer/Sequencer.xml</ActionsToRunOnSequencerStart>
+
+  <WorkshopDescription>[h1]Greetings, Operator![/h1]
+
+You have been selected by the Municipal Network Committee to participate in its exclusive Operator program! Thanks to vigilant citizens such as yourself, we can ensure that The Network remains a safe place for all. These virtual streets won't police themselves!
+
+--
+
+@ Tap into the secret lives of the denizens of The Network!
+@ Prove yourself as a valuable Operator!
+@ Obtain powerful tools!
+# liberate yourself
+# correct mistakes
+
+--
+
+An extension produced as a collaboration between Matrix, A Casual Guy and Hertz for #Hackerjam2!
+Featuring a musical score (and some x-server backgrounds) by the mysterious and wonderful Snacks and Tukib!
+
+~~~
+This mod is currently in a demo state due to the deadline imposed by the HackerJam. While there is still plenty of content to enjoy from it already, at some point you will have to create a new save file when the mod is fully complete. Apologies in advance, but we hope you enjoy the extension regardless!
+~~~
+
+[h1]Art Asset Credits[/h1]
+[b]Music[/b]
+tukib - Greetings, Operator
+snacks - my name is snacks
+snacks - salmiak
+Sequencer - Home
+tukib - Right The Wrongs
+Kevin MacLeod - "Awkward Meeting" {CC 3.0}
+snacks - a dead network
+snacks - greetings, operator [Trap Remix]
+
+[b]X-Server Backgrounds[/b]
+tukib / Matrix
+Chaotica generated fractals
+Angelus Hellion (angelus-hellion.deviantart.com)
+Oliver Fetter (https://unsplash.com/photos/G6lEvBiQM9w)
+Wikimedia (https://commons.wikimedia.org/wiki/File:Parliamenthill.jpg)
+
+[b]Other Graphics[/b]
+Hertz / tukib
+eslamsolom (https://bit.ly/35rUuxj)
+Goripachi (https://bit.ly/2Wlt0pe)
+PinClipart (https://bit.ly/2YpJCPe)
+Alessandra L (https://bit.ly/2zSwPe0)
+Clipart Library (https://bit.ly/30kngQ7)</WorkshopDescription>
+
+  <WorkshopLanguage>English</WorkshopLanguage>
+
+  <WorkshopVisibility>0</WorkshopVisibility>
+
+  <WorkshopTags>Extension,Labyrinths,hackerjam2</WorkshopTags>
+
+  <WorkshopPreviewImagePath>WorkshopLogo.jpg</WorkshopPreviewImagePath>
+
+  <!-- This is the workshop publish ID. The first time your extension is published to Steam, this will be automatically populated with the ID that steam assigns it.
+  When this happens, make sure that you keep that version of the file and store the ID somewhere - without it, you wont be able to push out updates to your extension,
+  and if it's removed, publishing to the workshop will submit it as a new entry, and you'll lose all of your subscribers. Be careful!
+  Do not manually modify this unless you already know your Publish ID from a previous submission. A new ID will only be generated if this says "NONE"-->
+  <WorkshopPublishID>2122137415</WorkshopPublishID>
+
+</HacknetExtension>

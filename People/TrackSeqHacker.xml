@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="trackseqHacker" handle="molluskman25" firstName="Austin" lastName="Stevens" isMale="true">
+  <Birthplace name="Alberta, Canada" />
+  <DOB>13/07/2016 11:00</DOB>
+  <Degrees>
+    <Degree uni="Alberta University" gpa="2.9">Bachelor of Communications</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>B</Blood>
+    <Height>174</Height>
+    <Notes>CITIZEN HAS BEEN FLAGGED: Unusual or maliciously-flagged network activity</Notes>
+  </Medical>
+
+  <Notes>Amateur hacker who serves as the default track-sequence attacker. Is hired by groups like XBC to run active traces against the player. Has some goodies if the player solves a puzzle</Notes>
+</Person>

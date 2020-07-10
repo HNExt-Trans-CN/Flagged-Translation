@@ -1,0 +1,4 @@
+config playerComp playerComp 0.01 $#%#$
+stopMusic $#%#$
+delay 5 $#%#$
+startMusic $#%#$

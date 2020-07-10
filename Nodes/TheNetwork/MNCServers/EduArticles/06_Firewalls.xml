@@ -1,0 +1,26 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Firewalls">Firewalls act as an intrusion prevention system in modern computer systems. While active, a firewall solution will need to be provided before an unsyndicated login attempt can be attempted - effectively meaning that software designed to bruteforce passwords remotely will be useless while the firewall is active.
+
+Firewalls typically serve to prevent automated foreign network traffic rather than secure against dedicated hackers, due to the ease at which a human attacker can syndicate with the firewall.
+
+Operators can examine firewall complexity with the "analyze" command - running the analyze command multiple times will automatically detect patterns in the response data headers and will eliminate characters it can guarantee are not a part of the correct firewall solution.
+
+Once a potential solution is found, the command "solve [FIREWALL_SOLUTION]" can be used to attempt to syndicate.
+
+Unlike proxies, firewalls prevent the execution of the PortHack exploitation program.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

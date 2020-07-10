@@ -1,0 +1,44 @@
+config playerComp trackseqHacker 0.15 $#%#$
+connect $#%#$
+flash $#%#$
+clearTerminal $#%#$
+writel $#%#$
+writel $#%#$
+writel == S1N1ST3R HACKSCRIPT ==$#%#$
+writel $#%#$
+writel $#%#$
+writel To whoever this is, I have been contracted to hack you. $#%#$
+writel I do not disappoint my clients. $#%#$
+writel PREPARE TO DIE! $#%#$
+delay 2 $#%#$
+openPort 22 $#%#$
+delay 2 $#%#$
+openPort 21 $#%#$
+delay 1 $#%#$
+writel $#%#$
+stopMusic $#%#$
+hideRam $#%#$
+clearTerminal $#%#$
+delay 2 $#%#$
+hideNetMap $#%#$
+delay 0.35 $#%#$
+hideDisplay $#%#$
+delay 2 $#%#$
+clearTerminal $#%#$
+write You've $#%#$
+delay 0.35 $#%#$
+write made $#%#$
+delay 0.35 $#%#$
+write a $#%#$
+delay 0.35 $#%#$
+write big $#%#$
+delay 0.35 $#%#$
+write mistake. $#%#$
+delay 2 $#%#$
+delete /sys x-server.sys $#%#$
+showDisplay $#%#$
+showNetMap $#%#$
+showRam $#%#$
+forkbomb $#%#$
+forkbomb $#%#$
+disconnect $#%#$

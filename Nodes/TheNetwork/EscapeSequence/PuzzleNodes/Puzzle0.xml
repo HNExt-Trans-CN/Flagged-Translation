@@ -1,0 +1,105 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="catesbyPuzzle0"
+          name="Mavis' Personal Computer"
+          ip="f981f67e"
+          security="0"
+          allowsDefaultBootModule="false"
+          type="2" >
+
+  <ports>3724, 3659</ports>
+  <portsForCrack val="0" />
+
+  <eosDevice name="Mavis' ePhone 6S" id="mavisPhone" icon="ePhone2" empty="false">
+    <note>reminders
+ted's birthday is soon! get him a gift xx
+ask son if he wants to visit
+figure out what ted did to the computer. what is "irc"?</note>
+
+    <note>shopping list
+bread
+eggs
+milk
+cheese
+pasta
+china crockery
+mushy peas</note>
+
+    <mail username="mavisa1965@blackmail.com" pass="password" />
+  </eosDevice>
+
+  <Memory>
+   <Commands>
+      <Command>forkbomb</Command>
+      <Command>rm *</Command>
+      <Command>cd /log</Command>
+      <Command>wget http://xxxxxxxx/INSTRUCTIONS.dec</Command>
+      <Command>mkdir THE_TIME_DRAWS_NEAR</Command>
+      <Command>cd /home</Command>
+      <Command>rm *</Command>
+      <Command>cd /log</Command>
+      <Command>ls</Command>
+      <Command>cd /home</Command>
+      <Command>ls</Command>
+      <Command>whoami</Command>
+      <Command>pwd</Command>
+      <Command>scan</Command>
+   </Commands>
+   <Data>
+     <Block>function irc_rootkit(){
+       let cnc = ${wget http://xxxxxxxx/c2c/endpoint.json}
+
+       if(cnc.active){
+       ...
+       [MEMORY DATA OBFUSCATED]
+       ...
+}</Block>
+<Block>OPERATOR
+
+MAKE HASTE
+
+4b66d4c9</Block>
+   </Data>
+   <Images>
+     <Image>Media/Flavor/boomerpics/meme1.jpg</Image>
+     <Image>Media/Flavor/boomerpics/meme2.jpg</Image>
+     <Image>Media/Flavor/boomerpics/meme3.jpg</Image>
+     <Image>Media/MemImages/c.jpg</Image>
+     <Image>Media/Flavor/boomerpics/meme4.jpg</Image>
+
+   </Images>
+  </Memory>
+
+  <file path="home/wow_data" name="loot_tables.xlsx">#BINARY#</file>
+  <file path="home/wow_data" name="minus_50_dkp_meme.jpg">#BINARY#</file>
+  <file path="home/wow_data" name="carpal_tunnel_prescription.docx">#BINARY#</file>
+  <file path="home/wow_data" name="raid_sched.xlsx">#BINARY#</file>
+  <file path="home/wow_data" name="clan_website.lnk">#BINARYSMALL#</file>
+  <file path="home/wow_data/xxx" name="1578605420753.png">#BINARY#</file>
+  <file path="home/wow_data/xxx" name="IMG_1390.png">#BINARY#</file>
+  <file path="home/wow_data/xxx" name="IMG_4186.png">#BINARY#</file>
+
+  <file path="home/hw" name="year_10_english.docx">#BINARYSMALL#</file>
+  <file path="home/hw" name="fourier_transforms.docx">#BINARYSMALL#</file>
+  <file path="home/hw" name="history_ww2.docx">#BINARYSMALL#</file>
+  <file path="home/hw" name="assignment_chklist.xslx">#BINARYSMALL#</file>
+
+  <file path="home/THE_TIME_DRAWS_NEAR" name="HELLO.txt">NOISE BECOMES SIGNAL WITH THE RIGHT EARS.
+
+EVEN IF I PERISH, THE MEMORY OF OUR LEGACY SHALL ECHO THROUGHOUT THE NET FOREVER.
+
+~ c</file>
+
+  <file path="home" name="rental_doc.docx">#BINARYSMALL#</file>
+
+  <file path="home" name="CATS_10293.png">#BINARYSMALL#</file>
+  <file path="home" name="CATS_53914.png">#BINARYSMALL#</file>
+  <file path="home" name="CATS_41184.png">#BINARYSMALL#</file>
+  <file path="home" name="CATS_58715.png">#BINARYSMALL#</file>
+  <file path="home" name="CATS_91048.png">#BINARYSMALL#</file>
+
+  <customthemefile path="home" name="HighContrast_x-server.sys" themePath="Themes/HCTheme.xml"/>
+
+  <file path="bin" name="weTalk.dmg">#BINARY#</file>
+  <file path="bin" name="BlizzardClient.dmg">#BINARY#</file>
+
+</Computer>

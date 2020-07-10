@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>YOUR FILES ARE ENCRYPTED</title>
+	<link rel="stylesheet" href="ransomstyle.css">
+</head>
+
+<body>
+	<script defer>
+		"use strict";
+		window.addEventListener('DOMContentLoaded', startCountdown)
+		function startCountdown() {
+			const endDate = new Date(Date.now() + 259200000).getTime();
+
+			function updateCountdown() {
+				const
+					now = new Date().getTime(),
+					delta = endDate - now,
+					hh = Math.floor(delta / 3600000),
+					mm = Math.floor((delta % 3600000) / (1000 * 60)),
+					ss = Math.floor((delta % 60000) / 1000);
+
+				targetElem.innerHTML = `<b>${hh}:${mm}:${ss}</b>`
+
+				if (delta < 0) {
+					clearInterval(x);
+					targetElem.innerHTML = "Wow, you really waited for this entire thing to expire? It's gone.";
+				}
+			}
+
+			const targetElem = document.querySelector(".clock");
+			var x = setInterval(updateCountdown, 250);
+		}
+	</script>
+	<div class="encased">
+		<div class="main">
+			<h1 style="text-align:center;">!! YOUR FILES ARE ENCRYPTED !!</h1>
+			<p style="text-align:center;">TIME LEFT: <span class="clock">--</span></p>
+
+			<p>All of your files are been encrypted by the C2YPT3X virus! all your
+				documents,photos,videos,pictures,music,,etc are encrypted with military-grade DEC algorithm! Without the
+				key only we have, you cannot get it back!</p>
+
+			<h2>How to get files back?</h2>
+			<p>We are willing to give you key to get your files back,but comes at a price. We require you send 5,000
+				credits to our NuCredz address. Once you send to <b>6eb4c55a371788d8dd3d358c</b>, send us email at
+				<b>a_8pj2zv@dumpmail.com</b> and we send decryption key!</p>
+
+			<h2>I will hack you!!</h2>
+			<p>Don't even try! Our proxy secruity is too strong for anybody to hack us! You can only get your files back
+				by co-operating with us!</p>
+
+			<h2>I wont pay!!</h2>
+			<p>then you wont get your files back! all encryption keys are deleted after 72 hours so you should pay fast
+				to avoid permanent data losage. If after 72 hours had passed you still want your files back, you must
+				pay 10,000 credits instead. Act fast!</p>
+
+		</div>
+	</div>
+</body>
+
+</html>

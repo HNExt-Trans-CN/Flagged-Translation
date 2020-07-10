@@ -1,0 +1,28 @@
+<Computer id="xDroidIntro" name="Annie's xDroid" security="0" ip="de371b86" icon="ePhone" type="empty">
+
+	<portsForCrack val="1" />
+	<ports>211, 22</ports>
+
+	<admin type="fast" resetPassword="true" isSuper="true"/>
+	<trace time="22"/>
+
+  <file path="xdroid/apps" name="9ce88853b4.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="6a3775af54.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="82a214ec50.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="934253c8f6.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="74198767ea.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="fcb09b886f.apk">#BINARYSMALL#</file>
+
+	<file path="xdroid/notes" name="email.txt">email
+reminder, the password is whimpect_ladybug
+cuz they require you to use ur normal username then _ then ur actual password for some reason
+seems shady to me but eh</file>
+
+	<file path="xdroid/system" name="core.sys">#BINARYSMALL#</file>
+	<file path="xdroid/system" name="runtime.bin">#BINARYSMALL#</file>
+
+	<positionNear target="eosPC4" position="1" total="1"/>
+
+	<dlink target="eosPC4"/>
+
+</Computer>

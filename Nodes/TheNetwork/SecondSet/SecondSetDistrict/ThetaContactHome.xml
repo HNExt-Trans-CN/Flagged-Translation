@@ -1,0 +1,30 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cindy_laptop" name="Cindy's Laptop" security="1" type="2" icon="DLCLaptop" ip="ca473361">
+
+  <ports>3659, 22, 21, 6881</ports>
+  <portRemap>21=51049,6881=2411</portRemap>
+  <portsForCrack val="1" />
+  <proxy time="0.5" />
+  <firewall level="-1"/>
+  <admin type="progress"/>
+  <trace time="-1" />
+
+  <file path="home/designing" name="wormhole_design_final.png">#BINARYSMALL#</file>
+  <customthemefile path="home/designing" name="Wormhole_x-server.sys" themePath="Themes/WormholeTheme.xml"/>
+  <file path="home/designing" name="LICENSE.txt">This design has been created by bowenskribblez and uploaded to x-art.
+
+You are allowed to use this design for personal use and non-commercial public projects. For the latter, all I ask for is credit! :D</file>
+
+  <file path="bin" name="OmegaVPN.nzx">## THIS EXECUTABLE IS INCOMPATIBLE WITH NETIZEN OS: OPERATOR EDITION ##</file>
+  <file path="bin" name="kreat0r_art_suite.nzx">## THIS EXECUTABLE IS INCOMPATIBLE WITH NETIZEN OS: OPERATOR EDITION ##</file>
+
+  <file path="sys" name="bacom_driver.dll">#BINARY#</file>
+
+  <file path="home/transfer" name="lmaoooooo.txt">ur not supposed to leave urself on the district directory
+now everybody knows ur nid, ur gonna get absolutely fucked up. luckily im nice so i will leave you alone now, but secure ur fucking computer</file>
+
+  <eosDevice name="Cindy's ePhone X6" id="eosCindy" icon="ePhone2" empty="false">
+    <mail username="contact@theta.com" pass="WhiteplainsDrawing2015" />
+  </eosDevice>
+
+</Computer>

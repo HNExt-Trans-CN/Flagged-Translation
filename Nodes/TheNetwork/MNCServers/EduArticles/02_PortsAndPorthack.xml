@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Ports and PortHack">
+In the context of networking, a port functions as a communication endpoint. Ports are logical constructs that identify a specific process or a type of network service running on a computer system. Traffic to and from systems are sent to specific ports to engage in specific services. While there are common standards for which services use which ports, services are easily configurable to allow ports to be remapped by the service owner.
+
+PortHack is an exploitation program developed by the Municipal Network Committee in early 2034, designed to gain administrative access to computer systems on The Network once a sufficient amount of ports on a target system have been compromised. It has been the subject of much controversy, as every Operator on The Network receives full access to PortHack's capabilities. Rest assured, however, that Operators are carefully chosen by the committee from the populus; only the best, brightest and most lawful of citizens are chosen as Operators and as such are trusted with the tools they need to carry out their duties.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

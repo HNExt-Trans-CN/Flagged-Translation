@@ -1,0 +1,23 @@
+<ConditionalActions>
+  <Instantly>
+    <LaunchHackScript Filepath="HackerScripts/SingleBeep.txt" DelayHost="FAH" Delay="0" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+    <RunFunction FunctionName="removeFlags:detainmentsActive"/>
+    <CrashComputer TargetComp="nojusticeComp" CrashSource="nojusticeComp" DelayHost="FAH" Delay="10" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="ellingtonScamService" NewIP="f2ac76ef" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="ellingtonScamDB" NewIP="429dbbb0" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="rjones_laptop" NewIP="4b4307bb" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="nutrico_is_nasty" NewIP="8ee6b36d" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="nin_vps" NewIP="f1b0cab2" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="torrentPC2" NewIP="b0ff3c24" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="torrentPC3" NewIP="e5c7613e" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="torrentPC1" NewIP="812ddf7a" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="torrentTracker" NewIP="be95f741" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="torrentTopsite" NewIP="87b62498" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="RansomwareWebsite" NewIP="85b033e1" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="ransomKillswitch" NewIP="ec01a839" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="ransomHome" NewIP="aba98621" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="ransomXDroid" NewIP="bd7a910e" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="ransomIrc" NewIP="1a5e3642" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="ransomVault" NewIP="6ff82732" />
+  </Instantly>
+</ConditionalActions>

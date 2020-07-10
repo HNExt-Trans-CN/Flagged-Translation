@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="RansomwareWebsite" name="C2YPT3X_PAYMENT_PAGE" security="3" type="3" ip="85b033e1" allowsDefaultBootModule="true">
+
+	<ports>22, 21, 80, 6881</ports>
+	<portsForCrack val="1"/>
+	<proxy time="5" />
+	<firewall level="-1"/>
+	<admin type="progress"/>
+	<trace time="120" />
+
+	<addWebServer name="!! C2YPT3X !!" url="Web/Sites/C2ypt3x/index.html"/>
+
+	<file path="plugins" name="autolog.bin">#BINARY##BINARY##BINARY##BINARY##BINARY#</file>
+	<file path="plugins/autolog" name="latest.log">LASTEST_LOG:
+#+#+#+#
+
+9cc71bc0 : Operator Terminal 27
+8e143245 : Operator Terminal 8
+e6fbd1fe : OmegaVPN-Passthrough-G (X-FORWARDED-FOR: Vincent's Mindpad)
+5bc1e80e : Kyle's Workstation
+4046951d : Vlad's PC
+
+#+#+#+#</file>
+	<file path="plugins/autolog" name="info.txt">Thank you for using the AutoLog Plugin for Theta Webservers!
+Please list the number of days must pass for a new log to be created.
+days = 7</file>
+
+	<file path="home" name="README.txt">If you are reading this message, this means you have successfully logged into your VPS through SSH.
+You can now further configure the machine to your liking. If you have any questions, feel free to check out our support page and community forums.
+Please remember that administrative access is currently only whitelisted for the NID(s) you have specified in your account settings.
+
+IMPORTANT: By default, TFW (Theta Firewall) will not accept any external connections except for SSH and FTP. If you want to allow traffic to a particular port, try `sudo tfw allow inbound $PORT`. In addition, the default firewall solution of "theta" has been set. You should change this at your earliest convenience.
+
+Happy shenanigans,
+- Theta Hosting (4e3338db)</file>
+
+<dlink target="thetaWebsite"/>
+
+</Computer>

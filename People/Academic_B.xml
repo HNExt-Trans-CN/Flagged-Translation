@@ -1,0 +1,16 @@
+<Person id="Academic_B" handle="theavocadogamer" firstName="Joseph" lastName="Damon" isMale="true">
+  <Birthplace name="Ellington, Minnesota, USA" />
+  <DOB>27/04/2018 10:00:00</DOB>
+
+  <Degrees>
+    <Degree uni="Ellington University" gpa="2.2">Bachelor of Engineering</Degree>
+  </Degrees>
+
+  <Medical>
+    <Blood>A</Blood>
+    <Height>173</Height>
+    <Allergies>None</Allergies>
+  </Medical>
+
+  <Notes>One of the Ellington University cheaters.</Notes>
+</Person>

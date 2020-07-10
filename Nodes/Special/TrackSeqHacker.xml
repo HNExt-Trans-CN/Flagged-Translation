@@ -1,0 +1,42 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="trackseqHacker" name="S1n1st3r's B A T T L E R I G" security="2" ip="b9ba27e2" icon="DLCPC2" type="2">
+	<portsForCrack val="4" />
+	<ports>22, 21, 25, 6881, 211</ports>
+  <portRemap>22=1337,21=666,25=420,6881=69</portRemap>
+	<proxy time="1.5"/>
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+
+	<file path="home/transfer" name="martin_english_hw_CHANGE_THIS_NAME_B4_UPLOAD.docx">#BINARY#</file>
+
+	<file path="home" name="PW_LEAKS.txt">-- UNDERNET PASSWORD LEAKZ --
+
+####
+NUTRICO:
+
+susanhuff / read4you
+robertcausey / fr8ibu
+seanwhite / ohth3Me3
+
+###
+WETALK INTERNAL:
+
+darren / r0flc0pt3r
+
+### MORE TO COME SOME DAY ###</file>
+
+  <encryptedFile path="home/projects" name="FTPSprint.dec" extension=".exe" ip="87b62498" header="FTPSprint.0day.XBC" pass="xbc">#FTP_FAST_EXE#</encryptedFile>
+  <file path="home/projects" name="sprint.txt">file is *allegedly* a faster variant of FTPBounce. have so far found no way to decrypt it.
+
+tried asking the guy i got it from and he said he lost the password. maybe ask on wetalk?</file>
+
+  <customthemefile path="home" name="PhantomAlt_x-server.sys" themePath="Themes/PhantomAltTheme.xml"/>
+  <customthemefile path="sys" name="PhantomAlt_x-server.sys" themePath="Themes/PhantomAltTheme.xml"/>
+
+<file path="sys" name="os-config.sys">#BINARYSMALL#
+1010010101010101 xDroid device connected 1010010101010101
+1010010101010101 assigned 68fc4a41 1010010101010101
+#BINARYSMALL#</file>
+
+</Computer>

@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+  <Instantly>
+    <RunFunction FunctionName="playCustomSongImmediatley:Music/ADeadNetwork.ogg" />
+  </Instantly>
+
+</ConditionalActions>

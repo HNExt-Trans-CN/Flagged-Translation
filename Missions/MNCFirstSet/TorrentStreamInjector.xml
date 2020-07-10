@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="MNC_Torrent">
+  <goals>
+    <goal type="clearfolder" target="torrentTopsite" path="ftp/OUR_RELEASES"/>
+    <goal type="clearfolder" target="torrentTopsite" path="ftp/WAREZ"/>
+  </goals>
+
+  <missionStart>loadConditionalActions:Actions/MissionActions/MNC/TorrentStreamInjectorActions.xml</missionStart>
+  <missionEnd>loadConditionalActions:Actions/MissionActions/MNC/TorrentStreamInjectorFinish.xml</missionEnd>
+
+  <nextMission>Missions/GainHelpers/MNC_Gain_Helper.xml</nextMission>
+
+  <posting title="Illegal Filesharing Suppression" client="MNC" target="bit4bit">Automated systems have detected unlawful filesharing operations.</posting>
+
+  <email>
+    <sender>MNC Dispatch</sender>
+    <subject>Illegal Filesharing Suppression</subject>
+    <body>Thank you for your continued interest in the Operator program.
+
+Our systems have detected anomalous levels of incoming BitTorrent traffic to the attached node. We have reason to believe that this node functions as a private torrent tracker, allowing users to engage in illegal filesharing.
+
+Your task is to compromise the tracker, determine the nodes that are engaging in the aforementioned illegal activity and locate the source of illegal content, which we believe to be a high-speed FTP topsite. Delete all offending files on the topsite, then reply to this email. The MNC Security Council shall remediate the issue from there.
+
+In order to complete this task, you have received access to the TorrentStreamInjector tool, designed to exploit clients and trackers using the BitTorrent protocol. This has now been made available to you on the Asset Server.
+
+Good luck, Operator!
+
+- MNC Dispatch
+</body>
+    <attachments>
+      <link comp="torrentTracker" />
+      <note title="Assignment Goals">1. Compromise the torrent tracker
+
+2. Determine the source of the illegal files (likely a protected topsite)
+
+3. Eliminate *all* offending content</note>
+    </attachments>
+  </email>
+</mission>

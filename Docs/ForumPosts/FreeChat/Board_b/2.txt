@@ -1,0 +1,21 @@
+n_bExitTutorial
+------------------------------------------
+#Speech
+HELP
+I CANT EXIT THIS BOARD VIEW TO GET TO THE DISCONNECT BUTTON
+SOMEONE PLEASE
+------------------------------------------
+Oh, yeah. That's pretty wack.
+------------------------------------------
+#Mod
+Yeah sorry about that. Unfortunately our software package doesn't have that feature. There's a workaround though!
+
+typing "connect fa4ae8e5" in your terminal should bring you back to the reverse proxy, which contains links to the other boards as well as a disconnect button.
+
+We're really sorry for the inconvenience!
+------------------------------------------
+eh, it's a free service, what can you do. your fight for free speech on the network is more important than adding a button or containing this nightmarish forum software into one server six times over, tbh
+------------------------------------------
+#Duck
+typical sloppy coding by sloppy badmins, imo
+------------------------------------------

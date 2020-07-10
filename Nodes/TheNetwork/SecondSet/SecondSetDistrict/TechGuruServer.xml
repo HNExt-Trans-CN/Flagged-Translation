@@ -1,0 +1,46 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="TechGuruServer" name="Daniel's Rackspace" security="3" ip="9d801345" type="2" >
+
+  <ports>22, 80, 443, 1433, 6881</ports>
+  <portRemap>6881=19386</portRemap>
+
+  <adminPass pass="UticaComputers1999"/>
+  <proxy time="1" />
+  <portsForCrack val="4" />
+  <firewall level="-1" />
+  <admin type="fast" resetPassword="false"/>
+
+  <file path="home/the_SOC_s1" name="the_SOC_s1.txt">Rips from a show made back in the 2020s that I like.
+
+For some reason they stopped airing it on Digijunk in the early 30s :(</file>
+	<file path="home/the_SOC_s1" name="the_SOC_S1E1.mkv">#BINARY#</file>
+  <file path="home/the_SOC_s1" name="the_SOC_S1E2.mkv">#BINARY#</file>
+  <file path="home/the_SOC_s1" name="the_SOC_S1E3.mkv">#BINARY#</file>
+  <file path="home/the_SOC_s1" name="the_SOC_S1E4.mkv">#BINARY#</file>
+  <file path="home/the_SOC_s1" name="the_SOC_S1E5.mkv">#BINARY#</file>
+  <file path="home/the_SOC_s1" name="the_SOC_S1E6.mkv">#BINARY#</file>
+  <file path="home/the_SOC_s1" name="the_SOC_S1E7.mkv">#BINARY#</file>
+  <file path="home/the_SOC_s1" name="RIP_BY_gurudaniel.nfo">-- WEBRiP by GuruDaniel --
+
+Looking for: people who also share an interest in this show anymore :D
+i'll be seeding it for as long as i can!</file>
+
+  <file path="bin" name="info.txt">This is where I archive various programs I come across on the network, because the MNC love to make sure people "lose" them.
+
+Cannot guarantee their usefulness or quality.</file>
+
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+  <file path="bin" name="DESKTOP_BUDDY_v4.exe">#SECURITYTRACER_PROGRAM#</file>
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+
+  <file path="home/xservers" name="info.txt">Some x-servers I've found that are pretty cool.
+
+Sideloading them is a bit of a pain tho. Should try and see if anybody has fast theme switching software, like there was back in the old days.</file>
+  <customthemefile path="home/xservers" name="PhantomStandard_x-server.sys" themePath="Themes/PhantomStandardTheme.xml"/>
+  <customthemefile path="home/xservers" name="Fandango_x-server.sys" themePath="Themes/FandangoTheme.xml"/>
+
+  <addWebServer name="Network Tech Tips!" url="Web/Sites/NetworkTechTips/index.html"/>
+
+  <positionNear target="district1Dir" position="1" total="8" extraDistance="-0.2"/>
+
+</Computer>

@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="cl1" name="Timeguy's Rackspace" security="5" ip="018bb6c5" type="3">
+  <ports>80, 22, 25, 21, 6881</ports>
+  <trace time="110" />
+  <portsForCrack val="5" />
+  <admin type="fast"/>
+  <proxy time="2"/>
+  <firewall level="8" solution="ticktock" additionalTime="0.5"/>
+
+  <LogoDaemon Name="Timevault 1" ShowsTitle="false" TextColor="255,255,255, 200" LogoImagePath="Media/hourglass.png" >
+Y O U   A P P R O A C H  T H E
+E N C A G E D   A P P A R A T U S
+T H A T  W I L L  C O U N T  U S  O U T</LogoDaemon>
+
+  <encryptedFile path="home" name="Clock.dec" ip="[CANNOT PARSE SOURCE]" extension=".exe" header="T I C K   T O C K">#CLOCK_PROGRAM#</encryptedFile>
+
+</Computer>

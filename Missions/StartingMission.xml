@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+    <goal type="delay" time="3.0"/>
+  </goals>
+
+  <missionStart suppress="true">setFaction:mnc</missionStart>
+
+  <nextMission>NONE</nextMission>
+
+  <!-- cheats -->
+  <branchMissions>
+   <branch>Missions/CHEATS/spiderbenb.xml</branch>
+   <branch>Missions/CHEATS/Orann.xml</branch>
+   <branch>Missions/CHEATS/FreeAgent.xml</branch>
+   <branch>Missions/CHEATS/Infinity.xml</branch>
+   <branch>Missions/CHEATS/NoJustice.xml</branch>
+  </branchMissions>
+
+  <email>
+    <sender>M. Powell</sender>
+    <subject>Greetings, Operator!</subject>
+    <body>Greetings, Operator!
+
+You have been selected by the Municipal Network Committee to participate in its exclusive Operator program! Thanks to vigilant citizens such as yourself, we can ensure that the Network remains a safe place for all. These virtual streets won't police themselves!
+
+Due to the potential of investigating criminal activity, you may no longer use this system for leisurely activities, including banking, shopping, social media or storing personal data. You may not contact or interact with any individuals through email, IRC or weTalk outside of the Operator program.
+
+To ensure that you can carry out your duties, you shall be given access to tools designed to exploit various components of modern computer systems at the discretion of the Committee for the sole purpose of effectively carrying out your assigned duties. These tools shall be made available over time on the linked Asset Server.
+
+To receive your first assignment, please log into the MNC Assignment Hub with the enclosed credentials at your earliest convenience.
+
+Welcome to the team!
+
+- M. Powell, director of the Municipal Network Committee
+</body>
+    <attachments>
+      <link comp="MNCDrop" />
+	  <account comp="MNCDrop" user="admin" pass="rosebud" />
+	  <link comp="MNCHub" />
+	  <account comp="MNCHub" user="27" pass="changeme" />
+    </attachments>
+  </email>
+</mission>

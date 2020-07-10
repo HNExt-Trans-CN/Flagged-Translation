@@ -1,0 +1,5 @@
+<ConditionalActions>
+  <Instantly>
+    <RunFunction FunctionName="removeFlags:SEQUENCER_SPINUP" />
+  </Instantly>
+</ConditionalActions>

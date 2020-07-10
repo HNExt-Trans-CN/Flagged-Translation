@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ellingtonScamService" name="GoodWriterZ" security="1" ip="f2ac76ef" type="2" >
+  <ports>22, 21, 80</ports>
+	<portsForCrack val="2"/>
+	<proxy time="-1" />
+	<firewall level="5" additionalTime="0.5" solution="theta"/>
+	<admin type="progress"/>
+	<trace time="200" />
+
+  <addWebServer name="GoodWriterZ" url="Web/Sites/GoodWriterZ/index.html"/>
+
+  <file path="home" name="README.txt">If you are reading this message, this means you have successfully logged into your VPS through SSH.
+You can now further configure the machine to your liking. If you have any questions, feel free to check out our support page and community forums.
+Please remember that administrative access is currently only whitelisted for the NID(s) you have specified in your account settings.
+
+IMPORTANT: By default, TFW (Theta Firewall) will not accept any external connections except for SSH and FTP. If you want to allow traffic to a particular port, try `sudo tfw allow inbound $PORT`. In addition, the default firewall solution of "theta" has been set. You should change this at your earliest convenience.
+
+Happy shenanigans,
+- Theta Hosting (4e3338db)
+</file>
+
+  <file path="home" name="todo.txt">my todos:
+
+* secure the data base server gooder, blackmail sux. use new emaill account?? dumpmail?????????
+
+* find way to disable the STUPDI PASSWORD RESET
+
+* get onto bit 4 bit tracker
+
+* exapdn serverces to mobiel device hacking, with new eos scan >:)</file>
+
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+
+  <file path="sys" name="theta_stats.dll">#SECURITYTRACER_PROGRAM#</file>
+
+  <dlink target="thetaWebsite"/>
+  <dlink target="ellingtonScamDB"/>
+</Computer>

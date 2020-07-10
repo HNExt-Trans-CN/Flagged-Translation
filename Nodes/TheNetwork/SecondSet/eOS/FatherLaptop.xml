@@ -1,0 +1,63 @@
+<Computer id="eosPC1" name="Maxwell's Laptop" security="1" icon="laptop" allowsDefaultBootModule="true" ip="cab28c97" type="2">
+
+  <ports>3659, 22, 6881</ports>
+  <portRemap>6881=49833</portRemap>
+
+  <portsForCrack val="1" />
+  <trace time="-1" />
+  <firewall level="-1" />
+  <admin type="progress"/>
+
+  <file path="home" name="weird_email_send_to_mnc_maybe.txt">
+HOr$e Exp@nding R0Lexxxx corp
+
+Hello Sir/Madam,
+I am but a humble nigerian prince who is crippled by the instability in my country, and require a transfer of 5000 united states dollar in order to rid my country of the scourge of the musclebeasts which roam our plains and ravage our villages
+Please send these funds to real_nigerian_prince_the_third@boatmail.com
+Yours in jegus,
+Nigerian Prince</file>
+
+  <eosDevice name="Maxwell's ePhone 8 Pro" id="eosIntro1" icon="ePhone2" empty="false">
+    <note>concerned
+i'm kinda concerned about sam, he's been shut in his room for days now. he eats the sandwiches i put outside his door so at least he is eating healthy i guess. something's got him extremely paranoid though, i might get him taken to a therapist later this week</note>
+  </eosDevice>
+
+  <Memory>
+	  <Commands>
+		  <Command>$ sudo apt install rtorrent tmux</Command>
+		  <Command>$ vim rtorrent.rc</Command>
+		  <Command>$ sudo vim /etc/systemd/system/rtorrent.service</Command>
+		  <Command>$ sudo systemctl enable rtorrent</Command>
+		  <Command>$ sudo systemctl start rtorrent
+Job failed. See system journal and 'systemctl status' for details.</Command>
+	  </Commands>
+	  <Data>
+		  <Block>base.maxwell coredump[3294]: Process 631 (libtorrent, main) of user 1001 dumped core.
+
+Base addresses:
+#0  0x00007FA83DF53000 __libc_start_main (libc.so.6)
+#1  0x00007FA83E36A000 N/A (libtorrent.so.21)
+#2  0x0000564B45821000 N/A (libtorrent.so.21)
+
+Stack trace of thread 31:
+#0  0x00007FA83DF937C0 __memcpy_sse2_unaligned_erms (libc.so.6 + 0xA8851)
+#1  0x00007FA83DFFE5C8 N/A (libtorrent.so.21 + 0x9A79B)
+#2  0x00007FA83DFC48C7 N/A (libtorrent.so.21 + 0xE7FC3)
+#3  0x00007FA83DF62B04 N/A (libtorrent.so.21 + 0xE801E)
+#4  0x00007FA83DFF3084 N/A (libtorrent.so.21 + 0xEEB9F)
+#5  0x00007FA83DF68331 _ZN7torrent9PollEPoll7performEv (libtorrent.so.21 + 0x62D6A)
+#6  0x00007FA83DF70E3A _ZN7torrent9PollEPoll7do_pollEli (libtorrent.so.21 + 0x62E77)
+#7  0x00007FA83DF58BA4 _ZN7torrent11thread_base10event_loopEPS0_ (libtorrent.so.21 + 0x98B33)
+#8  0x00007FA83DFA0ACD N/A (libtorrent + 0x4157B)
+#9  0x00007FA83DFD5406 __libc_start_main (libc.so.6 + 0x27023)
+#10 0x00007FA83DFB5B3D N/A (libtorrent + 0x41E2E)</Block>
+	  </Data>
+	  <Images>
+		  <Image>Media/Flavor/boomerpics/meme2.jpg</Image>
+		  <Image>Media/Flavor/boomerpics/meme4.jpg</Image>
+	  </Images>
+  </Memory>
+
+  <positionNear target="eosRouter" position="1" total="4"/>
+
+</Computer>

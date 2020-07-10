@@ -1,0 +1,36 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="thetaMail" name="Theta Corporate Mail Server" security="3" type="3" ip="f4efb592">
+
+  <ports>25, 80, 443</ports>
+  <portsForCrack val="3" />
+  <admin type="progress"/>
+
+  <account username="contact" password="WhiteplainsDrawing2015" type="mail" />
+
+  <LogoCustomConnectDisplayDaemon logo="Media/Theta.png" title="Media/theta_txt.png" overdrawLogo="false" buttonAlignment="left" />
+
+  <mailServer name="Theta" color="222, 137, 58">
+
+    <email recipient="contact" sender="HeySiri" subject="webbuilder wizard broken?">i was trying to make a webpage today with your page builder but i dont think its working right now?
+
+it keeps trying to load in "theta_stats.dll" onto the page but that's not on my rackspace at the moment. i recently installed a mail server, an antivirus toolkit and some plugins if that helps, i'm sure you can check the logs or something.
+
+thank you very much for your time</email>
+
+    <email recipient="contact" sender="jipotte" subject="Silver plans?">Hey,
+
+What happened to your silver plans? They were such a good in-between for bronze and gold but now you've just entirely removed it from the site.
+
+Do you have an ETA for when they will return, if ever?
+
+Thanks</email>
+
+<email recipient="contact" sender="SnowTurtle4" subject="LOCKED OUT AGAIN -- VERY ANNOYING!">ONCE AGAIN, AGAINST ALL ODDS, I HAVE BEEN LOCKED OUT OF MY RIGHTFULLY-PURCHASED WEBZONE SPACE.
+
+IT KEEPS TELLING ME THAT I NEED TO USE A "PUBLIC KEY" TO LOG IN TO MY COMPUTER. I DO NOT KNOW WHAT THAT IS. THIS IS VERY ANNOYING AND I WANT TO HAVE MY OLD LOGIN PASSWORD BACK.
+
+VERY UPSET. EXPECT A REFUND REQUEST IF THIS EMAIL IS NOT ANSWERED IN A TIMELY MANNER.</email>
+
+  </mailServer>
+
+</Computer>

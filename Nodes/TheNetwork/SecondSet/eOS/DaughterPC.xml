@@ -1,0 +1,119 @@
+<Computer id="eosPC4" name="Annie's PC" security="1" icon="DLCPC1" allowsDefaultBootModule="true" ip="eb1afda8" type="2">
+
+  <ports>211, 22, 6881</ports>
+  <portRemap>6881=40244</portRemap>
+
+  <portsForCrack val="1" />
+  <trace time="-1" />
+  <firewall level="-1" />
+  <admin type="progress"/>
+
+  <file path="sys" name="os-config.sys">#BINARYSMALL#
+  1010010101010101 xDroid device connected 1010010101010101
+  1010010101010101 assigned de371b86 1010010101010101
+  #BINARYSMALL#</file>
+
+  <file path="bin" name="cracknet.exe">#HACKNET_EXE#</file>
+
+  <file path="home/projects/CN_jam_submission" name="Logo.png">#BINARY#</file>
+  <file path="home/projects/CN_jam_submission" name="WorkshopLogo.png">#BINARY#</file>
+
+  <file path="home/projects/CN_jam_submission/Actions" name="CreditsRunActions.bml">#BINARYSMALL#</file>
+
+  <file path="home/projects/CN_jam_submission/Factions" name="TCO.bml">#BINARYSMALL#</file>
+
+  <file path="home/projects/CN_jam_submission/Music" name="monody.ogg">#BINARY#</file>
+  <file path="home/projects/CN_jam_submission/Music" name="unity.ogg">#BINARY#</file>
+
+  <file path="home/projects/CN_jam_submission/Missions" name="Epilogue.bml">#BINARYSMALL#</file>
+  <file path="home/projects/CN_jam_submission/Missions" name="TCOIntro.bml">#BINARYSMALL#</file>
+  <file path="home/projects/CN_jam_submission/Missions" name="TCOOne.bml">#BINARYSMALL#</file>
+  <file path="home/projects/CN_jam_submission/Missions" name="TCOTwo.bml">#BINARYSMALL#</file>
+
+  <file path="home/projects/CN_jam_submission/Nodes" name="credits.bml">#BINARYSMALL#</file>
+  <file path="home/projects/CN_jam_submission/Nodes" name="obligatorymailserver.bml">#BINARYSMALL#</file>
+  <file path="home/projects/CN_jam_submission/Nodes" name="paradoxlaptop.bml">#BINARYSMALL#</file>
+  <file path="home/projects/CN_jam_submission/Nodes" name="toolbox.bml">#BINARYSMALL#</file>
+  <file path="home/projects/CN_jam_submission/Nodes" name="viruschip.bml">#BINARYSMALL#</file>
+  <file path="home/projects/CN_jam_submission/Nodes" name="virusmain.bml">#BINARYSMALL#</file>
+
+  <file path="home/projects/CN_jam_submission/Themes/Backgrounds" name="Wormhole.png">#BINARY#</file>
+  <customthemefile path="home/projects/CN_jam_submission/Themes" name="Wormhole_x-server.sys" themePath="Themes/WormholeTheme.xml"/>
+
+  <file path="home/projects/CN_jam_submission" name="report.txt">Error loading ExtensionInfo for extension in folder:
+Extensions/TheCoolOnes
+Error details:
+shit's fucked idk lmao</file>
+
+  <file path="home/projects/CN_jam_submission" name="Intro.txt">-- MEMBERSHIP ACTIVE --
+Welcome, agent.
+It is time for you to get to work...</file>
+
+
+<file path="home/projects/CN_jam_submission" name="ExtensionInfo.bml">[CracknetExtension]
+  [Name]Hacknet: The Cool Ones[/Name]
+  [AllowSaves]true[/AllowSaves]
+
+  [StartingVisibleNodes][/StartingVisibleNodes]
+
+  [StartingMission]Missions/Mission1.bml[/StartingMission]
+
+  [StartingActions]Action/IntroActions.bml[/StartingActions]
+
+  [Description]You have been invited into a highly sought-after hacking clan: The Cool Ones
+  In this extension, you have to deal with a self-evolving virus that threatens to destroy everybody![/Description]
+
+  [Faction]Factions/TCO.bml[/Faction]
+
+  [StartsWithTutorial]False[/StartsWithTutorial]
+
+  [HasIntroStartup]True[/HasIntroStartup]
+
+  [StartingTheme]Themes/wormhole.bml[/StartingTheme]
+
+  [IntroStartupSong]Music/monody.ogg[/IntroStartupSong]
+
+  [WorkshopDescription]My CrackerJam submission! Have fun![/WorkshopDescription]
+
+  [WorkshopLanguage]English[/WorkshopLanguage]
+
+  [WorkshopVisibility]0[/WorkshopVisibility]
+
+  [WorkshopTags]Extension, Crackerjam2[/WorkshopTags]
+
+  [WorkshopPreviewImagePath]WorkshopLogo.png[/WorkshopPreviewImagePath]
+
+  [WorkshopPublishID]NONE[/WorkshopPublishID]
+[/CracknetExtension]
+</file>
+
+<file path="home/projects" name="license_sourcing.txt">wormhole thing looks good but i dont know whether i have the rights to it or not. probably doesn't matter tho :p</file>
+
+
+<Memory>
+ <Commands>
+    <Command>]:(</Command>
+    <Command>rm *.pdf</Command>
+    <Command>bmlint *</Command>
+    <Command>wget https://xxxxxxxx/sharedfiles/filedetails/?id=914587661f</Command>
+    <Command>wget https://xxxxxxxx/Tutorials/BML/BoxMarkupLanguageSpecsheet.pdf</Command>
+    <Command>nano ExtensionInfo.bml</Command>
+    <Command>bmlint *</Command>
+ </Commands>
+ <Data>
+    <Block>thinking about maybe making a clock thing for this one!</Block>
+    <Block>oooh i know!</Block>
+    <Block>reminder: make account on dumpmail for information on finding clock</Block>
+    <Block>did it, acct is a_wcleqw, save pw somewhere else ;)</Block>
+ </Data>
+ <Images>
+    <Image>Media/MemImages/ExtLogo.png</Image>
+    <Image>Media/Flavor/meme6.jpg</Image>
+    <Image>Media/Flavor/meme4.jpg</Image>
+    <Image>Media/Flavor/meme9.jpg</Image>
+ </Images>
+</Memory>
+
+  <positionNear target="eosRouter" position="4" total="4"/>
+
+</Computer>

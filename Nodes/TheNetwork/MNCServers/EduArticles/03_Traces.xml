@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Traces">
+To protect citizens from criminal activity, modern systems on The Network are equipped with built-in security systems designed to "trace" unusual or hostile network traffic. When this occurs, information about the attack is relayed to the MNC Security Council for review.
+
+Two kinds of tracing measures are employed on modern systems -- "passive" and "active". Passive traces are designed to prevent intrustions as they happen, through heuristic memory analysis and traffic pattern extrapolation. Active traces are performed by professional or amateur cyber security experts, such as dispatched Security Council agents or paid hackers, who review system logs in an attempt to uncover the perpetrator of an already-concluded breach. Active traces are employed only on high-security servers, as the process is very time-consuming.
+
+It is important to note that Operators, under the Investigatory Duties Bill of 2035, are permitted to breach any computer system on The Network that is within the scope of their duties. As such, successful traces against Operators shall be discarded and the Operator will be given a light reprimand in the form of a system reboot.
+
+In the event of a rogue or abusive Operator, any completed trace will flag the Operator as malicious, at which point the MNC Security Council shall open an investigation to swiftly deal with the issue. These incidents are rare, however.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

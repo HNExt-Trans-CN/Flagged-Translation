@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="tracker2" handle="ExEmel" firstName="Emily" lastName="Coleman" isMale="false">
+  <Birthplace name="Guildford, UK" />
+  <DOB>23/08/2008 06:00</DOB>
+  <Degrees>
+  </Degrees>
+  <Medical>
+    <Blood>O</Blood>
+    <Height>163</Height>
+    <Allergies>Shellfish</Allergies>
+    <Perscription>Lixuce :: 1 pill every wednesday</Perscription>
+  </Medical>
+
+  <Notes>Mild-mannered "straight man" to the rest of the antics going on at bit4bit. Music enthusiast. Is concerned about the sysop's health and the bad things he is getting involed in.</Notes>
+</Person>

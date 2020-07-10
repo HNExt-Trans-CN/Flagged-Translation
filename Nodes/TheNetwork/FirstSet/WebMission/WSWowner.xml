@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Computer id="MNCDebunkedOwner" name="Paul's PC" icon="DLCPC2" ip="cd29a315" security="3" type="2">
+
+	<ports>22, 21, 6881, 3659</ports>
+	<portRemap>6881=44193</portRemap>
+
+	<file path="home" name="todo.txt">- pay for hosting
+- configure web server (37833d00)
+- meet with the guy next week, 1930 SHARP
+- project deadline's in two months; better get started with it now
+	</file>
+
+	<file path="home/projects/TC" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+	<customthemefile path="home/projects/TC" name="Phantom_x-server.sys" themePath="Themes/PhantomTheme.xml"/>
+	<file path="home/projects/TC" name="tc.txt">The ThemeChanger application is designed to give Netizen OS machines a new paradigm of customisation! Using x-server.sys files is a lot easier as the program performs the sideloading process without requiring a restart</file>
+
+	<eosDevice name="Paul's ePhone X" id="WSWePhone" icon="ePhone2" empty="false">
+    <mail username="a_gfy1dn@dumpmail.com" pass="no1taz_crunch11" />
+  </eosDevice>
+
+	<Memory>
+   <Commands>
+		 <Command>ssh admin@37833d00</Command>
+		 <Command>ssh-keygen -t ed25519</Command>
+		 <Command>cd keys</Command>
+		 <Command>mkdir keys</Command>
+   </Commands>
+   <Data>
+		 <Block>-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDrehwGMGo0xIEO/W0tMtRWDJNlSwlJhhFclqX9qDYZ8wAAAJg0GhmkNBoZ
+pAAAAAtzc2gtZWQyNTUxOQAAACDrehwGMGo0xIEO/W0tMtRWDJNlSwlJhhFclqX9qDYZ8w
+AAAEAtCSimNsYmZnC1x2BCLOSd87r88D8eJOsJ0ZEyryeRn+t6HAYwajTEgQ79bS0y1FYM
+k2VLCUmGEVyWpf2oNhnzAAAAEXdoZWVsZXJAUGhyZWFrcmlnAQIDBA==
+-----END OPENSSH PRIVATE KEY-----</Block>
+     <Block>
+       #BINARY#
+     </Block>
+   </Data>
+   <Images>
+     <Image>Media/Flavor/meme3.jpg</Image>
+     <Image>Media/Flavor/meme10.jpg</Image>
+     <Image>Media/Flavor/meme8.jpg</Image>
+   </Images>
+ </Memory>
+
+</Computer>

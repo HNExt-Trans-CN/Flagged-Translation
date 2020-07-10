@@ -1,0 +1,139 @@
+<Computer id="trackseqHackerPhone" name="Austin's xDroid" security="0" ip="68fc4a41" icon="ePhone" allowsDefaultBootModule="false" type="empty">
+
+	<portsForCrack val="1" />
+	<ports>211, 22</ports>
+
+	<admin type="fast" resetPassword="true" isSuper="true"/>
+	<trace time="22"/>
+
+	<IRCDaemon themeColor="122, 204, 51" name="weTalk Local Archive" needsLogin="true">
+    <user name="SYSTEM" color="145,145,145"/>
+    <user name="molluskman25" color="16, 84, 230"/>
+    <user name="sourcer_john" color="82, 88, 102"/>
+
+    <post user="SYSTEM">!ANNOUNCEMENT! This is a private conversation between you and @sourcer_john</post>
+    <post user="SYSTEM">!ANNOUNCEMENT! Messages are encrypted! Only you two can read them!</post>
+    <post user="molluskman25">Yo uhhh, quick question</post>
+    <post user="sourcer_john">wdyw</post>
+    <post user="molluskman25">so this program here</post>
+    <post user="molluskman25">{ATTACHED:FTPSprint.dec}</post>
+    <post user="sourcer_john">oh ffs</post>
+    <post user="sourcer_john">pass is "xbc"</post>
+    <post user="molluskman25">ohhhhh</post>
+		<post user="sourcer_john">its encrypted to avoid mnc filters, literally always release group name</post>
+		<post user="sourcer_john">did you even read the nfo i sent you with this?</post>
+		<post user="molluskman25">nfo? i tried it and it just showed me my system specs</post>
+		<post user="sourcer_john">dear lord</post>
+  </IRCDaemon>
+
+	<file path="xdroid/apps" name="e566580f57.apk">#BINARYSMALL#</file>
+	<file path="xdroid/apps" name="39231804e0.apk">#BINARYSMALL#</file>
+	<file path="xdroid/apps" name="a08ab90ba4.apk">#BINARYSMALL#</file>
+	<file path="xdroid/apps" name="aa314bc6d4.apk">#BINARYSMALL#</file>
+	<file path="xdroid/apps" name="b676a29691.apk">#BINARYSMALL#</file>
+	<file path="xdroid/apps" name="1e32d5a544.apk">#BINARYSMALL#</file>
+	<file path="xdroid/apps" name="98715b1dd0.apk">#BINARYSMALL#</file>
+
+	<file path="xdroid/notes" name="ap_test_cheat_sheet.txt">ap test cheat sheet
+
+Unit 1: Chemistry of Life
+
+    Structure of Water and Hydrogen Bonding
+    Elements of Life
+    Introduction to Biological Macromolecules
+    Properties of Biological Macromolecules
+    Nucleic Acids
+
+Unit 2: Cell Structure and Function
+
+    Cell Structure: Subcellular Components
+    Cell Structure and Function
+    Cell Size
+    Plasma Membranes
+    Membrane Permeability
+    Membrane Transport
+    Facilitated Diffusion
+    Tonicity and Osmoregulation
+    Mechanisms of Transport
+    Cell Compartmentalization
+    Origins of Cell Compartmentalization
+
+Unit 3: Cellular Energetics
+
+    Enzyme Structure
+    Enzyme Catalysis
+    Environmental Impacts on Enzyme Function
+    Cellular Energy
+    Photosynthesis
+    Cellular Respiration
+    Fitness
+
+Unit 4: Cell Communication and Cell Cycle
+
+    Cell Communication
+    Introduction to Signal Transduction
+    Signal Transduction
+    Changes in Signal Transduction Pathways
+    Feedback
+    Cell Cycle
+    Regulation of Cell Cycle
+
+Unit 5: Heredity
+
+    Meiosis
+    Meiosis and Genetic Diversity
+    Mendelian Genetics
+    Non-Mendelian Genetics
+    Environmental Effects on Phenotype
+    Chromosomal Inheritance
+
+Unit 6: Gene Expression and Regulation
+
+    DNA and RNA Structure
+    Replication
+    Transcription and RNA Processing
+    Translation
+    Regulation of Gene Expression
+    Gene Expression and Cell Specialization
+    Mutations
+    Biotechnology
+
+Unit 7: Natural Selection
+
+    Introduction to Natural Selection
+    Natural Selection
+    Artificial Selection
+    Population Genetics
+    Hardy-Weinberg Equilibrium
+    Evidence of Evolution
+    Common Ancestry
+    Continuing Evolution
+    Phylogeny
+    Speciation
+    Extinction
+    Variations in Populations
+    Origin of Life
+
+Unit 8: Ecology
+
+    Responses to the Environment
+    Energy Flow Through Ecosystems
+    Population Ecology
+    Effect of Density of Populations
+    Community Ecology
+    Biodiversity
+    Disruptions to Ecosystems</file>
+	<file path="xdroid/mail" name="molluskman25@blackmail.net.act">MAIL ACCOUNT: molluskman25@blackmail.net
+Account  : molluskman25@blackmail.net
+Password : s1n1st3r
+Last Sync : [ERROR]
+
+#BINARYSMALL#</file>
+	<file path="xdroid/system" name="core.sys">#BINARYSMALL#</file>
+	<file path="xdroid/system" name="runtime.bin">#BINARYSMALL#</file>
+
+	<positionNear target="trackseqHacker" position="1" total="1"/>
+
+	<dlink target="trackseqHacker"/>
+
+</Computer>

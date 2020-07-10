@@ -1,0 +1,7 @@
+<ConditionalActions>
+  <Instantly>
+    <LaunchHackScript Filepath="HackerScripts/SingleBeep.txt" DelayHost="FAH" Delay="0" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+    <RunFunction FunctionName="removeFlags:citation0,citation1,citation2,citation3,CITATION_ACTIVE"/>
+    <CrashComputer TargetComp="freeagentComp" CrashSource="freeagentComp" DelayHost="FAH" Delay="10" />
+  </Instantly>
+</ConditionalActions>

@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="MNCFactionGainHelper" activeCheck="true">
+  <goals>
+    <goal type="delay" time="15"/>
+  </goals>
+  <missionStart val="1">addRankSilent</missionStart>
+  <nextMission>Missions/MNCEndSet/MNC_Ending.xml</nextMission>
+  <email>
+    <sender>MNC Dispatch</sender>
+    <subject>Thank you, Operator</subject>
+    <body>
+Operator #27,
+
+Thank you for the information. We will look into this posthaste!
+
+- MNC Dispatch
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

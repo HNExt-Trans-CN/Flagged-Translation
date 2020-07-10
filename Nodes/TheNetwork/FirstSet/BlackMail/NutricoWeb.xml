@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nutricoWebsite" name="NutriCo Food Solutions" security="1" type="3" ip="2bd139be">
+
+  <ports>80, 443, 22</ports>
+  <portsForCrack val="2" />
+  <admin type="progress"/>
+  <trace time="50" />
+
+  <dlink target="nutricoMail"/>
+
+  <LogoCustomConnectDisplayDaemon logo="Media/hamburger.png" title="Media/nutrico.png" overdrawLogo="false" buttonAlignment="left" />
+
+  <addWebServer name="NutriCo" url="Web/Sites/Nutrico/index.html" />
+
+</Computer>

@@ -1,0 +1,16 @@
+<Person id="Academic_E" handle="dm9yg0d" firstName="Albert" lastName="Clifton" isMale="true">
+  <Birthplace name="Newport, UK" />
+  <DOB>17/05/2018 08:00:00</DOB>
+
+  <Degrees>
+    <Degree uni="Cardiff University" gpa="3.1">Bachelor of Computer Science</Degree>
+  </Degrees>
+
+  <Medical>
+    <Blood>AB</Blood>
+    <Height>181</Height>
+    <Allergies>None</Allergies>
+  </Medical>
+
+  <Notes>A junk person file that is cheating on their university course</Notes>
+</Person>

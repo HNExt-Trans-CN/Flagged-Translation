@@ -1,0 +1,52 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="MNC_eOS">
+  <goals>
+    <goal type="getstring" target="gbwzdugg3" />
+    <goal type="getstring" target="daganman_throwaway123" />
+  </goals>
+
+  <missionStart>loadConditionalActions:Actions/MissionActions/MNC/eosActions.xml</missionStart>
+
+  <nextMission>Missions/GainHelpers/MNC_eos_Helper.xml</nextMission>
+
+  <posting title="Smartphones: Primer" client="MNC" target="Abrams Family">Introducing techniques the MNC use to infiltrate modern smartphones.
+CLASSIFIED | FOR INTERMEDIATE OPERATORS ONLY!</posting>
+
+  <email>
+    <sender>MNC Dispatch</sender>
+    <subject>Smartphones</subject>
+    <body>Thank you for your continued interest in the Operator program.
+
+Smartphones are a unique paradigm that Operators must eventually deal with to perform their duties with the greatest efficiency. As such, you shall be briefed on the most recent developments in smartphone exploitation.
+
+The two most common varieties of phones on the network are eOS and xDroid devices. Smartphones that are connected to machines are able to be identified based on the ports available on the system. Ports 3659 and 211 will be available for machines containing eOS and xDroid devices respectively.
+
+eOS devices can only be revealed through the use of a special tool able to initiate a sync with nearby eOS devices that have previously synced to the machine -- eosDeviceScan. xDroid devices contain their assigned NID within the contents of "os-config.sys", located in the sys directory of most machines.
+
+eOS devices cannot be exploited with the tools already made available to you, however a non-jailbroken device will always use the credentials admin/alpine, which has been the standard credentials for use by in-house Epple technicians for decades.
+
+xDroid devices are exploitable via the standard Operator toolkit, however their security protocols are too robust to maintain long-term access with the toolset currently available to you. For now, you should leave these devices be. When you are required to exploit xDroid devices, you shall be assisted in this matter.
+
+To test your skills, you will be assigned a task involving eOS devices. Please find attached the router belonging to the Abrams family. A member of the family is under probation for having violated the terms of their non-disclosure agreement with us. Please locate their smartphone, exploit it, acquire the passwords to all email addresses you find then reply to this email with the passwords in question.
+
+In order to complete this task, you have received access to the eosDeviceScan tool, designed to locate eOS devices that are connected to computers that have been successfully exploited. This has now been made available to you on the Asset Server.
+
+Good luck, Operator!
+
+- MNC Dispatch
+</body>
+    <attachments>
+      <link comp="eosRouter" />
+      <note title="Smartphone Info">-- eOS --
+Port 3659 available -- expose device with eosDeviceScan -- default login is admin/alpine
+
+-- xDroid --
+Port 211 available -- NID logged in os-config.sys -- ignore these for now</note>
+<note title="Assignment Goals">1). Gain admin access to the Abrams Family router
+
+2). Locate and break into the smartphone of the family member who is under probation
+
+3). Send the MNC all email passwords you come across</note>
+  </attachments>
+  </email>
+</mission>

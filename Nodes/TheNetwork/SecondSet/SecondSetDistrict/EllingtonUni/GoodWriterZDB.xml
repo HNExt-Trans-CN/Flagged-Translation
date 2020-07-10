@@ -1,0 +1,69 @@
+<Computer id="ellingtonScamDB" name="GoodWriterZ Customer Database" security="5" ip="429dbbb0" type="2" >
+  <ports>1433, 80, 433, 25</ports>
+	<portsForCrack val="5"/>
+	<proxy time="-1" />
+	<firewall level="-1"/>
+	<admin type="progress"/>
+	<trace time="-1" />
+
+<DatabaseDaemon Permissions="private" DataType="TextRecord" Foldername="database" Color="0,128,128" AdminEmailAccount="vishnu2016@blackmail.com" AdminEmailHostID="blackMail" Name="GoodWriterZ Customer Database">
+
+<TextRecord>
+<Title>canceldude</Title>
+<Data>name: Sean Aronson
+uni: Ohio State University
+orders made: 7</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>theavocadogamer</Title>
+<Data>name: Joseph Damon
+uni: Ellington University
+orders made: 4</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>fouriertform</Title>
+<Data>name: Dave Tucker
+uni: Ellington University
+orders made: 3</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>hallmath</Title>
+<Data>name: Matthew Hall
+uni: Charlotte University
+orders made: 5</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>dm9yg0d</Title>
+<Data>name: Albert Clifton
+uni: Cardiff University
+orders made: 6</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>maskedero</Title>
+<Data>name: Georgia McFarlane
+uni: Ellington University
+orders made: 29</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>hollyayr</Title>
+<Data>name: Holly Ayr
+uni: Houston University
+orders made: 9</Data>
+</TextRecord>
+
+<TextRecord>
+<Title>ummzmumm</Title>
+<Data>name: Tyrone Vaughn
+uni: Arizona State University
+orders made: 14</Data>
+</TextRecord>
+
+</DatabaseDaemon>
+
+</Computer>

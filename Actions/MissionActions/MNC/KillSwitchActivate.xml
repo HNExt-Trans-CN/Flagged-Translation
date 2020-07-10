@@ -1,0 +1,9 @@
+<ConditionalActions>
+  <Instantly>
+    <RunFunction FunctionName="addFlags:ransomKillswitchActivated" />
+    <LaunchHackScript Filepath="HackerScripts/SingleBeep.txt" DelayHost="FAH" Delay="0" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+    <CrashComputer TargetComp="ransomKillswitch" CrashSource="ransomKillswitch" DelayHost="FAH" Delay="26" />
+    <HideNode DelayHost="FAH" Delay="26.5" TargetComp="ransomKillswitch" />
+    <ChangeIP DelayHost="FAH" Delay="26.5" TargetComp="ransomKillswitch" NewIP="00000000" />
+  </Instantly>
+</ConditionalActions>

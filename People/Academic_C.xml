@@ -1,0 +1,15 @@
+<Person id="Academic_C" handle="maskedero" firstName="Georgia" lastName="McFarlane" isMale="false">
+  <Birthplace name="Ellington, Minnesota, USA" />
+  <DOB>08/11/2018 16:00:00</DOB>
+
+  <Degrees>
+    <Degree uni="Ellington University" gpa="3.8">Bachelor of Mathematics</Degree>
+  </Degrees>
+
+  <Medical>
+    <Blood>O</Blood>
+    <Height>169</Height>
+  </Medical>
+
+  <Notes>One of the Ellington University cheaters.</Notes>
+</Person>

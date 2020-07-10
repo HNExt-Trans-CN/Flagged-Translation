@@ -1,0 +1,25 @@
+<Computer id="nerdForum" name="FreeChat Forums Reverse Proxy" security="3" ip="fa4ae8e5" type="3" >
+  <ports>80, 443</ports>
+
+  <!-- blame matt -->
+
+  <proxy time="-1" />
+  <portsForCrack val="0" />
+  <firewall level="-1" />
+  <trace time="-1"/>
+
+  <dlink target="nerdForum_b"/>
+  <dlink target="nerdForum_g"/>
+  <dlink target="nerdForum_ck"/>
+  <dlink target="nerdForum_v"/>
+  <dlink target="nerdForum_co"/>
+  <dlink target="nerdForum_rp"/>
+
+  <LogoDaemon Name="FreeChat Forums" ShowsTitle="true" TextColor="67,204,148, 200" LogoImagePath="Media/freechat.png" >
+Welcome to FreeChat!
+We've split off to 6 nodes due to a DB bug,
+but the forum should be mostly operational.
+~~ Remember to keep an open mind! ~~
+  </LogoDaemon>
+
+</Computer>

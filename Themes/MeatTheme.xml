@@ -1,0 +1,41 @@
+<CustomTheme>
+  <!-- This defines the layout of the windows. The valid choices are:
+  blue, green, white and mint - corresponding to the themes of those colors in the base game-->
+  <themeLayoutName>colamaeleon</themeLayoutName>
+
+  <!-- This is a path to the background image file. It should be 1920x1080, and a .jpg or .png file.
+  If this is left out, the theme will automatically generate a dynamic background for the theme-->
+  <backgroundImagePath>Themes/Backgrounds/meat.jpg</backgroundImagePath>
+
+  <!-- Main Colors - these will define the main feel of the theme -->
+  <!-- Color of nodes on the netmap, and many other derived colors. -->
+  <defaultHighlightColor>180,130,10</defaultHighlightColor>
+  <defaultTopBarColor>190,30,10,100</defaultTopBarColor>
+
+  <topBarTextColor>226,226,226,100</topBarTextColor>
+  <topBarIconsColor>222,222,255</topBarIconsColor>
+  <!-- This is used for the outlines of the module windows -->
+  <moduleColorSolidDefault>80,30,10,40</moduleColorSolidDefault>
+  <moduleColorStrong>100,60,10,90</moduleColorStrong>
+  <moduleColorBacking>6,2,1,132</moduleColorBacking>
+
+  <exeModuleTopBar>146,126,16,80</exeModuleTopBar>
+  <exeModuleTitleText>72,16,16,200</exeModuleTitleText>
+
+  <!-- Extra Options -->
+  <lockedColor>128,6,6</lockedColor>
+  <brightLockedColor>160,0,0</brightLockedColor>
+  <brightUnlockedColor>0,160,0</brightUnlockedColor>
+  <unlockedColor>166,146,12</unlockedColor>
+  <shellColor>207,205,205</shellColor>
+  <terminalTextColor>255,245,220</terminalTextColor>
+
+  <connectedNodeHighlight>222,222,0,225</connectedNodeHighlight>
+  <thisComputerNode>212,171,2</thisComputerNode>
+
+  <!-- AlienFX Colors used for Alienware (and other) hardware with variable LED lights that Hacknet can set dynamically -->
+  <AFX_KeyboardMiddle>0,120,255</AFX_KeyboardMiddle>
+  <AFX_KeyboardOuter>0,20,100</AFX_KeyboardOuter>
+  <AFX_WordLogo>0,120,255</AFX_WordLogo>
+  <AFX_Other>0,100,255</AFX_Other>
+</CustomTheme>

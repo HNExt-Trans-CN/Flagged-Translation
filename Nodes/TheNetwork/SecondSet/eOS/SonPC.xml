@@ -1,0 +1,56 @@
+<Computer id="eosPC3" name="Samual's Battlestation" security="1" icon="DLCPC2" allowsDefaultBootModule="true" ip="b54d39a8" type="2">
+
+  <ports>3659, 22, 6881</ports>
+  <portRemap>6881=27617</portRemap>
+
+  <portsForCrack val="1" />
+  <trace time="-1" />
+  <firewall level="-1" />
+  <admin type="progress"/>
+
+  <file path="home/repos/wflLeak_2016" name="cp_samplemap.bsp">#BINARY#</file>
+  <file path="home/repos/wflLeak_2016" name="src_0xC692.cs">#BINARY##BINARY##BINARY#</file>
+  <file path="home/repos/wflLeak_2016" name="src_0xA105.cs">#BINARY##BINARY##BINARY#</file>
+  <file path="home/repos/wflLeak_2016" name="src_0x9329.cs">#BINARY##BINARY##BINARY#</file>
+  <file path="home/repos/wflLeak_2016" name="build.bat">#BINARYSMALL#</file>
+  <file path="home/repos/wflLeak_2016" name="BeamAPI.dll">#BINARYSMALL#</file>
+
+  <file path="home/xxx" name="2094903733.png">#BINARYSMALL#</file>
+  <file path="home/xxx" name="2094903738.png">#BINARYSMALL#</file>
+  <file path="home/xxx" name="2094903745.png">#BINARYSMALL#</file>
+  <file path="home/xxx" name="2094903768.png">#BINARYSMALL#</file>
+  <file path="home/xxx" name="2094903799.png">#BINARYSMALL#</file>
+  <file path="home/xxx" name="2094903810.png">#BINARYSMALL#</file>
+
+  <eosDevice name="Samual's ePhone Z" id="eosIntro3" icon="ePhone2" empty="false">
+    <note>selfnotes
+
+look into the old crypto stuff. ethereum?
+
+get a theta account
+
+Implementation of trilinear interpolation:
+1. c_00 = V[x_0,y_0,z_0] * (1 - x_d) + V[x_1,y_0,z_0] * x_d
+2. c_10 = V[x_0,y_1,z_0] * (1 - x_d) + V[x_1,y_1,z_0] * x_d
+3. c_01 = V[x_0,y_0,z_1] * (1 - x_d) + V[x_1,y_0,z_1] * x_d
+4. c_11 = V[x_0,y_1,z_1] * (1 - x_d) + V[x_1,y_1,z_1] * x_d
+5. c_0 = c_00 * (1 - y_d) + c_10 * y_d
+6. c_1 = c_01 * (1 - y_d) + c_11 * y_d
+7. c = c_0 * (1 - z_d) + c_1 * z_d</note> 
+
+    <note>kill_log
+
+[DISPATCH] Greetings, Operator.
+[DISPATCH] You have been caught disclosing information to outsider parties regarding your duties.
+[DISPATCH] As such, your contract with the Municipal Network Committee has been terminated, effective immediately.
+[DISPATCH] All assets belonging to us will be reclaimed, and this terminal will be remotely disabled in 20 seconds.
+[DISPATCH] You will be released back into the general population.
+[DISPATCH] Goodbye, Operator.</note>
+
+    <mail username="daganman@blackmail.com" pass="gbwzdugg3" />
+    <mail username="a_w61pov@dumpmail.com" pass="daganman_throwaway123" />
+  </eosDevice>
+
+  <positionNear target="eosRouter" position="3" total="4"/>
+
+</Computer>

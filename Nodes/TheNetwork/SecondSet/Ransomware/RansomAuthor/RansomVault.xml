@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ransomVault" name="K45P3R_V4UL7" type="2" ip="6ff82732" icon="chip" allowsDefaultBootModule="true">
+  <ports>22</ports>
+  <portsForCrack val="5"/>
+  <adminPass pass="polskadobrze" />
+
+  <encryptedFile path="home/C2YPT3X" name="c2ypt3x_key.pgp" extension=".pgp" ip="[LOCALHOST]" header="C2YPT3X Master Key" pass="gaming">#BINARYSMALL#</encryptedFile>
+
+  <file path="home/C2YPT3X" name="main.src">#BINARY#</file>
+  <file path="home/C2YPT3X" name="c2ypt3x_build.bat">#BINARYSMALL#</file>
+
+  <dlink target="ransomHome"/>
+
+  <positionNear target="ransomHome" position="1" total="3" extraDistance="-0.2"/>
+</Computer>

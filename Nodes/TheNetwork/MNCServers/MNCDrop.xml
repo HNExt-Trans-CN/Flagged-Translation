@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MNCDrop" name="MNC Asset Server" security="6" allowsDefaultBootModule="true" ip="8d5eed4c" icon="DLCServer" type="1" >
+
+  <uploadServerDaemon name="MNC Filedrop" folder="ftp"
+                      needsAuth="false" color="132, 100, 161" hasReturnViewButton="true"/>
+
+  <adminPass pass="rosebud" />
+  <account username="27" password="changeme" type="0" />
+
+  <ports>21, 80, 443, 6881, 554</ports>
+
+  <proxy time="3" />
+  <portsForCrack val="5" />
+  <firewall level="-1" />
+  <admin type="none"/>
+
+  <file path="sys" name="DefaultBootModule.txt">MNC Filedrop</file>
+  <customthemefile path="sys" name="x-server.sys" themePath="Themes/IntroTheme.xml"/>
+  <customthemefile path="home" name="Operator_x-server.sys" themePath="Themes/IntroTheme.xml"/>
+  <file path="home" name="info.txt">The "Operator_x-server.sys" file serves as a backup for the standard issue Operator x-server theme. This should be utilised in the event that you lose your x-server.sys file, either due to hostile action or from data corruption.
+
+You are reminded that modification of your terminal's x-server theme is in violation of your contract with the Municipal Network Committee and sanctions may be enforced against Operators known to be performing unauthorised cosmetic modifications to their terminals.</file>
+
+  <dlink target="MNCHub" />
+
+  <positionNear target="MNCHub" position="1" total="6" extraDistance="-0.2"/>
+</Computer>

@@ -1,0 +1,6 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="invalidIP" name="Host Could Not Be Accessed" security="0" ip="00000000" type="empty">
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="true"/>
+
+</Computer>

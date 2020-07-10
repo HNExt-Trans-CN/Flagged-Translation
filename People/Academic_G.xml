@@ -1,0 +1,16 @@
+<Person id="Academic_G" handle="hollyayr" firstName="Holly" lastName="Ayr" isMale="false">
+  <Birthplace name="Houston, Texas, USA" />
+  <DOB>12/08/2018 12:00:00</DOB>
+
+  <Degrees>
+    <Degree uni="Houston University" gpa="3.0">Bachelor of Physics</Degree>
+  </Degrees>
+
+  <Medical>
+    <Blood>B</Blood>
+    <Height>165</Height>
+    <Allergies>None</Allergies>
+  </Medical>
+
+  <Notes>A junk person file that is cheating on their university course</Notes>
+</Person>

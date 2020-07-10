@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="annie_abrams" handle="whimpect" firstName="Annie" lastName="Abrams" isMale="false">
+  <Birthplace name="Tulsa, Oklahoma, USA" />
+  <DOB>08/10/2018 11:00</DOB>
+  <Degrees>
+
+  </Degrees>
+  <Medical>
+    <Blood>B</Blood>
+    <Height>155</Height>
+    <Allergies>N/A</Allergies>
+  </Medical>
+
+  <Notes>The daughter of the Abrams family. Avid xDroid user and makes Hacknet extensions.</Notes>
+</Person>

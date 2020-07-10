@@ -1,0 +1,5 @@
+<ConditionalActions>
+  <Instantly>
+    <RunFunction FunctionName="removeFlags:SEQUENCER_EXE_ACTIVE" />
+  </Instantly>
+</ConditionalActions>

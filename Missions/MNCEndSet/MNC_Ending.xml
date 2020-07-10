@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="startingMission" activeCheck="true">
+  <goals>
+  <goal type="delay" time="1.0"/>
+  </goals>
+
+  <missionStart>loadConditionalActions:Actions/FinaleActions/Ending1/MNCEndingActions.xml</missionStart>
+
+  <nextMission>NONE</nextMission>
+
+  <email>
+    <sender>M. Powell</sender>
+    <subject>Incredible work!</subject>
+    <body>Congratulations, Operator!
+
+You did an incredible job detaining the hacker. He will worry the citizens of The Network no longer! Heh...
+
+Anyway, you did a fantastic job and we want to recognise your achievements and willingness to go above and beyond the call of duty. As such we have prepared two gifts for you.
+
+You now have PRIORITISED ROUTING across the network, for both your work terminal and leisure devices! No longer shall you be slowed down by your bandwidth package for civilian activities!
+
+Secondly, we have provided you access to the "DNotes" tool on the Asset Server. DNotes stands for DETECTIVENotes and will be extremely useful if you intend to do a lot of writing in any other cases I'm sure you're ready to bust later down the line!
+
+I hope you enjoy these gifts as much as we have enjoyed your service; now go take a break buddy. You've earned it.
+
+- M. Powell, director of the Municipal Network Committee
+</body>
+    <attachments>
+    <link comp="MNCDrop" />
+	  <link comp="credits" />
+    </attachments>
+  </email>
+</mission>

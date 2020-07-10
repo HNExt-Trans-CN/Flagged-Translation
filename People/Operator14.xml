@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="operator14" handle="HACKER_KING_14" firstName="Paul" lastName="Sullivan" isMale="true">
+  <Birthplace name="Augusta, Maine" />
+  <DOB>11/05/2019 08:00:00</DOB>
+
+  <Degrees>
+    <Degree uni="Augusta University" gpa="1.1">Bachelor of Earth Science</Degree>
+  </Degrees>
+
+  <Medical>
+    <Blood>O-</Blood>
+    <Height>168</Height>
+    <Allergies>NONE</Allergies>
+    <Perscription>Lecabos :: taken orally nightly</Perscription>
+  </Medical>
+
+  <Notes>The well-meaning but loud-mouthed and not-quite-all-there-in-the-head operator who asks everyone else to MAKE THEIR MARK. Should serve as good comic relief?</Notes>
+
+</Person>

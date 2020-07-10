@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="MPowell" handle="mpowell" firstName="Michael" lastName="Powell" isMale="true">
+  <Birthplace name="Boston, Massachusetts, USA" />
+  <DOB>11/04/1978 10:00:00</DOB>
+
+  <Degrees>
+    <Degree uni="Massachusetts Institute of Technology" gpa="4.0">Bachelor of Computer Science</Degree>
+  	<Degree uni="Massachusetts Institute of Technology" gpa="4.0">Masters in Cyber Security</Degree>
+  	<Degree uni="Massachusetts Institute of Technology" gpa="3.8">Doctorate in Artificial Intelligence</Degree>
+  </Degrees>
+
+  <Medical>
+    <Blood>O</Blood>
+    <Height>181</Height>
+    <Allergies>Pollen</Allergies>
+    <Perscription>Clozapine :: 20mg monthly</Perscription>
+  </Medical>
+
+  <Notes>Head of the MNC. Noticeably almost as old as characters like Mavis.</Notes>
+</Person>

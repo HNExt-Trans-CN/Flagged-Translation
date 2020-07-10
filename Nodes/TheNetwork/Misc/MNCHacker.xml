@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MNCHacker" name="MNC Automated Reprimand Unit" ip="c2c75286" icon="Psylance" type="3">
+	<portsForCrack val="4" />
+	<ports>22, 21, 25, 554</ports>
+
+  <proxy time="2"/>
+	<trace time="100"/>
+
+	<admin type="fast" resetPassword="true"/>
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+	<file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+	<file path="home" name="AutoReprimand.sh">config ${OPERATOR} c2c75286 0.2 $#%#$
+	connect $#%#$
+	delay 2 $#%#$
+	openPort 22 $#%#$
+	delay 2.3 $#%#$
+	stopMusic $#%#$
+	clearTerminal $#%#$
+	delay 1.3 $#%#$
+	hideNetMap $#%#$
+	hideRam $#%#$
+	hideDisplay $#%#$
+	delay 2.3 $#%#$
+	writel $#%#$
+	writel $#%#$
+	writel Attention, Operator. $#%#$
+	delay 2.5 $#%#$
+	writel $#%#$
+	writel $#%#$
+	writel You have attacked a host that is out of the scope of your duties. $#%#$
+	delay 3.5 $#%#$
+	writel $#%#$
+	writel $#%#$
+	writel You shall be let off with a warning this time. $#%#$
+	delay 3.5 $#%#$
+	writel $#%#$
+	writel $#%#$
+	writel Please be more careful in the future. $#%#$
+	delay 3.5 $#%#$
+	clearTerminal $#%#$
+	flash $#%#$
+	startMusic $#%#$
+	showNetMap $#%#$
+	showRam $#%#$
+	showDisplay $#%#$
+	showTerminal $#%#$
+	disconnect $#%#$</file>
+
+</Computer>

@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="MNC_memforensics">
+  <goals>
+    <goal type="clearfolder" target="nin_internal" path="home/LEAKS"/>
+    <goal type="clearfolder" target="nin_vps" path="home/LEAKS_backup"/>
+    <goal type="filechange" target="jmail" file="MedicalRecord_-_Hawkins_Maureen" path="mail/accounts/dispatch/inbox" keyword="SENTINEL_agj340jyor" removal="true"/>
+  </goals>
+
+  <missionStart>loadConditionalActions:Actions/MissionActions/MNC/MemForensicsActions.xml</missionStart>
+  <missionEnd>loadConditionalActions:Actions/MissionActions/MNC/MemForensicsFinish.xml</missionEnd>
+  <nextMission>Missions/GainHelpers/MNC_Gain_Helper.xml</nextMission>
+
+  <posting title="Investigation into Corporate Espionage" client="MNC" target="NUTRICO_IS_NASTY">A corporate whistleblower is disrupting the operations of Nutrico Food Solutions. An Operator is required to investigate the matter.</posting>
+
+  <email>
+    <sender>MNC Dispatch</sender>
+    <subject>Corporate Espionage</subject>
+    <body>Thank you for your continued interest in the Operator program.
+
+In the recent weeks, a social movement and protest group known as "NUTRICO_IS_NASTY" have been spreading information amongst the public designed to harm the reputation of Nutrico Food Solutions. Nutrico have reached out to us and suspect that the orchestrator of this movement had previously been associated with the company. They would like you to confirm their involvement, as well as expunge any unauthorised information, including backups. This group is known to conduct thorough data erasure practices -- as such, you shall be provided access to advanced forensic tools to aid in retrieving pertinent information.
+
+Your task, in summary, is to infiltrate the inner workings of the NUTRICO_IS_NASTY group through forensic analysis of associated computer systems. It is believed that the fringe web forum FreeChat has received a recent influx of discussion pertaining to the group, so investigating there may be a good start. From there, you must erase any and all data that presents Nutrico Food Solutions in a negative light, as well as any backups of said data. Please also send a copy of the suspected movement orchestrator's medical records to "dispatch@mnc.gov".
+
+In order to complete this task, you have received access to the MemDumpGenerator and MemForensics tools, designed to retrieve data from a machine's random access memory and view said data respectively. These tools have now been made available to you on the Asset Server.
+
+Good luck, Operator!
+
+- MNC Dispatch
+</body>
+    <attachments>
+      <link comp="district18Dir" />
+      <link comp="medical" />
+      <note title="Assignment Goals">1. Infiltrate computers belonging to NUTRICO_IS_NASTY
+
+2. Destroy any and all data that presents Nutrico Food Solutions in a negative light (including backups)
+
+3. Email a copy of the movement orchestrator's medical records to dispatch@mnc.gov</note>
+    </attachments>
+  </email>
+</mission>

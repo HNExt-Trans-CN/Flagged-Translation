@@ -1,0 +1,4 @@
+config academic MNCHacker 0.1 $#%#$
+connect $#%#$
+setAdminPass vztQpaKkMcnU98W $#%#$
+disconnect $#%#$

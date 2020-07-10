@@ -1,0 +1,6 @@
+config operator8terminal operator8terminal 0.15 $#%#$
+connect $#%#$
+openPort 22 $#%#$
+openPort 21 $#%#$
+openPort 554 $#%#$
+disconnect $#%#$

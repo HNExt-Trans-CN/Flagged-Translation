@@ -1,0 +1,16 @@
+<ConditionalActions>
+  <Instantly>
+    <RunFunction FunctionName="addFlags:SEQUENCER_SPINUP" />
+    <AddConditionalActions Filepath="Actions/Sequencer/AddSeqEXE.xml" DelayHost="FAH" Delay="7.2"/>
+    <AddConditionalActions Filepath="Actions/Sequencer/KillSeqSpinup.xml" DelayHost="FAH" Delay="7.21"/>
+  </Instantly>
+
+  <HasFlags requiredFlags="SEQUENCER_LOCKED">
+    <KillExe DelayHost="FAH" Delay="0" ExeName="ESequencer" />
+    <RunFunction FunctionName="removeFlags:SEQUENCER_SPINUP" />
+    <RunFunction FunctionName="removeFlags:SEQUENCER_EXE_ACTIVE" />
+    <RunFunction FunctionName="removeFlags:sequencerUnlocked" />
+    <AddConditionalActions Filepath="Actions/Sequencer/KillSeqEXE.xml" DelayHost="FAH" Delay="7.2"/>
+  </HasFlags>
+
+</ConditionalActions>

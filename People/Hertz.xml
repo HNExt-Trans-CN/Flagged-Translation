@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="hertz" handle="Hertz" firstName="Luke" lastName="DaSilva" isMale="true">
+  <Birthplace name="Lexington, SC, USA" />
+  <DOB>04/20/2000 12:00</DOB>
+  <Degrees>
+	<Degree uni="Massachusetts Institute of Technology" gpa="3.4">Doctorate in Information Technology</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>AB+</Blood>
+    <Height>206</Height>
+    <Allergies>Creatine, Ketamine, and Methamphetamine</Allergies>
+    <Perscription>Zolpidem Tartrate (Ambien) :: 50mg nightly</Perscription>
+    <Notes>CITIZEN HAS BEEN FLAGGED: Multiple suspicious activities. Further review required.
+Various phrases with unknown connotations have been recorded being spoken by this citizen. Examples with comments below.
+"Gaming." (Possible calling card for action.)
+"Just tested positive for fat fucking cock, PogChamp." (under further review)
+"You know my problem with the government? They're bad LMAO." (Linked to Chinese spy Jeffery Goodall, aka LMAO. Possible collaboration with LMFAO and LMBAO?)
+"[REMOVED - CONFIDENTIAL INFORMATION DISCLOSED]" (undefined)</Notes>
+  <Notes>Silly dev insertions :)</Notes>
+  </Medical>
+</Person>

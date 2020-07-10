@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nutricoMail" name="NutriCo Mail" security="3" type="3" ip="522a739a">
+
+  <ports>25, 80, 443</ports>
+  <portsForCrack val="3" />
+  <admin type="progress"/>
+
+  <account username="susanhuff" password="read4you" type="mail" />
+  <account username="robertcausey" password="fr8ibu" type="mail" />
+  <account username="seanwhite" password="ohth3Me3" type="mail" />
+  <account username="randalljones" password="monkey" type="mail" />
+  <account username="NIN_INTERCEPTBOT" password="NUTRICO_IS_NASTY" type="mail" />
+
+  <mailServer name="NutriCo" color="179, 114, 100">
+
+<email recipient="seanwhite" sender="pr@jimsfinemeats" subject="FORMAL REQUEST: Quash NUTRICO_IS_NASTY">Hello Mr. White,
+
+As head of public relations at Jim's Fine Meats Inc. we are formally requesting immediate and decisive action against the recent online movement "NUTRICO_IS_NASTY".
+
+We see this as a mutually-beneficial proposition, as the movement has been damaging both your reputation and our sales numbers, due to associating with your brand in the past for providing pork stock.
+
+Please write back to us ASAP.
+
+~ PR
+JIM'S FINE MEATS
+-- GET SOME MEAT IN YOUR MOUTH --</email>
+
+<email recipient="seanwhite" sender="susanhuff" subject="Concerns about recent protests?">Hello Sean,
+
+I am sure you're as concerned as I am about the recent "NUTRICO_IS_NASTY" movement taking place around the network. I would wish that the rumors are not true and that we actually treat our animals properly.
+
+It sounds way too outrageous to be true. People would be able to *taste* if there was sawdust in there, but no actual reports have surfaced. Did a hacker break into a server somewhere? Where are these (hopefully) baseless lies coming from?
+
+RSVP,
+~ Susan</email>
+
+<email recipient="susanhuff" sender="seanwhite" subject="listen">ik your kinda new here but like, u need to be a bit more dynamic i think.
+
+the issue is not with u but with ur attitude. nutrico prides itself on delivering high quality, nutritious foodstock. u need to stop reading conspiracies online.</email>
+
+<email recipient="seanwhite" sender="susanhuff" subject="RE: listen">That doesn't really answer the question, Sean. Can I see the FDA approval email? You'd *have* one if the plant has been recently inspected.</email>
+
+<email recipient="susanhuff" sender="seanwhite" subject="RE: RE: listen">mhm mhm can i see your RESIGNATION LETTER, susan?
+
+jk jk. i will find it for u soon, but i promise okay, we haven't got anything wrong. i will even ask rob later, for real.</email>
+
+<email recipient="robertcausey" sender="seanwhite" subject="fda???">hey rob
+
+ur pretty good at photolab. think you can get this fda letter i found online and make it look like it was sent to us? get all the fancy letterhead and everything. raise if u do.
+
+~ sean</email>
+
+<email recipient="seanwhite" sender="robertcausey" subject="dude wtf">no im not going to do that. idc about raises i just want to make sure people eat well.</email>
+
+<email recipient="randalljones" sender="seanwhite" subject="TIMESHEETS">randall,
+
+pls make sure ur timesheets get filled in this time you didnt do them last month and it means you wont be getting paid properly</email>
+
+  </mailServer>
+
+</Computer>

@@ -1,0 +1,44 @@
+<ConditionalActions>
+
+  <Instantly>
+  	<GivePlayerUserAccount DelayHost="FAH" Delay="0" TargetComp="jmail" Username="#PLAYERNAME#" />
+    <AddConditionalActions Filepath="Actions/Misc/Reprimands.xml" DelayHost="FAH" Delay="0"/>
+    <AddConditionalActions Filepath="Actions/Misc/ReprimandSegments.xml" DelayHost="FAH" Delay="0"/>
+    <AddConditionalActions Filepath="Actions/Sequencer/SequencerSegments.xml" DelayHost="FAH" Delay="0"/>
+    <!--<ChangeNetmapSortMethod DelayHost="FAH" Delay="0" Method="grid" />-->
+  	<SwitchToTheme ThemePathOrName="Themes/IntroTheme.xml" FlickerInDuration="5.5" DelayHost="FAH" Delay="2" />
+  	<DeleteFile TargetComp="ispComp" FilePath="home" FileName="ISP_About_Message.txt" DelayHost="FAH" Delay="0"/>
+  	<CopyAsset DestFilePath="home" DestComp="ispComp" SourceComp="fileHammerspace" SourceFileName="ISP_About_Message.txt" SourceFilePath="home" />
+  	<RunFunction FunctionName="setHubServer:MNCHub" />
+  	<RunFunction FunctionName="setAssetServer:MNCDrop" />
+
+    <RunFunction FunctionName="addFlags:SEQUENCER_LOCKED,BootFailureThemeSongChange,MNC_Member,citation0,detainmentsActive" />
+
+    <CopyAsset DestFilePath="home" DestComp="catesbyPC" SourceComp="fileHammerspace" SourceFileName="INSTRUCTIONS.dec" SourceFilePath="home" />
+    <CopyAsset DestFilePath="ftp/WE_RISE" DestComp="torrentTracker" SourceComp="fileHammerspace" SourceFileName="INSTRUCTIONS.dec" SourceFilePath="home" />
+    <CopyAsset DestFilePath="ftp/WE_RISE" DestComp="torrentTopsite" SourceComp="fileHammerspace" SourceFileName="INSTRUCTIONS.dec" SourceFilePath="home" />
+    <CopyAsset DestFilePath="home/transfer/WE_RISE" DestComp="rjones_laptop" SourceComp="fileHammerspace" SourceFileName="INSTRUCTIONS.dec" SourceFilePath="home" />
+    <CopyAsset DestFilePath="home/transfer/WE_RISE" DestComp="trackseqHacker" SourceComp="fileHammerspace" SourceFileName="INSTRUCTIONS.dec" SourceFilePath="home" />
+    <CopyAsset DestFilePath="home/transfer/WE_RISE" DestComp="operator14terminal" SourceComp="fileHammerspace" SourceFileName="INSTRUCTIONS.dec" SourceFilePath="home" />
+
+    <!-- ephones -->
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="mavisPhone" NewIP="9b49e12d" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="catesbyPuzzlePhone" NewIP="fb54e82b" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="WSWePhone" NewIP="405b2662" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="eosIntro1" NewIP="807f93a6" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="eosIntro2" NewIP="c74854fc" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="eosIntro3" NewIP="dd8e93a9" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="eosNIN" NewIP="d4e97b4e" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="eosCindy" NewIP="3b0e0beb" />
+  </Instantly>
+
+  <OnConnect target="nerdForum">
+    <ShowNode DelayHost="FAH" Delay="0" Target="nerdForum_b" />
+    <ShowNode DelayHost="FAH" Delay="0.1" Target="nerdForum_g" />
+    <ShowNode DelayHost="FAH" Delay="0.2" Target="nerdForum_ck" />
+    <ShowNode DelayHost="FAH" Delay="0.3" Target="nerdForum_v" />
+    <ShowNode DelayHost="FAH" Delay="0.4" Target="nerdForum_co" />
+    <ShowNode DelayHost="FAH" Delay="0.5" Target="nerdForum_rp" />
+  </OnConnect>
+
+</ConditionalActions>

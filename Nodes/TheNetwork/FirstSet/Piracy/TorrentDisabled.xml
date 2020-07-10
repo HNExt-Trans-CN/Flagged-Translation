@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="torrentDisabled"
+          name="bit4bit Disabled IRC"
+          ip="28e3f8ac"
+          security="1"
+          allowsDefaultBootModule="true"
+          type="2" >
+
+  <ports>80, 443</ports>
+
+  <portsForCrack val="1" />
+  <proxy time="0.6" />
+  <admin type="none"/>
+
+  <positionNear target="torrentTracker" position="1" total="1" extraDistance="-0.1"/>
+
+  <account username="SYSTEM" password="paynoattentiontotheunhackableaccountsbehindthecurtain" type="2" />
+  <account username="vain_lane" password="paynoattentiontotheunhackableaccountsbehindthecurtain" type="2" />
+  <account username="incentail" password="paynoattentiontotheunhackableaccountsbehindthecurtain" type="2" />
+  <account username="embernate" password="paynoattentiontotheunhackableaccountsbehindthecurtain" type="2" />
+  <account username="hnomosept" password="paynoattentiontotheunhackableaccountsbehindthecurtain" type="2" />
+  <account username="othromend" password="paynoattentiontotheunhackableaccountsbehindthecurtain" type="2" />
+  <account username="sanjeet2016" password="paynoattentiontotheunhackableaccountsbehindthecurtain" type="2" />
+
+  <file path="home" name="wtf.txt">Uhhh, guys?
+
+When was the last time this server was used? I went and did a physical inspection on it and the hard drive platters are literally growing mold. Probably going to have to replace these; escalating the matter to maintenance staff.
+
+~ SmiffMcCool, First Line Support
+... if you'll ever read this note at all</file>
+
+  <IRCDaemon themeColor="67,204,148" name="bit4bit Disabled Channel" needsLogin="false">
+    <user name="SYSTEM" color="145,145,145"/>
+    <user name="vain_lane" color="252, 186, 3"/>
+    <user name="incentail" color="252, 186, 3"/>
+    <user name="embernate" color="252, 186, 3"/>
+    <user name="hnomosept" color="252, 186, 3"/>
+    <user name="othromend" color="252, 186, 3"/>
+    <user name="vishnu2016" color="252, 186, 3"/>
+
+    <post user="vain_lane">hey i think i let my account expire here, i promise i'm not collecting</post>
+    <post user="SYSTEM">@incentail - you have been idle for 30 minutes. Please say something or you will be removed from the channel.</post>
+    <post user="incentail">adfghjk</post>
+    <post user="incentail">Man this shit is so boring, are the admins even here?</post>
+    <post user="SYSTEM">@yphinpoir - you have been idle for 30 minutes. Please say something or you will be removed from the channel.</post>
+    <post user="SYSTEM">-- @yphinpoir has been kicked --</post>
+    <post user="SYSTEM">@embernate - you have been idle for 30 minutes. Please say something or you will be removed from the channel.</post>
+    <post user="embernate">.</post>
+    <post user="SYSTEM">@hnomosept - you have been idle for 30 minutes. Please say something or you will be removed from the channel.</post>
+    <post user="hnomosept">hi</post>
+    <post user="SYSTEM">@othromend - you have been idle for 30 minutes. Please say something or you will be removed from the channel.</post>
+    <post user="othromend">sysop is a bitch, over</post>
+    <post user="vain_lane">lmao</post>
+    <post user="vishnu2016">hello friends ! Please to invitings to this beautiful tacker?? am hailing from hexic, good speeds long seed! promise to you from me, sirs!</post>
+
+  </IRCDaemon>
+
+</Computer>

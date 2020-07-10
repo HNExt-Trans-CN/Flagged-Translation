@@ -1,0 +1,27 @@
+<Computer id="hotdogWeb" name="JIM'S FINE MEATS" security="1" ip="c6aee4ab" type="3" >
+
+  <ports>80, 443</ports>
+
+  <portsForCrack val="1" />
+  <proxy time="-1"/>
+  <firewall level="-1"/>
+  <trace time="-1"/>
+
+  <file path="home" name="HEY_YOU.txt">HEY YOU! YEAH YOU!
+
+LOOKS LIKE YOU KNOW YOUR WAY AROUND A COMPUTER. WE LIKE YOUR ATTITUDE. IT'S THE SAME KIND OF POSITIVE GO-GETTER ATTITUDE THAT GOES INTO EVERY SAUSAGE AT JIM'S FINE MEATS!
+
+WE WANNA REWARD YOU. ENJOY THIS POSITIVELY SCRUMPTIOUS AND EYE-CATCHING X-SERVER THEME, JUST FOR YOU.
+
+~ JIM OF JIM'S FINE MEATS</file>
+
+  <customthemefile path="home" name="Meat_x-server.sys" themePath="Themes/MeatTheme.xml"/>
+  <customthemefile path="sys" name="Meat_x-server.sys" themePath="Themes/MeatTheme.xml"/>
+
+  <addWebServer name="JIM'S FINE MEATS!" url="Web/Sites/JimsFineMeats/index.html"/>
+
+  <dlink target="hotdogInternal"/>
+
+  <positionNear target="district1Dir" position="2" total="8" extraDistance="-0.2"/>
+
+</Computer>

@@ -1,0 +1,34 @@
+config playerComp MNCHacker 0.2 $#%#$
+connect $#%#$
+hideRam $#%#$
+delay 4.3 $#%#$
+stopMusic $#%#$
+clearTerminal $#%#$
+delay 1.3 $#%#$
+hideNetMap $#%#$
+hideDisplay $#%#$
+delay 2.3 $#%#$
+writel $#%#$
+writel $#%#$
+writel Attention, Operator. $#%#$
+delay 2.5 $#%#$
+writel $#%#$
+writel $#%#$
+writel You have attacked a host that is out of the scope of your duties. $#%#$
+delay 3.5 $#%#$
+writel $#%#$
+writel $#%#$
+writel You shall be let off with a warning this time. $#%#$
+delay 3.5 $#%#$
+writel $#%#$
+writel $#%#$
+writel Please be more careful in the future. $#%#$
+delay 3.5 $#%#$
+clearTerminal $#%#$
+flash $#%#$
+startMusic $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
+showTerminal $#%#$
+disconnect $#%#$

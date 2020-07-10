@@ -1,0 +1,16 @@
+<Computer id="goawayBookings" name="GoAway Bookings Endpoint" security="1" icon="PacificAir" ip="cd4a45a9" type="3" >
+  <ports>80, 443, 1433, 192</ports>
+
+  <proxy time="-1" />
+  <portsForCrack val="1" />
+  <firewall level="6" solution="goaway" />
+  <trace time="100"/>
+
+  <LogoCustomConnectDisplayDaemon logo="Media/GoAway.png" title="Media/GoAway_txt.png" overdrawLogo="false" buttonAlignment="left" />
+
+  <addWebServer name="GoAway Bookings Endpoint" url="Web/Sites/GA_BookingsEndpoint/index.html"/>
+
+  <positionNear target="district1Dir" position="4" total="8" extraDistance="-0.2"/>
+
+  <dlink target="MNCloretunnel1"/>
+</Computer>

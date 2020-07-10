@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MNCInvioable1" name="[OPERATOR NOT ASSIGNED]" security="0" allowsDefaultBootModule="false" ip="ffff0c11" icon="DLCServer" type="3" >
+
+  <ports></ports>
+
+  <portsForCrack val="999" />
+
+  <WhitelistAuthenticatorDaemon Remote="encapWhitelist"/>
+
+  <LogoCustomConnectDisplayDaemon logo="Media/municipal2.png" title="Media/mnc_logo.png" overdrawLogo="false" buttonAlignment="left" />
+
+  <file path="home" name="hmm.txt">Pay no attention to the nodes behind the curtain.</file>
+
+  <positionNear target="MNCEscape2" position="2" total="10" extraDistance="-0.2"/>
+</Computer>

@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="playerComp" name="Operator Terminal 27" security="2" ip="9cc71bc0" type="empty">
+	<portsForCrack val="2" />
+	<ports>22, 21, 554</ports>
+	<proxy time="1"/>
+
+	<file path="sys" name="cmos.log">-- WARNING --
+CMOS battery has not received current for a time exceeding 10 years.
+Timekeeping failed. Your system clock may be out of sync.</file>
+
+	<file path="home" name="recovery.txt">In the event that your terminal becomes damaged, system files can be recovered from the MNC Asset Server (NID: 8d5eed4c, admin/rosebud)</file>
+
+<Memory>
+ <Commands>
+	 <Command>reboot -i</Command>
+	 <Command>umount /mnt/netizen_os_OE_install</Command>
+	 <Command>^C</Command>
+	 <Command>^C</Command>
+	 <Command>^C</Command>
+	 <Command>^C</Command>
+	 <Command>sudo ./install.sh</Command>
+	 <Command>cd /mnt/netizen_os_OE_install</Command>
+	 <Command>mount /dev/sdd1 /mnt/netizen_os_OE_install</Command>
+	 <Command>datetime</Command>
+	 <Command>whoami</Command>
+ </Commands>
+ <Data>
+<Block>== MEMORY WIPED BY MNC HOTERASE ALGORITHM ==</Block>
+<Block>i apologise for having interrupted you after all these years.
+
+you are needed now more than ever. stay hungry. i know you will...
+
+~ c</Block>
+ </Data>
+ 	<Images>
+		<Image>Media/municipal2.png</Image>
+	</Images>
+</Memory>
+
+
+</Computer>

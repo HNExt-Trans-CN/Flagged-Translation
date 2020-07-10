@@ -1,0 +1,5 @@
+<ConditionalActions>
+  <HasFlags requiredFlags="MNC_Member">
+    <RunFunction FunctionName="addFlags:CITATION_ACTIVE" />
+  </HasFlags>
+</ConditionalActions>

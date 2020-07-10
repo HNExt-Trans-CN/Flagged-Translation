@@ -1,0 +1,17 @@
+<ConditionalActions>
+  <HasFlags requiredFlags="detainmentsActive">
+    <HideNode DelayHost="FAH" Delay="10" TargetComp="RansomwareWebsite" />
+    <ChangeIP DelayHost="FAH" Delay="10" TargetComp="RansomwareWebsite" NewIP="00000000" />
+    <HideNode DelayHost="FAH" Delay="20" TargetComp="ransomKillswitch" />
+    <ChangeIP DelayHost="FAH" Delay="20" TargetComp="ransomKillswitch" NewIP="00000000" />
+    <HideNode DelayHost="FAH" Delay="30" TargetComp="ransomHome" />
+    <ChangeIP DelayHost="FAH" Delay="30" TargetComp="ransomHome" NewIP="00000000" />
+    <HideNode DelayHost="FAH" Delay="40" TargetComp="ransomXDroid" />
+    <ChangeIP DelayHost="FAH" Delay="40" TargetComp="ransomXDroid" NewIP="00000000" />
+    <HideNode DelayHost="FAH" Delay="50" TargetComp="ransomIrc" />
+    <ChangeIP DelayHost="FAH" Delay="50" TargetComp="ransomIrc" NewIP="00000000" />
+    <HideNode DelayHost="FAH" Delay="60" TargetComp="ransomVault" />
+    <ChangeIP DelayHost="FAH" Delay="60" TargetComp="ransomVault" NewIP="00000000" />
+  </HasFlags>
+</ConditionalActions>
+ 

@@ -1,0 +1,191 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="credits" name="The Afterparty" security="0" allowsDefaultBootModule="true" type="empty">
+
+  <ports>22, 21, 9418</ports>
+  <portsForCrack val="0" />
+
+<file path="home" name="victors.txt">spiderbenb | The first revolutionaire</file>
+
+<file path="home" name="bugbashers.txt">spiderbenb | "The Once-over"
+TheWinner | FreeChat Technician
+k-onwho, Daniel Andersson and Arucard | Were Displeased</file>
+
+<file path="home" name="wishlist.txt">extensions wishlist:
+
+* multiple message boards on one node
+* tracker daemons requiring logs/uncrippled-ness from another node (and custom hackerscripts per tracker)
+* medical database clock offset parameter (and also not crashing when giving DOBs in the future)
+* DoesNotHaveFlags working
+* unload conditional actions
+* make theme switching less laggy
+* exes that run actionscripts (that isnt sequencer)</file>
+
+<customthemefile path="sys" name="Galaxy_x-server.sys" themePath="Themes/GalaxyTheme.xml"/>
+<customthemefile path="home" name="Galaxy_x-server.sys" themePath="Themes/GalaxyTheme.xml"/>
+
+<file path="home" name="home.txt">https://discord.gg/tKEjsXU</file>
+
+<file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+
+<SongChangerDaemon />
+
+<CreditsDaemon Title="The Afterparty" ButtonText="Credits" ConditionalActionSetToRunOnButtonPressPath="Actions/FinaleActions/CreditsRunActions.xml"/>
+
+<Memory>
+ <Commands>
+    <Command>cd hn-flagged</Command>
+    <Command>mv hacknet hn-flagged</Command>
+    <Command>git clone https://github.com/operator-27/hacknet.git</Command>
+    <Command>sudo rm -r hn-flagged</Command>
+    <Command>cd ..</Command>
+    <Command>git log</Command>
+    <Command>git reset HEAD~ --hard</Command>
+    <Command>git commit -m "aaaaaaaa"</Command>
+    <Command>git add . #</Command>
+    <Command>git stash pop</Command>
+    <Command>git checkout mission-dev</Command>
+    <Command>git stash</Command>
+    <Command>git reset HEAD~ --soft</Command>
+    <Command>git checkout mission-dev</Command>
+    <Command>git reset HEAD~ --hard</Command>
+    <Command>git branch mission-dev</Command>
+    <Command>git commit --amend</Command>
+    <Command>git commit --amend --no-edit</Command>
+    <Command>git add . #</Command>
+    <Command>git reset HEAD@a9b4123</Command>
+    <Command>git reflog</Command>
+ </Commands>
+ <Data>
+   <Block>[03:03] user: credits server could have memes and screenshots from in here within memforensics</Block>
+<Block>[06:11] tukib: https://github.com/operator-27/hacknet/pull/1
+[06:12] user: oh shit
+[06:12] user: you made a pull request instead of just instantly pushing lmao
+[06:12] user: what is this tukib, how dare you use github properly</Block>
+<Block>-> Welcome tukib. Say hi! [29/04/2020]
+[14:27] user: tukib is here to watch
+[14:27] tukib: excited 2 see ur winning material</Block>
+<Block>[16:31] user: also I wanna make clockgate_v2
+[16:36] A Casual Guy: obviously bigger and badder
+[16:37] user: absolutely
+[16:37] A Casual Guy: as if initially providing GPG messages without a way to easily copy/paste them didn't cause enough frustration among the playerbase
+</Block>
+<Block>[19:49] A Casual Guy: theme breakdown of flagged:
+fractals: 80%
+recycled BRAP content: 15%
+original content: 5%
+[19:49] user: lmao
+[19:49] user: works tho
+[19:49] A Casual Guy: did I ever say no tho
+</Block>
+<Block>[00:14] matr1x: omg spooked myself
+[00:14] matr1x: I had roja drifts by open in a tab
+[00:14] matr1x: paused it like 20 minutes ago
+[00:14] matr1x: I suddenly start hearing it again
+[00:14] Hertz: lol
+[00:14] matr1x: it's NOT coming from the tab
+[00:14] matr1x: I check all my music programs, nothing
+[00:14] matr1x: I check Hacknet
+[00:14] matr1x: I've someone managed to fumble my way into the base game while unfocused from the window
+[00:15] A Casual Guy: that takes skill lol
+[00:15] Hertz: lol
+[00:15] matr1x: THE SAME SONG TOO</Block>
+<Block>[08:17] Hertz: now to think of the commit name instead of properly naming commits
+[08:18] user: "added my person file"?
+[08:18] Hertz: no
+[08:18] Hertz: pog pog pog pog pog pog pog
+</Block>
+<Block>[07:35] user: man I just fuckin want hotdog x-server
+[07:35] user: we could have it branded however the company is in-lore too
+[07:35] user: JIMMY'S MEATS
+[07:35] user: -- GET SOME MEAT IN YOUR MOUTH --
+[07:36] user: they could be like a really hip and edgy hotdog company
+[08:18] A Casual Guy: speaking of hot dogs: https://marketplace.visualstudio.com/items?itemName=somekittens.hot-dog-stand
+[08:22] user: Ooooooh this is PRECISELY what im after @A Casual Guy
+</Block>
+<Block>[21:13] A Casual Guy: for a moment I was thinking that you'd cut up the bitspeech :p
+[21:42] snacks: there's an idea
+[21:42] snacks: train an AI model using only the bitspeech
+[21:42] user: oh god
+[21:42] A Casual Guy: lmao
+[21:43] user: let's just get rainbow dash to do all the voicelines imo
+</Block>
+ </Data>
+ <Images>
+   <Image>Media/MemImages/dev1.png</Image>
+   <Image>Media/MemImages/dev2.png</Image>
+   <Image>Media/MemImages/dev3.png</Image>
+   <Image>Media/MemImages/dev4.png</Image>
+   <Image>Media/MemImages/dev5.png</Image>
+   <Image>Media/Flavor/boomerpics/meme4.jpg</Image>
+ </Images>
+</Memory>
+
+<file path="home" name="CreditsData.txt">
+%---  Hacknet: Flagged  (DEMO) ---
+
+^Lead Developer:
+
+Matrix
+
+^Project Participants:
+
+Matrix, behemoth of bodging
+Hertz, weaver of words
+A Casual Guy, repo wrangler
+tukib, glitter generator
+Snacks, music maestro
+
+^Writing:
+
+Hertz
+Matrix
+
+^Music:
+
+tukib - Greetings, Operator
+snacks - my name is snacks
+snacks - salmiak
+Sequencer - Home
+tukib - Right The Wrongs
+Kevin MacLeod - "Awkward Meeting" {CC 3.0}
+snacks - a dead network
+snacks - greetings, operator [Trap Remix]
+
+^X-Server Design:
+
+Hertz
+tukib
+
+^X-Server Backgrounds:
+
+tukib
+Matrix
+Chaotica Fractals
+Angelus Hellion (angelus-hellion.deviantart.com)
+Oliver Fetter (https://unsplash.com/photos/G6lEvBiQM9w)
+Wikimedia (https://commons.wikimedia.org/wiki/File:Parliamenthill.jpg)
+
+^Graphics:
+
+Hertz
+tukib
+eslamsolom (https://bit.ly/35rUuxj)
+Goripachi (https://bit.ly/2Wlt0pe)
+PinClipart (https://bit.ly/2YpJCPe)
+Alessandra L (https://bit.ly/2zSwPe0)
+Clipart Library (https://bit.ly/30kngQ7)
+
+^Special Thanks:
+
+Matt Trobbiani, for making the game
+Everyone in the Hacknet Extensions Discord, for getting hyped
+Fayti1703, for the Hacknet spaghetti-code sanity checks
+sybil#7258, for playtesting and the "classic" meat x-server
+
+---
+
+%Thanks for playing what we have so far!
+%Stay tuned!
+</file>
+
+</Computer>

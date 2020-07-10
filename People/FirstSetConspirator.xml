@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="firstsetconspirator" handle="f4rinel" firstName="Randall" lastName="Jones" isMale="true">
+  <Birthplace name="Sacramento, California" />
+  <DOB>09/06/2012 07:00</DOB>
+  <Degrees>
+    <Degree uni="California State University" gpa="3.2">Bachelor of Art</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>AB</Blood>
+    <Height>179</Height>
+    <Allergies>NONE</Allergies>
+    <Perscription>Lexapro :: 10mg daily</Perscription>
+    <Notes>CITIZEN HAS BEEN FLAGGED: Conspiracy to undermine The Network</Notes>
+  </Medical>
+
+  <Notes>Worn-down, world-weary man working at a dead end job in a giant food distribution conglomerate. Implied to be a former Baphomet member prior to the crash.</Notes>
+</Person>

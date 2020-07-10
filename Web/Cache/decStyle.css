@@ -1,0 +1,42 @@
+
+/*  It's difficult but not impossible for your data to pass between the glass ceiling and the cloud. We're the people you can trust to make it happen.  */
+
+a{
+	color: #1cb6ef;
+	text-decoration: none;
+}
+
+body{
+	/* nothing to see here */
+}
+
+#main{
+	background-color: #FFFFFF;
+	width: 530px;
+	margin-left: 10px;
+	align: center;
+	margin- top: 25px;
+	padding: 20px;
+	border: 1px solid #b8b8b8;
+	border-radius:5px;
+	box-shadow: 0px 0px 1px #888888;
+}
+
+#header{
+	margin-left: 55px;
+	margin-right:5px;
+
+
+}
+
+#subheaders{
+	margin-left:5px;
+	margin-right:5px;
+	margin-top: 25px;
+	font-size: 12px;
+	font-family:Arial, Verdana, sans-serif;
+}
+
+#subheaders strong{
+	font-size: 14px;
+}

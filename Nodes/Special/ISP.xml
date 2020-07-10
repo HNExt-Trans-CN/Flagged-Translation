@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ispComp" name="MNC Operator Investigation Subservice" icon="Psylance" type="3">
+	<portsForCrack val="4" />
+	<ports>22, 80, 25, 554</ports>
+	<firewall level="7" solution="curtail" additionalTime="0.3"/>
+	<admin type="fast" resetPassword="true"/>
+
+	<ispSystem />
+</Computer>

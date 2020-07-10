@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="nutrico1" handle="somele" firstName="Susan" lastName="Huff" isMale="false">
+  <Birthplace name="Ocala, Florida, USA" />
+  <DOB>08/08/2006 02:28</DOB>
+  <Degrees>
+  	<Degree uni="Orlando University" gpa="3.3">Bachelor of Finance</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>O</Blood>
+    <Height>158</Height>
+    <Allergies>Oats</Allergies>
+  </Medical>
+
+  <Notes>A new employee at Nutrico. Expresses concern about Sean's coverup of the NUTRICO_IS_NASTY movement</Notes>
+</Person>

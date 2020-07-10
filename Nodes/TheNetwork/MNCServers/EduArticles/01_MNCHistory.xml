@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="History of the Municipal Network Committee">
+Founded in 2033, the Municipal Network Committee is a global coalition that oversees the majority of worldwide computer-related governance.
+
+The Municipal Network Committee (often abbreviated to the "MNC") aims to achieve synergy between world powers and corporations to present replacements for antiquated technology, which had been urgently required beginning in the late 2010's.
+
+"The Network" was first unveiled to the public in September of 2034 and has been a staple of contemporary society ever since, allowing for people from all walks of life to communicate and share ideas instantly. Since the implementation of the Operator program in 2035, computer-related crime has experienced a significant downturn throughout The Network.</posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,33 @@
+<CustomTheme>
+  <themeLayoutName>blue</themeLayoutName>
+  <backgroundImagePath>Themes/Backgrounds/Razzamataz4.png</backgroundImagePath>
+
+  <defaultHighlightColor>161,179,224</defaultHighlightColor>
+  <defaultTopBarColor>32,36,39,180</defaultTopBarColor>
+  <warningColor>255,0,0</warningColor>
+
+  <shellColor>140,9,0</shellColor>
+  <shellButtonColor>111,60,194</shellButtonColor>
+
+  <moduleColorSolidDefault>149,171,211</moduleColorSolidDefault>
+  <moduleColorStrong>91,100,126,190</moduleColorStrong>
+  <moduleColorBacking>6,6,6,190</moduleColorBacking>
+
+  <displayModuleExtraLayerBackingColor>0,0,0,160</displayModuleExtraLayerBackingColor>
+  
+  <AFX_KeyboardMiddle>255,231,46</AFX_KeyboardMiddle>
+  <AFX_KeyboardOuter>0,0,0</AFX_KeyboardOuter>
+  <AFX_WordLogo>255,255,0</AFX_WordLogo>
+  <AFX_Other>111,60,194</AFX_Other>
+  
+  <thisComputerNode>121,194,0</thisComputerNode>
+
+  <exeModuleTopBar>52,54,52</exeModuleTopBar>
+  <exeModuleTitleText>160,160,180,50</exeModuleTitleText>
+
+  <lockedColor>100,0,0,200</lockedColor>
+  <brightLockedColor>140,0,0</brightLockedColor>
+  <brightUnlockedColor>141,212,0</brightUnlockedColor>
+  <unlockedColor>92,138,0</unlockedColor>
+
+</CustomTheme>

@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="gmanHome" name="Vincent's Mindpad" type="2" security="1" ip="b23ff197" icon="DLCLaptop" allowsDefaultBootModule="true">
+
+  <ports>22, 21, 6881</ports>
+  <portRemap>6881=51079</portRemap>
+  <portsForCrack val="2"/>
+  <trace time="-1"/>
+
+  <file path="home/THE_SHITTY_FILE" name="hexic_0e962.torrent">#BINARYSMALL#</file>
+  <encryptedFile path="home/THE_SHITTY_FILE" name="terrasplore_v1.54_w_crack.dec" extension=".exe" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="val1c3rn4">#BINARY#</encryptedFile>
+
+<memoryDumpFile name="the_shitty_ransomware.md" path="home">
+    <Memory>
+        <Commands>
+            <Command>shutdown -md -i</Command>
+            <Command>^C</Command>
+            <Command>^C</Command>
+            <Command>^C</Command>
+            <Command>^C</Command>
+            <Command>^C</Command>
+            <Command>kill 117</Command>
+            <Command>kill 117</Command>
+            <Command>kill 117</Command>
+            <Command>kill 117</Command>
+            <Command>ps</Command>
+            <Command>exe terrasplore_v1.54_w_crack.exe</Command>
+            <Command>mtorrnet hexic_0e962.torrent</Command>
+        </Commands>
+        <Data>
+    <Block>:::::::::: ::::    :::   :::   ::::::::  ::::    ::::      :::
+:+:        :+:+:   :+: :+:+:  :+:    :+: +:+:+: :+:+:+    :+:
++:+        :+:+:+  +:+   +:+  +:+        +:+ +:+:+ +:+   +:+ +:+
++#++:++#   +#+ +:+ +#+   +#+  :#:        +#+  +:+  +#+  +#+  +:+
++#+        +#+  +#+#+#   +#+  +#+   +#+# +#+       +#+ +#+#+#+#+#+
+#+#        #+#   #+#+#   #+#  #+#    #+# #+#       #+#       #+#
+########## ###    #### ####### ########  ###       ###       ###
+
+Pinging killswitch@ec01a839......
+Ping failed successfully.
+Beginning file encryption (key: val1c3rn4)...
+Encryption complete. Opening webpage in default browser (Waterfox).
+Program ended.</Block>
+        </Data>
+        <Images>
+          <Image>Media/Flavor/tech_meme1.jpg</Image>
+          <Image>Media/Flavor/tech_meme2.jpg</Image>
+        </Images>
+    </Memory>
+</memoryDumpFile>
+
+
+  <Memory>
+   <Commands>
+     <Command>umount /media/vince_usb</Command>
+     <Command>mv Vincents_Mindpad_MemoryDump.mem /home/the_shitty_ransomware.md</Command>
+     <Command>cd /sys</Command>
+     <Command>cd ..</Command>
+     <Command>cd /bin</Command>
+     <Command>cd /media/vince_usb</Command>
+     <Command>mount /dev/sdc1 /media/vince_usb</Command>
+
+   </Commands>
+  </Memory>
+</Computer>

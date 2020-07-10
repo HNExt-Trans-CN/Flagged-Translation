@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="samual_abrams" handle="daganman" firstName="Samual" lastName="Abrams" isMale="true">
+  <Birthplace name="Tulsa, Oklahoma, USA" />
+  <DOB>30/04/2019 10:00</DOB>
+  <Degrees>
+
+  </Degrees>
+  <Medical>
+    <Blood>O</Blood>
+    <Height>169</Height>
+    <Allergies>Shellfish</Allergies>
+    <Notes>CITIZEN HAS BEEN FLAGGED: Violating Operator program policies</Notes>
+  </Medical>
+
+  <Notes>The son of the Abrams family. Is on probation for having spilt operator secrets while working there to be a non-NEET.</Notes>
+</Person>

@@ -1,0 +1,39 @@
+<Computer id="ellington_WT" name="weTalk Groupchat #FBX-439" ip="976babb8" icon="DLCServer" type="empty">
+  <ports>80, 443</ports>
+  <portsForCrack val="5"/>
+
+  <account username="theavocadogamer" password="bootymaster69" type="3" />
+
+  <IRCDaemon themeColor="122, 204, 51" name="weTalk Groupchat: 'ellington massive'" needsLogin="true">
+    <user name="SYSTEM" color="145,145,145"/>
+    <user name="theavocadogamer" color="213, 98, 101"/>
+    <user name="fouriertform" color="222, 203, 123"/>
+    <user name="maskedero" color="97, 45, 179"/>
+
+    <post user="fouriertform">omg mrs chadwick held me back after lecture AGAIN</post>
+    <post user="fouriertform">i dont CARE about my low gpa, if i did it wouldnt be a 1.2</post>
+    <post user="theavocadogamer">shes such a prig</post>
+    <post user="maskedero">wait why do u give a shit about gpas</post>
+    <post user="maskedero">do u like, not use that essay service?</post>
+    <post user="theavocadogamer">huh what do you mean</post>
+    <post user="maskedero">goodwriterz</post>
+    <post user="maskedero">u tell them the kind of essay you need written and then they just do it for you it's great</post>
+    <post user="fouriertform">WOAH</post>
+    <post user="maskedero">like 200 creds per essay or smth, cheaper than kush</post>
+    <post user="theavocadogamer">link?</post>
+    <post user="fouriertform">yeah give me a link too</post>
+    <post user="maskedero">!ATTACHMENT:link#%#GoodWriterZ#%#f2ac76ef</post>
+    <post user="theavocadogamer">giving it a look</post>
+    <post user="fouriertform">god the site looks like shit</post>
+    <post user="maskedero">eh, hosting is expensive. bronze theta shit, whatever</post>
+
+    <post user="maskedero"></post>
+    <post user="fouriertform"></post>
+    <post user="theavocadogamer"></post>
+  </IRCDaemon>
+
+  <file path="home" name="int_connect.log">Retrieving user account credentials...
+Connection to 6bcdf784 established.
+Parsing credentials...
+Credentials loaded successfully.</file>
+</Computer>

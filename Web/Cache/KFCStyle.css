@@ -1,0 +1,29 @@
+h2{  
+	position: absolute; 
+	font:45px impact;
+	top: 420px;
+	left: 20px; 
+	width: 100%; 
+}
+
+h3{
+	font-family:"Tahoma";
+	font-size:10px;
+}
+
+h4{
+	position: absolute; 
+	font:33px impact;
+	top: 70px;
+	text-shadow:2px 2px #3c3838, 1px -1px #444;
+	left: 166px; 
+	width: 100%; 
+}
+
+
+.bgimg{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%; 
+}

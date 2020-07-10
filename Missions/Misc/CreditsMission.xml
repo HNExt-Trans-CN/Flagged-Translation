@@ -1,0 +1,32 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="creditsmission" activeCheck="false">
+  <goals>
+
+  </goals>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>The Team</sender>
+    <subject>Thanks for playing!</subject>
+    <body>
+Hey, #PLAYERNAME#,
+
+This is the end of the Hacknet: Flagged demo build. Hopefully we didn't leave you on too much of a cliffhanger ;)
+
+Unfortunately there was too much content to get out in time for the Hackerjam, but rest assured we will continue to work on this extension in order to complete its storyline! There's a lot I and the others want to do.
+
+And now, a word from each member of the team:
+
+It's good to be back :) ~ matrix
+gaming ~ hertz
+[DECLINED TO COMMENT] ~ a casual guy
+snack the planet! ~ snacks
+[DECLINED TO COMMENT] ~ tukib
+
+Thanks for playing!
+
+- Hacknet: Flagged
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

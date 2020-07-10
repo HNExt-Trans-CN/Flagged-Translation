@@ -1,0 +1,9 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="FAH" name="Fast Action Host" type="empty">
+	<FastActionHost />
+
+	<portsForCrack val="0" />
+	<ports>22</ports>
+
+	<file path="home" name="hmm.txt">Pay no attention to the nodes behind the curtain.</file>
+</Computer>

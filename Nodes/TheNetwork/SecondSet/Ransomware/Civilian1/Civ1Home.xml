@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="civilian1Home" name="Kyle's Workstation" type="2" ip="5bc1e80e" icon="DLCPC2" allowsDefaultBootModule="true">
+
+  <ports>22, 21, 211, 6881</ports>
+  <portRemap>6881=8008</portRemap>
+  <portsForCrack val="1"/>
+  <trace time="70"/>
+
+  <encryptedFile path="bin" name="gift4u.dec" extension=".exe" ip="[UNAVAILABLE]" header="Gift For You" pass="infected">#BINARY#</encryptedFile>
+
+  <encryptedFile path="home/xxx" name="114fd8af2505a5d8f3de5a4de9a7f5e6.dec" extension=".png" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="r4msl31">#BINARY#</encryptedFile>
+  <encryptedFile path="home/xxx" name="6c63067711f2cde220059608e34f12c9.dec" extension=".png" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="r4msl31">#BINARY#</encryptedFile>
+  <encryptedFile path="home/xxx" name="3f50f40782fe0a8bc59a7a3a0bdadd8c.dec" extension=".png" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="r4msl31">#BINARY#</encryptedFile>
+  <encryptedFile path="home/xxx" name="ae6ea0db27d9dc17f837b1a61807f7e7.dec" extension=".png" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="r4msl31">#BINARY#</encryptedFile>
+  <encryptedFile path="home/xxx" name="834bf510b06d6606892191d85f06fdf4.dec" extension=".png" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="r4msl31">#BINARY#</encryptedFile>
+  <encryptedFile path="home/xxx" name="74bedef9cb342790769731207b1c6e6e.dec" extension=".png" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="r4msl31">#BINARY#</encryptedFile>
+  <encryptedFile path="home/xxx" name="12c6c38214c6da05572a99762790d45d.dec" extension=".png" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="r4msl31">#BINARY#</encryptedFile>
+
+  <encryptedFile path="home/work" name="resume.dec" extension=".pdf" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="r4msl31">#BINARYSMALL#</encryptedFile>
+  <encryptedFile path="home/work" name="exposee.dec" extension=".pdf" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="r4msl31">#BINARYSMALL#</encryptedFile>
+  <encryptedFile path="home/work" name="analysis.dec" extension=".pdf" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="r4msl31">#BINARY#</encryptedFile>
+  <encryptedFile path="home/work" name="tuesday.dec" extension=".pdf" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="r4msl31">#BINARYSMALL#</encryptedFile>
+  <encryptedFile path="home/work" name="monday.dec" extension=".pdf" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="r4msl31">#BINARYSMALL#</encryptedFile>
+
+
+  <file path="sys" name="C2YPT3X.ini">{
+		version:"1.0.0",
+		infection_id:"f75bd2bfa4817675a",
+		timestamp:null,
+		ks_active:false,
+		ransom_page_nid:"85b033e1",
+		ransom_page_port:80,
+		ransom_page_directory:"index.html",
+		default_browser:"Waterfox"
+}</file>
+
+  <file path="sys" name="os-config.sys">#BINARYSMALL#
+1010010101010101 xDroid device connected 1010010101010101
+1010010101010101 assigned af4c4924 1010010101010101
+#BINARYSMALL#</file>
+
+<Memory>
+    <Commands>
+        <Command>exe gift4u.exe</Command>
+    </Commands>
+    <Data>
+        <Block>[ MEMORY CLEARED ]</Block>
+        <Block>Unknown device attempting connection (port 211)
+[ ERR ] Fingerprint database corrupted
+[ INF ] Connection accepted in safe mode
+[ INF ] Unable to sync device : Local encryption key corrupted</Block>
+    </Data>
+    <Images>
+      <Image>Media/MemImages/encrypted.png</Image>
+      <Image>Media/Flavor/meme7.jpg</Image>
+      <Image>Media/MemImages/encrypted.png</Image>
+      <Image>Media/Flavor/meme1.jpg</Image>
+    </Images>
+</Memory>
+</Computer>

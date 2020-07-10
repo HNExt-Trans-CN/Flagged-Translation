@@ -1,0 +1,49 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="operator8terminal" name="Operator Terminal 8" security="2" ip="8e143245" type="empty">
+	<portsForCrack val="2" />
+	<ports>22, 21, 554</ports>
+	<proxy time="1"/>
+	<admin type="none"/>
+
+	<!-- <encryptedFile path="" name=".dec" extension=".exe" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="teiubesc"></encryptedFile> -->
+
+	<encryptedFile path="bin" name="SSHCrack.dec" extension=".exe" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="teiubesc">#SSH_CRACK#</encryptedFile>
+	<encryptedFile path="bin" name="WebServerWorm.dec" extension=".exe" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="teiubesc">#WEB_CRACK#</encryptedFile>
+	<encryptedFile path="bin" name="SMTPOverflow.dec" extension=".exe" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="teiubesc">#SMTP_CRACK#</encryptedFile>
+
+	<file path="sys" name="C2YPT3X.ini">{
+		version:"1.0.0",
+		infection_id:"c0ff0e06123d7a2bc",
+		timestamp:null,
+		ks_active:false,
+		ransom_page_nid:"85b033e1",
+		ransom_page_port:80,
+		ransom_page_directory:"index.html",
+		default_browser:"Waterfox"
+}</file>
+
+<Memory>
+ <Commands>
+	 <Command>help</Command>
+	 <Command>^C</Command>
+	 <Command>^C</Command>
+	 <Command>^C</Command>
+	 <Command>^C</Command>
+	 <Command>^C</Command>
+	 <Command>^C</Command>
+	 <Command>kill 14</Command>
+	 <Command>kill 14</Command>
+	 <Command>ps</Command>
+	 <Command>shell -t</Command>
+	 <Command>shell</Command>
+ </Commands>
+ <Data>
+<Block>== MEMORY WIPED BY MNC HOTERASE ALGORITHM ==</Block>
+ </Data>
+ 	<Images>
+		<Image>Media/MemImages/encrypted.png</Image>
+		<Image>Media/MemImages/encrypted.png</Image>
+	</Images>
+</Memory>
+
+</Computer>

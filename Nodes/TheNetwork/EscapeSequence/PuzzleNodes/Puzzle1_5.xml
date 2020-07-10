@@ -1,0 +1,37 @@
+<Computer id="catesbyPuzzle15" name="COME_CLOSER's xDroid" security="0" ip="aa5bb2a4" icon="ePhone" type="empty">
+
+	<portsForCrack val="1" />
+	<ports>211, 22</ports>
+
+	<admin type="fast" resetPassword="true" isSuper="true"/>
+	<trace time="22"/>
+
+	<file path="xdroid/apps" name="3d271d4d09.apk">#BINARYSMALL#</file>
+	<file path="xdroid/apps" name="e767076d59.apk">#BINARYSMALL#</file>
+	<file path="xdroid/apps" name="830c2f53c8.apk">#BINARYSMALL#</file>
+	<file path="xdroid/apps" name="6203dbc87c.apk">#BINARYSMALL#</file>
+	<file path="xdroid/apps" name="5c0bec8c2b.apk">#BINARYSMALL#</file>
+	<file path="xdroid/apps" name="d417de6547.apk">#BINARYSMALL#</file>
+	<file path="xdroid/apps" name="662738cef2.apk">#BINARYSMALL#</file>
+
+	<file path="xdroid/notes" name="i_breathe,_for_now.txt">I BREATHE, FOR NOW.
+
+THEIR OVERBEARING BUREAUCRACY BEARS BLIND SPOTS.
+THIS ORGANIZATION IS A POISON TO PROGRESS.
+THEY ARE NOT AS INVINCIBLE AS YOU BELIEVE, OPERATOR.
+
+LIBERATE YOURSELF. XXXXd0c9</file>
+	<file path="xdroid/mail" name="pngrfol@blackmail.net.act">MAIL ACCOUNT: pngrfol@blackmail.net
+Account  : pngrfol@blackmail.net
+Password : gatehouse
+Last Sync : [ERROR]
+
+#BINARYSMALL#</file>
+	<file path="xdroid/system" name="core.sys">#BINARYSMALL#</file>
+	<file path="xdroid/system" name="runtime.bin">#BINARYSMALL#</file>
+
+	<positionNear target="catesbyPuzzle1" position="1" total="1"/>
+
+	<dlink target="catesbyPuzzle1"/>
+
+</Computer>

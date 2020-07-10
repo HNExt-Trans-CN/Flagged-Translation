@@ -1,0 +1,36 @@
+<Computer id="district18Dir"
+          name="Network District 18 Directory"
+          ip="cfa0fce3"
+          security="4"
+          allowsDefaultBootModule="true"
+          type="3" >
+
+  <ports>80, 443</ports>
+
+  <portsForCrack val="2" />
+  <admin type="progress"/>
+
+  <IRCDaemon themeColor="132, 100, 161" name="Network District 18 Directory" needsLogin="false">
+    <user name="SYSTEM" color="145,145,145"/>
+
+    <post user="SYSTEM">-- PUBLIC DIRECTORY LISTING FOR District 18 --</post>
+    <post user="SYSTEM">Welcome to your district's public access directory!</post>
+    <post user="SYSTEM">Systems associated to this district that have been marked as PUBLIC shall show up here.</post>
+    <post user="SYSTEM">NOTE: Please make sure you are willing to accept incoming connections before marking your system as PUBLIC!</post>
+    <post user="SYSTEM">If you need to remove yourself from this listing, contact your local MNC District Manager.</post>
+    <post user="SYSTEM">---</post>
+    <post user="SYSTEM">---</post>
+    <post user="SYSTEM">!ATTACHMENT:link#%#JIM'S FINE MEATS#%#c6aee4ab</post>
+    <post user="SYSTEM">!ATTACHMENT:link#%#Daniel's Rackspace#%#9d801345</post>
+    <post user="SYSTEM">!ATTACHMENT:link#%#FreeChat Forums#%#fa4ae8e5</post>
+    <post user="SYSTEM">!ATTACHMENT:link#%#GoAway Bookings Endpoint#%#cd4a45a9</post>
+    <post user="SYSTEM">!ATTACHMENT:link#%#Ellington University Website#%#c20fae1f</post>
+    <post user="SYSTEM">!ATTACHMENT:link#%#Cindy's Laptop#%#ca473361</post>
+    <post user="SYSTEM">!ATTACHMENT:link#%#POINTCLICKER!#%#bbc1332f</post>
+    <post user="SYSTEM">---</post>
+    <post user="SYSTEM">---</post>
+
+    <post user="SYSTEM"></post>
+  </IRCDaemon>
+
+</Computer>

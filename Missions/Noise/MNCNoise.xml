@@ -1,0 +1,18 @@
+<mission activeCheck="false" shouldIgnoreSenderVerification="false">
+        <goals>
+        </goals>
+		
+		<nextMission>NONE</nextMission>
+
+        <posting title="[TASK NOT ASSIGNED TO OPERATOR]" reqs="noiseLOCK" requiredRank="0">[THIS TASK IS NOT ASSIGNED TO YOU AND AS SUCH HAS BEEN LOCKED]</posting>
+
+        <email>
+                <sender>ERROR</sender>
+                <subject>ERROR</subject>
+                <body>ERROR
+This should not at any point be accessible
+</body>
+                <attachments>
+                </attachments>
+        </email>
+</mission>

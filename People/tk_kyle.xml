@@ -1,0 +1,14 @@
+<Person id="tracekill_civ1" handle="SaintKyle" firstName="Kyle" lastName="Brooks" isMale="true">
+  <Birthplace name="Weldona, Colorado, USA" />
+  <DOB>28/01/2010 10:00</DOB>
+  <Degrees>
+    <Degree uni="University of Colorado" gpa="3.1">Bachelor of Computer Science</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>O</Blood>
+    <Height>169</Height>
+    <Perscription>Insurudin :: 10mg bi-weekly</Perscription>
+  </Medical>
+
+  <Notes>Victim of the C2YPT3X ransomware. Knows the author's identity and shittalks him.</Notes>
+</Person>

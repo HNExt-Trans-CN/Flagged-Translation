@@ -1,0 +1,36 @@
+<ConditionalActions>
+
+  <Instantly>
+  	<CopyAsset DestFilePath="bin" DestComp="MNCDrop" SourceComp="funRuiner" SourceFileName="TorrentStreamInjector.exe" SourceFilePath="bin" />
+    <AddIRCMessage Author="SeaSharp" TargetComp="torrentTracker" Delay="1">bros!</AddIRCMessage>
+    <AddIRCMessage Author="SeaSharp" TargetComp="torrentTracker" Delay="6">i found a cool new tool today!</AddIRCMessage>
+    <AddIRCMessage Author="SeaSharp" TargetComp="torrentTracker" Delay="11">ftpbounce :)</AddIRCMessage>
+    <AddIRCMessage Author="ExEmel" TargetComp="torrentTracker" Delay="16">I'll pretend I know what that is</AddIRCMessage>
+  </Instantly>
+
+  <OnAdminGained target="torrentTracker">
+    <AddIRCMessage Author="JaySon" TargetComp="torrentTracker" Delay="2.5">new stuff coming down the pipeline!</AddIRCMessage>
+    <AddIRCMessage Author="ExEmel" TargetComp="torrentTracker" Delay="5.5">A voltage release, eh?</AddIRCMessage>
+    <AddIRCMessage Author="MonGouh" TargetComp="torrentTracker" Delay="10.5">Been a while I must say.</AddIRCMessage>
+    <AddIRCMessage Author="MonGouh" TargetComp="torrentTracker" Delay="15.5">I might not participate in that swarm.</AddIRCMessage>
+    <AddIRCMessage Author="MonGouh" TargetComp="torrentTracker" Delay="22.5">To be honest I'm not sure if I really want to torrent at all anymore. I'll disconnect my client.</AddIRCMessage>
+  </OnAdminGained>
+
+  <OnAdminGained target="torrentPC2">
+    <AddIRCMessage Author="SeaSharp" TargetComp="torrentTracker" Delay="3.5">man ftpbounce is just so sexy honestly</AddIRCMessage>
+    <AddIRCMessage Author="SeaSharp" TargetComp="torrentTracker" Delay="7.5">xbc are gonna be trembling when they hear about this</AddIRCMessage>
+  </OnAdminGained>
+
+  <OnAdminGained target="torrentPC1">
+    <AddIRCMessage Author="JaySon" TargetComp="torrentTracker" Delay="3.5">anyone else getting hiccups in their torrent clients lately?</AddIRCMessage>
+    <AddIRCMessage Author="JaySon" TargetComp="torrentTracker" Delay="9.5">it's like it suddenly halts most torrents, then one of them will just pull down a shitton of junk data</AddIRCMessage>
+    <AddIRCMessage Author="JaySon" TargetComp="torrentTracker" Delay="11.9">weird</AddIRCMessage>
+  </OnAdminGained>
+
+  <OnAdminGained target="torrentTopsite">
+    <AddIRCMessage Author="SeaSharp" TargetComp="torrentTracker" Delay="3.5">!uptime</AddIRCMessage>
+    <AddIRCMessage Author="SYSTEM" TargetComp="torrentTracker" Delay="3.7">This channel has been up for: 2 MONTHS, 3 WEEKS, 1 DAY, 17 HOURS, 23 MINUTES</AddIRCMessage>
+    <AddIRCMessage Author="SeaSharp" TargetComp="torrentTracker" Delay="5.1">:)</AddIRCMessage>
+  </OnAdminGained>
+
+</ConditionalActions>

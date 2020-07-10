@@ -1,0 +1,17 @@
+<ConditionalActions>
+  <Instantly>
+    <LaunchHackScript Filepath="HackerScripts/ChangeAcadPass2.txt" DelayHost="FAH" Delay="0" SourceComp="MNCHacker" TargetComp="academic" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+    <HideNode DelayHost="FAH" Delay="10" TargetComp="ellingtonScamService" />
+    <ChangeIP DelayHost="FAH" Delay="10" TargetComp="ellingtonScamService" NewIP="00000000" />
+    <HideNode DelayHost="FAH" Delay="10" TargetComp="ellingtonScamDB" />
+    <ChangeIP DelayHost="FAH" Delay="10" TargetComp="ellingtonScamDB" NewIP="00000000" />
+  </Instantly>
+
+  <HasFlags requiredFlags="detainmentsActive">
+    <HideNode DelayHost="FAH" Delay="10" TargetComp="ellingtonScamService" />
+    <ChangeIP DelayHost="FAH" Delay="10" TargetComp="ellingtonScamService" NewIP="00000000" />
+    <HideNode DelayHost="FAH" Delay="20" TargetComp="ellingtonScamDB" />
+    <ChangeIP DelayHost="FAH" Delay="20" TargetComp="ellingtonScamDB" NewIP="00000000" />
+  </HasFlags>
+
+</ConditionalActions>

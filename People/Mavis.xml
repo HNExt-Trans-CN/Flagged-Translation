@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="mavis" handle="mavisa1965" firstName="Mavis" lastName="Addington" isMale="false">
+  <Birthplace name="Perth, Australia" />
+  <DOB>19/08/1965 07:00</DOB>
+  <Degrees>
+  </Degrees>
+  <Medical>
+    <Blood>B</Blood>
+    <Height>166</Height>
+    <Allergies>Pollen</Allergies>
+    <Perscription>Alisnec :: oral injestion daily</Perscription>
+    <Perscription>Nelora :: oral injestion daily</Perscription>
+    <Perscription>Iponmir :: oral injestion daily</Perscription>
+  </Medical>
+
+  <Notes>Old woman whose computer gets hacked by Catesby. Has a grandson named Tim who uses the computer all the time and is an avid WoW addict (maybe have a minor sideplot with Tim?)</Notes>
+</Person>

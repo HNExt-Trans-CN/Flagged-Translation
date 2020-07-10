@@ -1,0 +1,41 @@
+
+<Computer id="NIN_WT" name="weTalk eOS Bridge #E302BF" ip="411c8ade" icon="DLCServer" type="empty">
+  <ports>80, 443</ports>
+  <portsForCrack val="5"/>
+
+  <account username="raynestorm" password="L3tmein" type="3" />
+  <account username="z_b_d" password="b0s7ra" type="3" />
+
+  <IRCDaemon themeColor="122, 204, 51" name="weTalk Local Archive" needsLogin="true">
+    <user name="SYSTEM" color="145,145,145"/>
+    <user name="raynestorm" color="16, 84, 230"/>
+    <user name="z_b_d" color="82, 88, 102"/>
+
+    <post user="SYSTEM">!ANNOUNCEMENT! This is a private conversation between you and @z_b_d</post>
+    <post user="SYSTEM">!ANNOUNCEMENT! Messages are encrypted! Only you two can read them!</post>
+
+    <post user="raynestorm">hey uh, listen rene, i have something important to discuss</post>
+    <post user="z_b_d">wassup?</post>
+    <post user="raynestorm">so i think what we have so far is a pretty good start</post>
+    <post user="raynestorm">but people aren't really... doing anything about it</post>
+    <post user="z_b_d">I saw some posts on FreeChat and people seem to at least agree with the message</post>
+    <post user="raynestorm">right, which is good and all</post>
+    <post user="raynestorm">but we haven't really gotten anybody to "act" yet know?</post>
+    <post user="z_b_d">Act in what way?</post>
+    <post user="z_b_d">I'm not going to be condoning violence, for the record</post>
+    <post user="raynestorm">people are just sitting there, taking in the message contently, but doing nothing about it</post>
+    <post user="raynestorm">I'm considering getting some outreach, starting by pulling in the hacker community to our cause</post>
+    <post user="z_b_d">?</post>
+    <post user="raynestorm">they can start by monitoring our IS logs or whatever</post>
+    <post user="raynestorm">but eveneutally i'm getting a hacker to vandalise their webpage</post>
+    <post user="z_b_d">:/</post>
+    <post user="z_b_d">Not down for this. You better watch your step maureen</post>
+    <post user="z_b_d">Bringing in the "hacker" community, if that's even left, is going to kill our optics. Nobody likes them post-crash, after all</post>
+    <post user="raynestorm">whatever you say rene. i want some goddamn action here.</post>
+  </IRCDaemon>
+
+  <file path="home" name="int_connect.log">Retrieving user account credentials...
+Connection to 6bcdf784 established.
+Parsing credentials...
+Credentials loaded successfully.</file>
+</Computer>

@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<!-- This is here because FTP daemons are finnicky as fuck -->
+<mission id="MNC_CatesbyAlt">
+  <goals>
+    <goal type="filechange" target="jmail" file="MedicalRecord_-_Catesby_Brooke" path="mail/accounts/dispatch/inbox" keyword="SENTINEL_agj340jyor" removal="true"/>
+    <goal type="fileupload" target="catesbyPC" file="Sequencer.exe" path="bin/when_youre_ready" destTarget="MNCDrop" destPath=""/>
+  </goals>
+
+  <nextMission>Missions/GainHelpers/MNC_Pause.xml</nextMission>
+
+  <posting title="#Slaying The Hydra#" client="MNC" target="pngrfol">Locate and assist in the detainment of an extremely dangerous, rebellious hacker.</posting>
+
+  <email>
+    <sender>MNC Dispatch</sender>
+    <subject>Killing The Hydra</subject>
+    <body>Thank you for your continued interest in the Operator program.
+
+We require you to investigate the whereabouts of a notorious hacker. Currently their only known identity is "pngrfol". This hacker has infiltrated numerous private computers on The Network, leaving behind anti-Network misinformation. Analysis of log files on the compromised systems have returned no obvious discrepancies, owing to the sophistication of these attacks.
+
+We have reason to believe that this hacker is responsible for the recent influx of anti-Network sentiment amongst the citizen population. We require your assistance in finding and detaining the suspect.
+
+The suspect's most recent victim was Mavis Addington. A link to her computer has been attached to this email for you, so that you may investigate the computer's contents.
+
+The suspect has been noted to leave encrypted files on compromised FTP servers. We suggest additionally sourcing one of these files if possible. To aid in your task, you have been given a copy of Decypher tool, which is now available on the Asset Server. When using it on encrypted files with a provided password, it shall attempt to decrypt it.
+
+Once you have located devices belonging to the suspect, download any suspicious programs from them, then upload them to our Asset Server for analysis. Secondly, email a copy of the suspect's medical records to "dispatch@mnc.gov". We will take it from there. As a reminder, Operator, you only require someone's last name to view their medical records in most cases.
+
+Good luck, Operator!
+
+- MNC Dispatch
+</body>
+    <attachments>
+      <link comp="MNCDrop" />
+      <link comp="catesbyPuzzle0" />
+    </attachments>
+  </email>
+</mission>

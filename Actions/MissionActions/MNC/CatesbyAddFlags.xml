@@ -1,0 +1,6 @@
+<ConditionalActions>
+  <Instantly>
+    <RunFunction FunctionName="addFlags:sequencerUnlocked,catesbyEscape" />
+    <RunFunction FunctionName="removeFlags:SEQUENCER_LOCKED" />
+  </Instantly>
+</ConditionalActions>

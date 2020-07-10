@@ -1,0 +1,29 @@
+<Computer id="catesbyPuzzle1" name="COME_CLOSER's PC" security="2" ip="4b66d4c9" icon="DLCPC1" type="2">
+
+	<portsForCrack val="3" />
+	<ports>22, 21, 25, 3659, 211</ports>
+	<portRemap>22=13,21=1605,25=1337</portRemap>
+
+	<proxy time="1"/>
+	<firewall level="7" solution="rushton"/>
+
+	<trace time="115"/>
+
+	<eosDevice name="COME_CLOSER's ePad P5" id="catesbyPuzzlePhone" icon="tablet" empty="false">
+    <note>I BREATHE, FOR NOW.
+
+THEIR OVERBEARING BUREAUCRACY BEARS BLIND SPOTS.
+THIS ORGANIZATION IS A POISON TO PROGRESS.
+THEY ARE NOT AS INVINCIBLE AS YOU BELIEVE, OPERATOR.
+
+LIBERATE YOURSELF. 0c64XXXX</note>
+
+    <mail username="pngrfol@blackmail.net" pass="gatehouse" />
+  </eosDevice>
+
+	<file path="sys" name="os-config.sys">#BINARYSMALL#
+1010010101010101 xDroid device connected 1010010101010101
+1010010101010101 assigned aa5bb2a4 1010010101010101
+#BINARYSMALL#</file>
+
+</Computer>

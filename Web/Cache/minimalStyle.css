@@ -1,0 +1,39 @@
+body {
+	background: black;
+	color: #F5F5F5;
+	font-family: sans-serif;
+}
+
+.encased {
+	width: 90%;
+	border: 4px solid #1A1A1A;
+	border-radius: 15px;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+	margin: 2vh auto;
+}
+
+h2 {
+	padding-left: 10%;
+	margin: 2vh;
+}
+
+p {
+	max-width: 85%;
+	font-size: 18px;
+	margin: auto;
+	text-align: justify;
+}
+
+.footer {
+	text-align: center;
+	padding: 100px 100px 50px 100px;
+}
+
+#removed {
+	color: #EE0000;
+	font: bold 20px monospace;
+}

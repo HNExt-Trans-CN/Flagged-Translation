@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MNCEscape2" name="MNC Internet/Network Bridge" security="6" allowsDefaultBootModule="false" icon="chip" type="empty" >
+
+  <ports>22, 25, 554, 9418, 443</ports>
+  <portRemap>554=800,22=10000,25=110</portRemap>
+
+  <proxy time="-1" />
+  <portsForCrack val="3" />
+  <firewall level="7" solution="gateway"/>
+  <trace time="-1"/>
+  <admin type="none"/>
+
+  <LogoCustomConnectDisplayDaemon logo="Media/municipal2.png" title="Media/mnc_logo.png" overdrawLogo="false" buttonAlignment="left" />
+
+  <dlink target="baphHub" />
+
+  <positionNear target="MNCEscape1" position="1" total="1" extraDistance="0.1"/>
+</Computer>

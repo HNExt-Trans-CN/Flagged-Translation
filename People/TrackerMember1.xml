@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="tracker1" handle="SeaSharp" firstName="Christopher" lastName="Sharp" isMale="true">
+  <Birthplace name="Detroit, Michigan, USA" />
+  <DOB>11/04/2019 10:00</DOB>
+  <Degrees>
+  </Degrees>
+  <Medical>
+    <Blood>O</Blood>
+    <Height>169</Height>
+    <Allergies>NONE</Allergies>
+    <Perscription>Itavor :: injected yearly</Perscription>
+  </Medical>
+
+  <Notes>Teen hacker who gets the members of bit4bit involved in a rather dangerous extortion campaign against a release group. Gets doxed by them after exploiting their topsite.</Notes>
+</Person>

@@ -1,0 +1,2 @@
+config nerdForum_g nerdForum_g 0.05 $#%#$
+delete /ImageBoard/Threads * $#%#$

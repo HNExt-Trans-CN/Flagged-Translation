@@ -1,0 +1,40 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ransomIrc" name="K45P3R'S_KLUBHOUSE" type="2" ip="1a5e3642" icon="chip" allowsDefaultBootModule="true">
+
+  <ports>22, 80</ports>
+  <portsForCrack val="1"/>
+
+  <adminPass pass="applepi" />
+
+  <IRCDaemon themeColor="67,204,148" name="K45P3R'S_KLUBHOUSE IRC" needsLogin="false">
+    <user name="SYSTEM" color="145,145,145"/>
+    <user name="kasperman" color="134,67,129"/>
+    <user name="en1gm4" color="0,255,0"/>
+    <user name="saintkyle" color="223,78,11"/>
+    <user name="rad_vlad" color="27,129,153"/>
+    <user name="kaffster49" color="20,90,119"/>
+    <user name="OskDaBoss" color="229,150,17"/>
+
+    <post user="kasperman">!ANNOUNCEMENT! @Channel i have important thing tell you all!</post>
+    <post user="rad_vlad">oh jeez</post>
+    <post user="OskDaBoss">what now, K?</post>
+    <post user="kasperman">my name kasperman? Is no more!</post>
+    <post user="kaffster49">this shit again?</post>
+    <post user="kaffster49">didn't you already try rerolling ur identity in the past? i remember "DaKN"</post>
+    <post user="kasperman">friends, you do not understand</post>
+    <post user="OskDaBoss">not your friend but ok</post>
+    <post user="kasperman">this is big step in my life. will make a lot of money when am done!</post>
+    <post user="rad_vlad">... right.</post>
+    <post user="kasperman">you shall know me as...</post>
+    <post user="en1gm4">en1gm4!</post>
+    <post user="kaffster49">oh christ...</post>
+    <post user="OskDaBoss">How creative. Did you flip to a random word in the dictionary then leetspeak it? lmao</post>
+    <post user="OskDaBoss">I wish Kyle was here to see this stupidity</post>
+    <post user="SYSTEM">!ANNOUNCEMENT! ** @OskDaBoss has been kicked by @en1gm4</post>
+    <post user="kaffster49">-_-</post>
+  </IRCDaemon>
+
+  <dlink target="ransomHome"/>
+
+  <positionNear target="ransomHome" position="2" total="3" extraDistance="-0.2"/>
+</Computer>

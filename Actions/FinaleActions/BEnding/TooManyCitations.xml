@@ -1,0 +1,29 @@
+<ConditionalActions>
+  <Instantly>
+    <LaunchHackScript Filepath="HackerScripts/MNCDetain.txt" DelayHost="FAH" Delay="0" SourceComp="MNCEscapeFailure" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+    <ChangeNetmapSortMethod DelayHost="FAH" Delay="0.1" Method="CHAOS" />
+    <ChangeAlertIcon Target="MNCEscapeFailure" Type="irc" DelayHost="FAH" Delay="1"/>
+    <RunFunction FunctionName="playCustomSongImmediatley:Music/Ambient/CrashTrack.ogg" />
+    <HideAllNodes DelayHost="FAH" Delay="6"/>
+    <ShowNode DelayHost="FAH" Delay="6.1" Target="MNCEscapeFailure" />
+    <RunFunction FunctionName="setHubServer:MNCEscapeFailure" />
+    <CancelScreenBleedEffect DelayHost="FAH" Delay="0" />
+    <KillExe DelayHost="FAH" Delay="0.1" ExeName="*" />
+    <SetLock DelayHost="FAH" Delay="0" Module="terminal" IsLocked="true" IsHidden="false" />
+    <SwitchToTheme ThemePathOrName="Themes/DetainmentTheme.xml" FlickerInDuration="1.2" DelayHost="FAH" Delay="3" />
+    <AddConditionalActions Filepath="Actions/FinaleActions/BEnding/FireMusicChange.xml" DelayHost="FAH" Delay="7"/>
+    <ChangeNetmapSortMethod DelayHost="FAH" Delay="6" Method="grid" />
+
+    <AddIRCMessage Author="DISPATCH" TargetComp="MNCEscapeFailure" Delay="10">Greetings, Operator.</AddIRCMessage>
+    <AddIRCMessage Author="DISPATCH" TargetComp="MNCEscapeFailure" Delay="15">Your record has accumulated too many citations.</AddIRCMessage>
+    <AddIRCMessage Author="DISPATCH" TargetComp="MNCEscapeFailure" Delay="20">You were warned several times to correct your attitude, however you have refused to do so.</AddIRCMessage>
+    <AddIRCMessage Author="DISPATCH" TargetComp="MNCEscapeFailure" Delay="25">We cannot allow your disruptive behavior to continue.</AddIRCMessage>
+    <AddIRCMessage Author="DISPATCH" TargetComp="MNCEscapeFailure" Delay="30">As such, your contract with the Municipal Network Committee has been terminated, effective immediately.</AddIRCMessage>
+    <AddIRCMessage Author="DISPATCH" TargetComp="MNCEscapeFailure" Delay="35">All assets belonging to us will be reclaimed, and this terminal will be remotely disabled in 20 seconds.</AddIRCMessage>
+    <AddIRCMessage Author="DISPATCH" TargetComp="MNCEscapeFailure" Delay="40">You will be released back into the general population.</AddIRCMessage>
+    <AddIRCMessage Author="DISPATCH" TargetComp="MNCEscapeFailure" Delay="45">You are also reminded that under your non-disclosure agreement, you may not divulge any sensitive information you have learned from your time here.</AddIRCMessage>
+    <AddIRCMessage Author="DISPATCH" TargetComp="MNCEscapeFailure" Delay="50">Goodbye, Operator.</AddIRCMessage>
+    <CrashComputer TargetComp="playerComp" CrashSource="MNCEscapeFailure" DelayHost="FAH" Delay="55" />
+
+  </Instantly>
+</ConditionalActions>

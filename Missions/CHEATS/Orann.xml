@@ -1,0 +1,22 @@
+<mission id="CHEAT_Orann" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+    <goal type="filechange" target="fileHammerspace" file="PlayerName" path="home" keyword="Orann"/>
+  </goals>
+
+  <nextMission>Missions/CHEATS/Orann_2.xml</nextMission>
+
+  <email>
+    <sender>CHAOS CLAN</sender>
+    <subject>-- CHEAT ACTIVATED: Orann --</subject>
+    <body>THE NAME OF THE ONE FROM BEYOND. WHERE DID YOU FIND THIS?
+
+THIS COINCIDENCE HAS UPROOTED DATA... MEMETIC DATA.
+
+~ Z
+CHAOS CLAN</body>
+    <attachments>
+      <link comp="mattComp" />
+    </attachments>
+  </email>
+</mission>

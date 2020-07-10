@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Smartphones">Smartphones are a class of mobile phones, first popularised in 2007 with the original ePhone model. They are characterised primarily by their extensive mobile operating systems, which facilitate wider software, internet (including web browsing over mobile broadband), and multimedia functionality (including music, video, cameras, and gaming), alongside core phone functions such as voice calls and text messaging.
+
+The majority of The Network's smartphone software marketshare is consumed by Epple's eOS and xWare's xDroid lines of operating systems. Members of the Municipal Network Committee have praised eOS and xDroid devices for their incredible security practices, with their complex and foreign system architecture rendering the majority of contemporary hacking software useless against them. It has been rumored that Operators have access to backdoor toolkits for these devices, though this remains unconfirmed.</posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,8 @@
+<ConditionalActions>
+
+  <Instantly>
+  	<CopyAsset DestFilePath="bin" DestComp="MNCDrop" SourceComp="funRuiner" SourceFileName="eosDeviceScan.exe" SourceFilePath="bin" />
+    <RunFunction FunctionName="playCustomSong:Music/MyNameIsSnacks.ogg" />
+  </Instantly>
+
+</ConditionalActions>

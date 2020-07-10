@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MNCDebunked" name="Paul's Rackspace" security="1" type="3" ip="37833d00" allowsDefaultBootModule="true">
+
+	<ports>22, 21, 80, 443</ports>
+	<portsForCrack val="2"/>
+	<proxy time="-1" />
+	<firewall level="5" additionalTime="0.3" solution="theta"/>
+	<admin type="progress"/>
+	<trace time="140" />
+
+	<addWebServer name="MNC Debunked" url="Web/Sites/MNCDebunked/index.html"/>
+	<file path="home" name="README.txt">If you are reading this message, this means you have successfully logged into your VPS through SSH.
+You can now further configure the machine to your liking. If you have any questions, feel free to check out our support page and community forums.
+Please remember that administrative access is currently only whitelisted for the NID(s) you have specified in your account settings.
+
+IMPORTANT: By default, TFW (Theta Firewall) will not accept any external connections except for SSH and FTP. If you want to allow traffic to a particular port, try `sudo tfw allow inbound $PORT`. In addition, the default firewall solution of "theta" has been set. You should change this at your earliest convenience.
+
+Happy shenanigans,
+- Theta Hosting (4e3338db)
+</file>
+	<file path="log" name="@603_Connection_from_cd29a315">@603 Connection: from cd29a315</file>
+
+	<file path="sys" name="theta_stats.dll">#SECURITYTRACER_PROGRAM#</file>
+
+	<dlink target="MNCDebunkedOwner"/>
+	<dlink target="thetaWebsite"/>
+</Computer>

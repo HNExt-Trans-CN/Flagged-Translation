@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="academic" name="Network Academic Database" security="5" ip="ff705847" icon="Alchemist" type="3">
+  <adminPass pass="operator27"/>
+
+  <ports>80, 443, 554</ports>
+  <trace time="100" />
+  <portsForCrack val="3" />
+  <admin type="progress"/>
+  <proxy time="-1"/>
+  <firewall level="7" solution="educate" additionalTime="2.0"/>
+
+  <academicDatabase />
+
+  <dlink target="MNCHub" />
+
+  <positionNear target="MNCHub" position="4" total="6"/>
+</Computer>

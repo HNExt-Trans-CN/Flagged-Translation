@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="demoEndMission" activeCheck="false">
+  <goals>
+    <goal type="getstring" target="sentinel" />
+  </goals>
+
+  <missionStart>loadConditionalActions:Actions/Meta/EndOfDemoActions.xml</missionStart>
+
+  <nextMission>NONE</nextMission>
+
+  <posting title="All Good Things...">... must unfortunately come to an end. For now at least.
+  </posting>
+
+  <email>
+    <sender>All Good Things</sender>
+    <subject>All Good Things</subject>
+    <body>
+We're so glad that you made it out. Unfortunately, the world is not ready for us.
+----
+Work continues on restoring what we have lost. The old Internet is fractured and rotten, but we will find our way. The MNC will pay for the pain they have inflicted on the world.
+For now, this is where our story ends. One day we will know what to do with the vast emptiness laid out ahead of us. We'll keep in touch.
+    </body>
+    <attachments>
+      <link comp="credits" />
+    </attachments>
+  </email>
+</mission>

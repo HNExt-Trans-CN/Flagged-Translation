@@ -1,0 +1,5 @@
+<Computer id="sequencerstandin" name="[SEQUENCER INACTIVE]" ip="LOCAL.SEQUENCERTUNNEL" icon="chip" type="empty">
+  <portsForCrack val="999"/>
+
+  <file path="home" name="info.txt">sequencer exes will break if the target does not exist at all times. this is the stand-in node for when the sequencer is inactive</file>
+</Computer>

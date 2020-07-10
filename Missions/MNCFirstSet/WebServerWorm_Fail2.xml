@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="MNC_WebFail" activeCheck="true">
+  <goals>
+  <goal type="delay" time="6.0"/>
+  </goals>
+
+  <nextMission>Missions/GainHelpers/MNC_Bad_Helper.xml</nextMission>
+
+  <email>
+    <sender>MNC Dispatch</sender>
+    <subject>We are displeased</subject>
+    <body>Operator,
+
+Your wanton aggression is aggravating. You were tasked to simply replace the content on the webpage. Deletion of the webpage outright was not your task.
+
+Another operator will be assigned to go clean up your mess. Please show restraint in the future.
+
+- MNC Dispatch
+</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

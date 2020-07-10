@@ -1,0 +1,18 @@
+<ConditionalActions>
+  <Instantly>
+    <RunFunction FunctionName="removeFlags:sequencerUnlocked,catesbyEscape"/>
+    <RunFunction FunctionName="addFlags:SEQUENCER_LOCKED" />
+    <RunFunction FunctionName="playCustomSong:Music/Ambient/ComputerHum.ogg" />
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="3">@#PLAYERNAME#!</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="5.5">what did you do?!?!</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="8.5">oh god! my time comes!</AddIRCMessage>
+    <AddIRCMessage Author="SYSTEM" TargetComp="catesbyPC" Delay="9.8">-- CLIENT 52baef8e DISCONNECTED --</AddIRCMessage>
+    <LaunchHackScript Filepath="HackerScripts/CatesbyDetainment.txt" DelayHost="FAH" Delay="10" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+    <HideNode DelayHost="FAH" Delay="10" TargetComp="catesbyPC" />
+    <ChangeIP DelayHost="FAH" Delay="10" TargetComp="catesbyPC" NewIP="00000000" />
+    <ChangeIP DelayHost="FAH" Delay="10" TargetComp="baphHub" NewIP="00000000" /> <!-- ;) -->
+    <HideNode DelayHost="FAH" Delay="10" TargetComp="catesbyPuzzle1" />
+    <HideNode DelayHost="FAH" Delay="10" TargetComp="catesbyPuzzle2" />
+    <AddConditionalActions Filepath="Actions/FinaleActions/Ending1/DetainCatesbyMusicChange.xml" DelayHost="FAH" Delay="16"/>
+  </Instantly>
+</ConditionalActions>

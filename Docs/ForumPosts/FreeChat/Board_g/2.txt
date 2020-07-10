@@ -1,0 +1,18 @@
+n_gLore1
+------------------------------------------
+#Speech
+What was "the crash" that I keep hearing about?
+------------------------------------------
+>there are people who were born after the crash that can post here
+man i'm getting old
+------------------------------------------
+#Academic
+The Crash happened in mid-2017. One day devices just suddenly couldn't connect to websites over DNS. People keep blaming it on a hacker, some say it was a move by the government to construct the Network. Nobody really knows the true story.
+------------------------------------------
+>DNS
+What?
+------------------------------------------
+dns was a super old way to connect to shit on the internet without an "ip". basically think of how ezdresses resolve nids nowadays.
+------------------------------------------
+Oh, I see. Man, this isn't the stuff they teach you in school.
+------------------------------------------

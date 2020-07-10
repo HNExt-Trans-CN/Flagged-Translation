@@ -1,0 +1,57 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="MNC_tracekill">
+  <goals>
+    <goal type="hasflag" target="ransomKillswitchActivated"/>
+    <goal type="filechange" target="jmail" file="MedicalRecord_-_Nowak_Kacper" path="mail/accounts/dispatch/inbox" keyword="SENTINEL_agj340jyor" removal="true"/>
+    <goal type="fileupload" target="ransomVault" file="c2ypt3x_key.pgp" path="home/projects/C2YPT3X" destTarget="MNCDrop" destPath="ftp/Uploads"/>
+  </goals>
+
+  <missionStart>loadConditionalActions:Actions/MissionActions/MNC/TraceKillActions.xml</missionStart>
+  <missionEnd>loadConditionalActions:Actions/MissionActions/MNC/TraceKillFinish.xml</missionEnd>
+  <nextMission>Missions/GainHelpers/MNC_Gain_Helper.xml</nextMission>
+
+  <posting title="Dismantling Ransomware Ring" client="MNC" target="c2ypt3x">One of our operator terminals have been compromised by a piece of malware, believed to be associated to a ransomware operation propagating throughout the Network.</posting>
+
+  <email>
+    <sender>MNC Dispatch</sender>
+    <subject>Dismantling Ransomware Ring</subject>
+    <body>Thank you for your continued interest in the Operator program.
+
+One of our operator terminals have been compromised by a piece of malware, believed to be associated to a ransomware operation propagating throughout the Network, particularly within District 18.
+
+Your tasks are to locate a "point of origin" behind this ransomware attack. From there, your duties are three-fold:
+
+* Suppress the spread of the ransomware. Preliminary analysis of a sample suggests that there is a "killswitch" server which could cessate the spread if activated.
+
+* Obtain a copy of the master decryption key stored by the author. The keys will most likely be contained inside of a single PGP file. Download this file and upload it to our Asset Server (instructions on how to do so are on said server)
+
+* Uncover the identity of the ransomware author, then email a copy of their medical records to dispatch@mnc.gov
+
+Traffic pattern analysis has detected the presence of xDroid devices in relation to this case. Due to the severity of this issue, you have been pre-emptively equipped with a new tool that will aid in compromising xDroid devices: Tracekill.
+
+After compromising an xDroid device via porthack, activate the Tracekill program to suppress the device's passive trace, providing you with ample time to analyse the contents of the device in question. You may only have a few seconds in which to activate the trace suppression before a trace completes, so caution should be advised when compromising these devices. The Tracekill program works against other devices too, so feel free to use it to make your duties easier.
+
+In order to complete this task, you have received access to the trace suppression tool, Tracekill. This tool has now been made available to you on the Asset Server. We have also provided a link to the compromised operator terminal. You have been given permission to inspect it for the sake of carrying out your duties. You may also benefit from analysing the district assigned to you and its associated web forums or other such discussion hubs.
+
+Good luck, Operator!
+
+- MNC Dispatch
+</body>
+    <attachments>
+      <link comp="operator8terminal" />
+      <link comp="district18Dir" />
+      <note title="Assignment Goals">1. Locate the central source of the ransomware attack
+
+2. Find any killswitches for the ransomware and activate them
+
+3. Upload a copy of the master decryption key to the MNC Asset Server
+
+4. Send a copy of the ransomware author's medical records to dispatch@mnc.gov</note>
+      <note title="Hacking xDroid Devices">If port 211 is available, xDroid NIDs are logged in os-config.sys
+
+Compromise an xDroid device's SSH port, then execute porthack
+
+Activate tracekill once administrator rights are obtained (BE FAST; YOU ONLY HAVE A FEW SECONDS)</note>
+    </attachments>
+  </email>
+</mission>

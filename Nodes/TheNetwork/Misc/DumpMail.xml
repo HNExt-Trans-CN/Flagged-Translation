@@ -1,0 +1,82 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="dumpMail" name="DumpMail" security="5" type="3" ip="ab4464cb">
+
+  <ports>25, 80, 443</ports>
+  <portsForCrack val="5" />
+  <proxy time="-1" />
+  <firewall level="6" solution="abc123"/>
+  <admin type="progress"/>
+  <trace time="160" />
+
+  <!-- flavor/unhackable users below -->
+  <account username="a_bfa19l" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_phvq5g" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_on9sjf" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_9uyfc2" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+
+  <account username="a_isqvvq" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_80a7gn" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_lgeob8" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_8mqca3" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_p6kg7k" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_p581ij" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_gcs7r1" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_m1crei" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_5tk6d5" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_b8v84z" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_it51df" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_a22d6q" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_678u4z" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_xoeero" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_zr1974" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_hps9fr" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_rneoy2" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_k89rcv" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+  <account username="a_x8tyco" password="THIS_USER_IS_NOT_HACKABLE" type="mail" />
+
+  <!-- hackable users -->
+  <account username="a_gfy1dn" password="no1taz_crunch11" type="mail" />
+  <account username="a_w61pov" password="daganman_throwaway123" type="mail" />
+  <account username="a_wcleqw" password="whimpect_ladybug" type="mail" />
+  <account username="a_8pj2zv" password="en1gm4_k0ska" type="mail" />
+
+  <mailServer name="DumpMail" color="0,80,80">
+
+  	<email recipient="a_gfy1dn" sender="a_bfa19l" subject="hey man">saw what you wrote on ur website u seem like a pretty cool guy
+
+come meet me @ richard's tavern we'll get blazed outside, on me</email>
+
+    <email recipient="a_w61pov" sender="a_on9sjf" subject="RE: the good shit">;)
+hmu if you have more ETH
+
+## 6 ATTACHMENTS ##
+2094903733.png
+2094903738.png
+2094903745.png
+2094903768.png
+2094903799.png
+2094903810.png
+## END ATTACHMENTS ##
+</email>
+
+  <email recipient="a_wcleqw" sender="a_phvq5g" subject="RE: clock?">hey annie,
+
+oh clock is easy to find. go to 018bb6c5, u will need a file decrypter tool but it should literally just be there. no password or anything</email>
+
+  <email recipient="a_8pj2zv" sender="EXTERNAL_MSG" subject="hello??">i need to get my files back please!
+
+i have paid the credits, give me back my files! they were for an important meeting i need to turn up to tomorrow!</email>
+
+  <email recipient="a_8pj2zv" sender="EXTERNAL_MSG" subject="FUCK YOU">GIVE ME MY FILES BACK NOW</email>
+
+  <email recipient="a_8pj2zv" sender="EXTERNAL_MSG" subject="Welcome to the StarchLover mailing list!">Thank you so much for your interest in the StarchLover network!
+
+We are a small but dedicated community for people with sexual fetishes for starch! Be it corn starch, bread starch, or even out-there stuff like high fructose corn syrup, we can certainly satisfy your... slow-burn tastes ;)
+
+Expect more emails from us in the future!</email>
+
+  <email recipient="a_8pj2zv" sender="EXTERNAL_MSG" subject="RE: FUCK YOU">I'LL KEEP DOING THIS IF YOU DONT GIVE ME BACK THE FILES</email>
+
+  </mailServer>
+
+</Computer>

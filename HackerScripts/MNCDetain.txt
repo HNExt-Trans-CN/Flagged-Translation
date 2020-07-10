@@ -1,0 +1,17 @@
+config playerComp MNCEscapeFailure 0.1 $#%#$
+connect $#%#$
+flash $#%#$
+delete /sys * $#%#$
+delete /bin * $#%#$
+delete /home * $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+flash $#%#$
+delay 2.5 $#%#$
+hideRam $#%#$
+clearTerminal $#%#$
+flash $#%#$
+delay 3.5 $#%#$
+delete /sys * $#%#$
+disconnect $#%#$

@@ -1,0 +1,19 @@
+<mission id="CHEAT_spiderbenb" activeCheck="true">
+  <goals>
+
+  </goals>
+
+  <nextMission>NONE</nextMission>
+
+  <email>
+    <sender>CHAOS CLAN</sender>
+    <subject>-- CHEAT ACTIVATED: spiderbenb --</subject>
+    <body>WE KNOW WHAT YOU WANT. WE HAVE LOCATED THE TARGET.
+
+~ Z
+CHAOS CLAN</body>
+    <attachments>
+      <link comp="babyrage" />
+    </attachments>
+  </email>
+</mission>

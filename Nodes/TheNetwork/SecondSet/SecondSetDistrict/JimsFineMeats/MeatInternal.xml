@@ -1,0 +1,35 @@
+<Computer id="hotdogInternal" name="JIM'S FINE MEATS Internal Services" security="3" ip="03c40926" type="3" >
+  <ports>22, 25, 21, 9418, 1443</ports>
+  <portsForCrack val="3"/>
+  <firewall level="9" solution="DELICIOUS" additionalTime="-0.5"/>
+  <trace time="210"/>
+
+  <customthemefile path="home/designs" name="Meat_x-server_desporous.sys" themePath="Themes/MeatTheme.xml"/>
+  <customthemefile path="home/designs" name="Meat_x-server_hammel.sys" themePath="Themes/MeatClassicTheme.xml"/>
+
+  <file path="home/chatlogs" name="log_DESIGN_TEAM_0xdf4319_0001.txt">[zinkyzink] ugh dear god, wtf is this? {ATTACHMENT:Meat_x-server_version_1_FINAL.sys}
+[hammel] you said you wanted something with some flair and spice to it
+[zinkyzink] i mean, it is eye-catching sure. catches the eyes then incinerates them.
+[desporous] To be fair, x-servers are really tough to design, zink. It's hard to just whip something up in mere moments. It's a passion project.
+[desporous] I think I have some ideas of how to improve this though. Gimme a bit.</file>
+
+<file path="home/chatlogs" name="log_DESIGN_TEAM_0xdf4319_0002.txt">[desporous] Okay, what do you guys think? {ATTACHMENT:Meat_x-server.sys}
+[zinkyzink] it is better color wise, but god that layout makes me want to barf
+[zinkyzink] its honestly even worse than hammel's layout
+[desporous] Different strokes for different folks, zink. Besides, I think it's gonna make us stand out a bit more.
+[desporous] People are bored of the standard layout. We want something that screams "MEATS!" -- and this nails it.</file>
+
+<file path="home/chatlogs" name="log_DESIGN_TEAM_0xdf4319_0003.txt">[bxshy] ok I did some A/B testing on these designs and only like 50% of the focus group like *either* of them.
+[bxshy] it was split roughly down the middle actually. i'm not sure how many votes were ironic or whatever.
+[bxshy] a lot of them said actually that hammel's design was "more inline" with what they expected out of us. "looks just like the meat tastes" or something.
+[hammel] the yellow is mustard, the red is ketchup :)
+[desporous] did people really like it that much?
+[bxshy] apparently
+[bxshy] for the public server I think we should still just use desporous' design cuz it's easier to read text on it. we will stick with that for now
+[zinkyzink] seems like a non-zero chance that this entire endeavour has been a giant waste of time
+[bxshy] yeah. we still get paid regardless so whatever lol
+[bxshy] fuckin' hotdogs, man.</file>
+
+  <LogoCustomConnectDisplayDaemon logo="Media/hotdog.png" title="Media/jfm_txt.png" overdrawLogo="false" buttonAlignment="left" />
+
+</Computer>

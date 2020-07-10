@@ -1,0 +1,17 @@
+<ConditionalActions>
+
+  <HasFlags requiredFlags="sequencerUnlocked,SEQUENCER_SPINUP,catesbyEscape">
+    <RunFunction FunctionName="playCustomSong:Music/snidleyWhiplash_remix.ogg" />
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="2">you have chosen wisely, "operator".</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="5.5">good luck.</AddIRCMessage>
+  </HasFlags>
+
+  <HasFlags requiredFlags="sequencerUnlocked,SEQUENCER_SPINUP,SEQUENCER_EXE_ACTIVE,catesbyEscape">
+    <StartScreenBleedEffect AlertTitle="ESCAPE THE NETWORK" CompleteAction="Actions/FinaleActions/BEnding/EscapeFailure.xml" TotalDurationSeconds="192" DelayHost="FAH" Delay="0">1. Hack Operator Terminal 6
+2. Break into the linked encapsulation node
+3. Breach the bridge and follow it to FREEDOM!</StartScreenBleedEffect>
+    <AddConditionalActions Filepath="Actions/FinaleActions/Ending2/EscapeSuccess.xml" DelayHost="FAH" Delay="0"/>
+    <SwitchToTheme ThemePathOrName="Themes/DragonTheme.xml" FlickerInDuration="1.0" DelayHost="FAH" Delay="0" />
+  </HasFlags>
+
+</ConditionalActions>

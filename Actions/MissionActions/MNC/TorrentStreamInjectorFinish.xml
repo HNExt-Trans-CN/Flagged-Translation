@@ -1,0 +1,28 @@
+<ConditionalActions>
+
+  <HasFlags requiredFlags="detainmentsActive">
+    <AddIRCMessage Author="JaySon" TargetComp="torrentTracker" Delay="3">Umm...?</AddIRCMessage>
+    <HideNode DelayHost="FAH" Delay="6" TargetComp="torrentPC2" />
+    <ChangeIP DelayHost="FAH" Delay="6" TargetComp="torrentPC2" NewIP="00000000" />
+    <AddIRCMessage Author="SYSTEM" TargetComp="torrentTracker" Delay="6">-- CLIENT b0ff3c24 DISCONNECTED --</AddIRCMessage>
+    <AddIRCMessage Author="JaySon" TargetComp="torrentTracker" Delay="8">What happened to the pres?</AddIRCMessage>#
+    <HideNode DelayHost="FAH" Delay="14" TargetComp="torrentPC3" />
+    <ChangeIP DelayHost="FAH" Delay="14" TargetComp="torrentPC3" NewIP="00000000" />
+    <AddIRCMessage Author="SYSTEM" TargetComp="torrentTracker" Delay="14">-- CLIENT e5c7613e DISCONNECTED --</AddIRCMessage>
+    <AddIRCMessage Author="JaySon" TargetComp="torrentTracker" Delay="20">Guys?</AddIRCMessage>
+    <HideNode DelayHost="FAH" Delay="28" TargetComp="torrentPC1" />
+    <ChangeIP DelayHost="FAH" Delay="28" TargetComp="torrentPC1" NewIP="00000000" />
+    <AddIRCMessage Author="SYSTEM" TargetComp="torrentTracker" Delay="28">-- CLIENT 812ddf7a DISCONNECTED --</AddIRCMessage>
+    <AddIRCMessage Author="SYSTEM" TargetComp="torrentTracker" Delay="30">-- SYSTEM SHUTTING DOWN IN 30 SECONDS --</AddIRCMessage>
+    <AddIRCMessage Author="SYSTEM" TargetComp="torrentTracker" Delay="50">-- SYSTEM SHUTTING DOWN IN 10 SECONDS --</AddIRCMessage>
+    <AddIRCMessage Author="SYSTEM" TargetComp="torrentTracker" Delay="55">-- SYSTEM SHUTTING DOWN IN 5 SECONDS --</AddIRCMessage>
+    <HideNode DelayHost="FAH" Delay="60" TargetComp="torrentTracker" />
+    <ChangeIP DelayHost="FAH" Delay="60" TargetComp="torrentTracker" NewIP="00000000" />
+    <HideNode DelayHost="FAH" Delay="60" TargetComp="torrentTopsite" />
+    <ChangeIP DelayHost="FAH" Delay="60" TargetComp="torrentTopsite" NewIP="00000000" />
+    <AddIRCMessage Author="vain_lane" TargetComp="torrentDisabled" Delay="68">So I'm guessing we've just been left here, huh?</AddIRCMessage>
+    <AddIRCMessage Author="othromend" TargetComp="torrentDisabled" Delay="88">yup</AddIRCMessage>
+    <AddIRCMessage Author="vain_lane" TargetComp="torrentDisabled" Delay="100">Fucking admins need to get off their lazy asses already</AddIRCMessage>
+  </HasFlags>
+
+</ConditionalActions>

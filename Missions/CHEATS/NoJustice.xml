@@ -1,0 +1,21 @@
+<mission id="CHEAT_NoJustice" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+    <goal type="filechange" target="fileHammerspace" file="PlayerName" path="home" keyword="NoJustice"/>
+  </goals>
+
+  <nextMission>Missions/CHEATS/NoJustice_2.xml</nextMission>
+
+  <email>
+    <sender>CHAOS CLAN</sender>
+    <subject>-- CHEAT ACTIVATED: NoJustice --</subject>
+    <body>YOUR NAME WEAKENS THE MNC'S MORALE.
+
+THEIR ATTEMPTS AT "JUSTICE" SHALL FALL FLAT.
+
+~ Z
+CHAOS CLAN</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

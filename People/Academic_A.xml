@@ -1,0 +1,16 @@
+<Person id="Academic_A" handle="canceldude" firstName="Sean" lastName="Aronson" isMale="true">
+  <Birthplace name="Dayton, Ohio, USA" />
+  <DOB>09/06/2018 07:00:00</DOB>
+
+  <Degrees>
+    <Degree uni="Ohio State University" gpa="2.7">Bachelor of Engineering</Degree>
+  </Degrees>
+
+  <Medical>
+    <Blood>B</Blood>
+    <Height>171</Height>
+    <Allergies>None</Allergies>
+  </Medical>
+
+  <Notes>A junk person file that is cheating on their university course</Notes>
+</Person>

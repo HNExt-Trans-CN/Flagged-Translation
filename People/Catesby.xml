@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="Catesby" handle="pngrfol" firstName="Brooke" lastName="Catesby" isMale="true">
+  <Birthplace name="London, UK" />
+  <DOB>24/04/2000 16:00:00</DOB>
+
+  <Degrees>
+    <Degree uni="University of Oxford" gpa="3.9">Bachelor of Computer Science</Degree>
+    <Degree uni="University of Oxford" gpa="3.8">Masters in Computer Science</Degree>
+  </Degrees>
+
+  <Medical>
+    <Blood>A</Blood>
+    <Height>184</Height>
+    <Allergies>None</Allergies>
+    <Notes>CITIZEN HAS BEEN FLAGGED: [REASON REMOVED]</Notes>
+  </Medical>
+
+  <Notes>Baphomet member. Leads the player out of The Network by leading them on a puzzle-filled wild goose chase.</Notes>
+</Person>

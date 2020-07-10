@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="MNC_academic">
+  <goals>
+    <goal type="wipedegrees" owner="Dave Tucker"/>
+    <goal type="wipedegrees" owner="Georgia McFarlane"/>
+    <goal type="wipedegrees" owner="Joseph Damon"/>
+  </goals>
+
+  <missionStart>loadConditionalActions:Actions/MissionActions/MNC/AcademicActions.xml</missionStart>
+  <missionEnd>loadConditionalActions:Actions/MissionActions/MNC/AcademicFinish.xml</missionEnd>
+  <nextMission>Missions/GainHelpers/MNC_Gain_Helper.xml</nextMission>
+
+  <posting title="Correcting Academic Dishonesty" client="MNC" target="Ellington University">A university has voiced suspicions of some of its students partaking in academic dishonesty. An Operator is required to investigate and amend academic records.</posting>
+
+  <email>
+    <sender>MNC Dispatch</sender>
+    <subject>Academic Dishonesty</subject>
+    <body>Thank you for your continued interest in the Operator program.
+
+We have been contacted by Ellington University due to their recent suspicions of multiple students having committed academic dishonesty. They believe that an "essay mill" service is being used by these students to submit work that is not their own, but rather commissioned by this service.
+
+This constitutes gross academic misconduct. Due to our control over the Network Academic Database, it is our duty to investigate this matter, determine the students engaging in this activity -- if any -- then expunge their degrees from the academic record.
+
+In order to complete this task, you have received temporary write-access credentials for the Network Academic Database, which you can use to correct the records of suspected cheaters. Remember that you now also have access to the public directory for District 18, which should contain useful information and targets. Unlike the medical database, a suspect's forename is sufficient to perform a successful search, however a surname will assist in reducing the search space.
+
+Good luck, Operator!
+
+- MNC Dispatch
+</body>
+    <attachments>
+      <link comp="academic" />
+      <account comp="academic" user="admin" pass="OPERATOR_27_temppass" />
+      <link comp="district18Dir" />
+      <note title="Assignment Goals">1. Access the Ellington University network
+
+2. Determine students who have cheated on their degrees
+
+3. Wipe the degrees from offending students</note>
+    </attachments>
+  </email>
+</mission>

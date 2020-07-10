@@ -1,0 +1,21 @@
+<mission id="CHEAT_NoJustice" activeCheck="true">
+  <goals>
+
+  </goals>
+
+  <nextMission>NONE</nextMission>
+
+  <email>
+    <sender>CHAOS CLAN</sender>
+    <subject>-- CHEAT ACTIVATED: NoJustice --</subject>
+    <body>YOUR NAME WEAKENS THE MNC'S MORALE.
+
+THEIR ATTEMPTS AT "JUSTICE" SHALL FALL FLAT.
+
+~ Z
+CHAOS CLAN</body>
+    <attachments>
+      <link comp="nojusticeComp"/>
+    </attachments>
+  </email>
+</mission>

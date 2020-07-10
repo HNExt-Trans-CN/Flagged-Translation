@@ -1,0 +1,82 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="babyrage"
+          name="ScorpionRobb's Powerhouse"
+          ip="bab12a9e"
+          security="0"
+          icon="laptop"
+          type="2" >
+  <adminPass pass="admin" />
+
+  <ports>6881, 22, 21</ports>
+  <proxy time="-1" />
+  <portsForCrack val="0" />
+
+  <firewall level="12" solution="themechanger" additionalTime="-99" />
+
+  <trace time="-1" />
+  <admin type="none" />
+
+  <file path="home" name="journal.txt">* Acquire themechanger
+
+* Start enjoying extensions</file>
+
+<file path="home" name="INFO.TXT">THIS ONE ENJOYS THEMES
+
+HE DOES NOT ENJOY HAVING TO CHANGE THEMES MANUALLY
+
+THE SOUNDS OF THROAT NOISES ACROSS THE DATASTREAM SHALL NOW BECOME ONES OF JOY
+
+- Devin Chat, aka "g"
+CHAOS CLAN</file>
+
+<!--<file path="home" name="gnome.png">
+⣿⣿⣿⣿⣿⠟⠉⠁⠄⠄⠄⠈⠙⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⠏⠄⠄⠄⠄⠄⠄⠄⠄⠄⠸⢿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣏⠄⡠⡤⡤⡤⡤⡤⡤⡠⡤⡤⣸⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣗⢝⢮⢯⡺⣕⢡⡑⡕⡍⣘⢮⢿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⡧⣝⢮⡪⡪⡪⡎⡎⡮⡲⣱⣻⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⠟⠁⢸⡳⡽⣝⢝⢌⢣⢃⡯⣗⢿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⠟⠁⠄⠄⠄⠹⡽⣺⢽⢽⢵⣻⢮⢯⠟⠿⠿⢿⣿⣿⣿⣿⣿
+⡟⢀⠄⠄⠄⠄⠄⠙⠽⠽⡽⣽⣺⢽⠝⠄⠄⢰⢸⢝⠽⣙⢝⢿
+⡄⢸⢹⢸⢱⢘⠄⠄⠄⠄⠄⠈⠄⠄⠄⣀⠄⠄⣵⣧⣫⣶⣜⣾
+⣧⣬⣺⠸⡒⠬⡨⠄⠄⠄⠄⠄⠄⠄⣰⣿⣿⣿⣿⣿⣷⣽⣿⣿
+⣿⣿⣿⣷⠡⠑⠂⠄⠄⠄⠄⠄⠄⠄⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣄⠠⢀⢀⢀⡀⡀⠠⢀⢲⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⢐⢀⠂⢄⠇⠠⠈⠄⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣧⠄⠠⠈⢈⡄⠄⢁⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⡀⠠⠐⣼⠇⠄⡀⠸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣯⠄⠄⡀⠈⠂⣀⠄⢀⠄⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣶⣄⣀⠐⢀⣸⣷⣶⣶⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿</file>-->
+
+  <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <file path="bin" name="fh.exe">#SECURITYTRACER_PROGRAM#</file>
+  <file path="bin" name="ra.exe">#SECURITYTRACER_PROGRAM#</file>
+
+  <customthemefile path="home" name="Canada_x-server.sys" themePath="Themes/CanadaTheme.xml"/>
+  <customthemefile path="sys" name="Canada_x-server.sys" themePath="Themes/CanadaTheme.xml"/>
+
+  <Memory>
+   <Commands>
+      <Command>themechanger.exe</Command>
+      <Command>themechanger.exe</Command>
+      <Command>themechanger.exe</Command>
+      <Command>themechanger.exe</Command>
+      <Command>themechanger.exe</Command>
+      <Command>themechanger.exe</Command>
+      <Command>themechanger.exe</Command>
+      <Command>themechanger.exe</Command>
+      <Command>themechanger.exe</Command>
+      <Command>themechanger.exe</Command>
+      <Command>themechanger.exe</Command>
+      <Command>themechanger.exe</Command>
+   </Commands>
+   <Data>
+   </Data>
+   <Images>
+     <Image>Media/Flavor/rare/rare_meme1.png</Image>
+     <Image>Media/Flavor/rare/rare_meme2.jpg</Image>
+     <Image>Media/Flavor/meme2.jpg</Image>
+   </Images>
+  </Memory>
+
+</Computer>

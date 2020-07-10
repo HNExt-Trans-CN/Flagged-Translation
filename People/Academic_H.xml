@@ -1,0 +1,16 @@
+<Person id="Academic_H" handle="ummzmumm" firstName="Tyrone" lastName="Vaughn" isMale="true">
+  <Birthplace name="Flagstaff, Arizona, USA" />
+  <DOB>04/05/2019 11:00:00</DOB>
+
+  <Degrees>
+    <Degree uni="Arizona State University" gpa="2.8">Bachelor of Anthropology</Degree>
+  </Degrees>
+
+  <Medical>
+    <Blood>O</Blood>
+    <Height>170</Height>
+    <Allergies>None</Allergies>
+  </Medical>
+
+  <Notes>A junk person file that is cheating on their university course</Notes>
+</Person>

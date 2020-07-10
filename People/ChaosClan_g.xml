@@ -1,0 +1,11 @@
+<Person id="chaosclan_g" handle="cc_g" firstName="Devin" lastName="Chat" isMale="true">
+  <Birthplace name="Chesapeake, Maryland, USA" />
+  <DOB>11/03/1999 08:00</DOB>
+  <Degrees>
+  </Degrees>
+  <Medical>
+    <Blood>O</Blood>
+    <Height>174</Height>
+  </Medical>
+  <Notes>"g" of the Chaos Clan. Dumb joke</Notes>
+</Person>

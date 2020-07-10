@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MNCTestServer" name="MNC Test Environment" security="0" ip="16890b04" type="3" >
+
+  <ports>22</ports>
+
+  <proxy time="-1" />
+  <portsForCrack val="1" />
+  <firewall level="-1" />
+  <admin type="none"/>
+
+	<file path="home/induction" name="MNC_test_file.dll">#SECURITYTRACER_PROGRAM#</file>
+
+	<file path="home" name="OPS_MAKE_UR_MARK.txt">GUYS WE NEED TO MAKE SURE THAT WE LEAVE OUR MARK HERE FOR OTHER OPERATORS LIKE US
+I WILL START GO TO STUFF DIRECTORY BYE</file>
+
+	<file path="home/STUFF" name="3.txt">Well I suppose I might as well.
+Good luck Operator, hack the planet and all that jazz.</file>
+
+	<file path="home/STUFF" name="5.txt">I'm rad, bad and glad to be performing this duty!</file>
+
+	<file path="home/STUFF" name="6.txt">free yourself from your chains. i will be waiting. ~ c</file>
+
+	<file path="home/STUFF" name="9.txt">Idk about this what if the mnc get angry when we mess up the server?
+mnc if ur reading sorry!!</file>
+
+	<file path="home/STUFF" name="14_MYMARK.txt">OKAY THIS IS MY MARK NOBOYD EDIT IT I WILL KNOW BYE</file>
+
+	<file path="home/STUFF" name="17.nfo">== OPERATOR 17 ==
+PROUDLY PRESENTS
+...
+one hacked SSH server!
+
+Looking for: competition! ;)</file>
+
+	<file path="home/STUFF" name="21.txt">hack the planet!</file>
+
+</Computer>

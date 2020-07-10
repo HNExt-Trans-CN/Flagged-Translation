@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="mattComp" name="M. Trobbiani's Rig" security="2" ip="02ff01a6" type="2">
+	<portsForCrack val="0" />
+	<ports>1433</ports>
+	<proxy time="50"/>
+
+  <file path="home" name="README.txt">OUR APOLOGIES, FRIEND.
+
+"YOU KNOW WE HAD TO DO IT TO EM'", SAYS ONE OF OUR APOSTLES.
+
+~ V
+CHAOS CLAN</file>
+
+	<file path="home/projects/bodyhuggingslam" name="WD_buildscript.bat">#BINARYSMALL#</file>
+	<file path="home/projects/bodyhuggingslam" name="main.cs">#BINARY#</file>
+	<file path="home/projects/bodyhuggingslam" name="other_chars.dat">#BINARY#</file>
+	<file path="home/projects/bodyhuggingslam" name="announcer_1.dat">Just announcer_1.</file>
+	<file path="home/projects/bodyhuggingslam" name="stage_render.cs">#BINARY#</file>
+	<file path="home/projects/bodyhuggingslam" name="jiggle_physics.cs">#BINARY#</file>
+	<file path="home/projects/bodyhuggingslam/presskit" name="bodyhuggingslam_banner.png">#BINARYSMALL#</file>
+	<file path="home/projects/bodyhuggingslam/presskit" name="bodyhuggingslam_trailer.mp4">#BINARY#</file>
+	<file path="home/projects/bodyhuggingslam/commmunity_seeding_posts" name="INFO.txt">Use these files to seed the new community. We've got a big following already from the Cracknet community but idk if they'd really be that interested in this kind of game. This is my "Plan B" of sorts.</file>
+	<file path="home/projects/bodyhuggingslam/commmunity_seeding_posts" name="forumpost_list.txt">Anybody like this game? (YES)
+
+Game worth it in the 30s? (NO)
+
+Is the online dead? (NO)
+
+Is the dev just making their own accounts to make these forum posts? (NO)
+
+Does psyop marketing work? (YES?)</file>
+	<file path="home/projects/bodyhuggingslam/commmunity_seeding_posts" name="xxx_bodyhuggingslam_commission_by_REDACTED_1.png">#BINARY#</file>
+	<file path="home/projects/bodyhuggingslam/commmunity_seeding_posts" name="xxx_bodyhuggingslam_commission_by_REDACTED_2.png">#BINARY#</file>
+	<file path="home/projects/bodyhuggingslam/commmunity_seeding_posts" name="xxx_bodyhuggingslam_commission_by_REDACTED_3.png">#BINARY#</file>
+	<file path="home/projects/bodyhuggingslam/commmunity_seeding_posts" name="metawhiner_breached_logins.crktbl">#BINARY##BINARY##BINARY#</file>
+
+  <customthemefile path="home" name="Matt_x-server.sys" themePath="Themes/MattTheme.xml"/>
+	<customthemefile path="sys" name="Matt_x-server.sys" themePath="Themes/MattTheme.xml"/>
+
+	<file path="bin" name="info.txt">ok these are actually cheats dont use them if u dont want to lol
+
+~ t
+chaos clan</file>
+
+  <file path="bin" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
+  <file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+  <file path="bin" name="DNotes.exe">#NOTES_DUMPER_EXE#</file>
+	<file path="bin" name="Cracknet.exe">#HACKNET_EXE#</file>
+
+</Computer>

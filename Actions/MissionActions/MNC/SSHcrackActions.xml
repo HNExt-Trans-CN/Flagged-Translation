@@ -1,0 +1,7 @@
+<ConditionalActions>
+  
+  <Instantly>
+	<CopyAsset DestFilePath="bin" DestComp="MNCDrop" SourceComp="funRuiner" SourceFileName="SSHCrack.exe" SourceFilePath="bin" />
+  </Instantly>
+
+</ConditionalActions>

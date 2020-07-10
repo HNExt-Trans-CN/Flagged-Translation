@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="MNC_Web">
+  <goals>
+	<!-- "unpatched exploits" -> "dangerous people" -->
+	<goal type="filechange" target="MNCDebunked" file="index.html" path="web" keyword="unpatched exploits" removal="true" caseSensitive="true" />
+	<goal type="filechange" target="MNCDebunked" file="index.html" path="web" keyword="dangerous people" caseSensetive="true" />
+	<!-- "misinformation" -> "information" -->
+	<goal type="filechange" target="MNCDebunked" file="index.html" path="web" keyword="mis" removal="true" caseSensitive="true" />
+	<goal type="filechange" target="MNCDebunked" file="index.html" path="web" keyword="information" caseSensetive="true" />
+	<!-- "kicked off" -> "content" -->
+	<goal type="filechange" target="MNCDebunked" file="index.html" path="web" keyword="kicked off" removal="true" caseSensitive="true" />
+	<goal type="filechange" target="MNCDebunked" file="index.html" path="web" keyword="content" caseSensetive="true" />
+	<!-- "backdoor access" -> "laziness" -->
+	<goal type="filechange" target="MNCDebunked" file="index.html" path="web" keyword="backdoor access" removal="true" caseSensitive="true" />
+	<goal type="filechange" target="MNCDebunked" file="index.html" path="web" keyword="laziness" caseSensetive="true" />
+	<!-- "dispatch" -> "MNC" -->
+	<goal type="filechange" target="MNCDebunked" file="index.html" path="web" keyword="dispatch" removal="true" caseSensitive="true" />
+	<goal type="filechange" target="MNCDebunked" file="index.html" path="web" keyword="MNC" caseSensetive="true" />
+  </goals>
+
+  <missionStart>loadConditionalActions:Actions/MissionActions/MNC/WebServerWormActions.xml</missionStart>
+
+  <nextMission>Missions/GainHelpers/MNC_Gain_Helper.xml</nextMission>
+
+  <branchMissions>
+   <branch>Missions/MNCFirstSet/WebServerWorm_Fail.xml</branch>
+  </branchMissions>
+
+  <posting title="Correcting Misinfo Webpage" client="MNC" target="THETA_VPS_154082">A webpage containing misinformation targeted towards the MNC has been discovered. The offending content must be removed.</posting>
+
+  <email>
+    <sender>MNC Dispatch</sender>
+    <subject>Correcting Misinfo Webpage</subject>
+    <body>Thank you for your continued interest in the Operator program.
+
+Our automated scraping system has flagged a suspicious website which requires manual investigation.
+
+Your task will be to erase any misinformation about the MNC or information that violates the operational security of the Operator program from the website by replacing it with alternative content. For further information, please refer to the included note.
+
+In order to replace the contents of files, you must have write permissions on the node containing the file (which often requires administrative rights) -- from there, the "replace" command can be used. Provide the file name, a target string (quotes can be used for strings with spaces) and the string to replace it with.
+
+To accomplish your task, you will be given access to the WebServerWorm tool capable of exploiting a variety of vulnerabilities in all common HTTP servers.
+
+Good luck, Operator!
+
+- MNC Dispatch
+</body>
+    <attachments>
+	  <link comp="MNCDebunked" />
+	  <note title="Replacements">unpatched exploits: dangerous people
+misinformation: information
+kicked off: content
+backdoor access: laziness
+dispatch: MNC
+	  </note>
+    </attachments>
+  </email>
+</mission>

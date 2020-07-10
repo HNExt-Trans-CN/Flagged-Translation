@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MNCHub" name="MNC Assignment Hub" security="5" allowsDefaultBootModule="true" ip="845a2b4f" type="1">
+
+  <ports>80, 443, 554</ports>
+
+  <proxy time="3" />
+  <portsForCrack val="3" />
+  <admin type="progress"/>
+  <firewall level="8" solution="synergize" />
+
+  <account username="27" password="changeme" type="3" />
+
+  <dlink target="MNCDrop" />
+  <dlink target="jmail" />
+
+  <missionHubServer groupName="MNC" serviceName="MNC Assignment Hub" missionFolderPath="Missions/MNCIntroSet" themeColor="132, 100, 161" lineColor="116, 60, 181" backgroundColor="20,20,20" allowAbandon="false"/>
+</Computer>

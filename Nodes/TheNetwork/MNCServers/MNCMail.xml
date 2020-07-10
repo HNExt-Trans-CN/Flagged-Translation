@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="jmail" name="MNC Operator Mail Service" security="3" ip="49b53e73" type="3">
+
+	<ports>80, 443, 25, 554</ports>
+
+  <proxy time="1.5" />
+  <portsForCrack val="4" />
+  <admin type="progress"/>
+  <firewall level="6" solution="inform" />
+
+	<account username="#PLAYERNAME#" password="ragnarox" type="mail" />
+	<account username="dispatch" password="9btH255Xy4vktEePTpXswo4SRBMVHJMV" type="mail" />
+	<account username="HACKER_KING_14" password="HACKING" type="mail" />
+
+	<mailServer name="MNC Operator" color="132, 100, 161">
+	</mailServer>
+
+	<dlink target="MNCHub" />
+
+	<positionNear target="MNCHub" position="2" total="6" extraDistance="-0.2"/>
+</Computer>

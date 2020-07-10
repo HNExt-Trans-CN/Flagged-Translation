@@ -1,0 +1,5 @@
+<ConditionalActions>
+  <Instantly>
+    <LaunchHackScript Filepath="HackerScripts/ChangeAcadPass.txt" DelayHost="FAH" Delay="0" SourceComp="MNCHacker" TargetComp="academic" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+  </Instantly>
+</ConditionalActions>

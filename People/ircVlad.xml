@@ -1,0 +1,12 @@
+<Person id="tracekill_vlad" handle="rad_vlad" firstName="Vladimir" lastName="Medvedev" isMale="true">
+  <Birthplace name="St. Petersburg, Russia" />
+  <DOB>04/06/2000 08:00</DOB>
+  <Degrees>
+  </Degrees>
+  <Medical>
+    <Blood>O</Blood>
+    <Height>179</Height>
+  </Medical>
+
+  <Notes>A member of en1gm4's IRC. Obsessively takes notes of the IRC logs and has a contempt for Kacper that is expressed by most of the other participants.</Notes>
+</Person>

@@ -1,0 +1,61 @@
+<CustomFaction name="MNC" id="mnc" playerVal="0">
+
+  <Action ValueRequired="1">
+  	<AddMissionToHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/MNCFirstSet/WebServerWorm.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/MNCFirstSet/TorrentStreamInjector.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/MNCFirstSet/SMTPoverflow.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+  </Action>
+
+  <Action ValueRequired="2">
+    <RunFunction FunctionName="changeSong" FunctionValue="4" />
+    <RemoveMissionFromHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+  </Action>
+
+  <Action ValueRequired="4">
+    <RemoveMissionFromHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <RemoveMissionFromHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <RemoveMissionFromHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <RemoveMissionFromHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <RemoveMissionFromHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <RemoveMissionFromHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <RunFunction FunctionName="playCustomSong:Music/MyNameIsSnacks.ogg" />
+    <AddMissionToHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/MNCSecondSet/eOSIntro.xml" TargetComp="MNCHub" />
+  </Action>
+
+  <Action ValueRequired="5">
+    <RunFunction FunctionName="playCustomSong:Music/Salmiak.ogg" />
+    <RemoveMissionFromHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <RemoveMissionFromHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/MNCSecondSet/AcademicDatabase.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/MNCSecondSet/MemForensics.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+  </Action>
+
+  <Action ValueRequired="7">
+    <RunFunction FunctionName="playCustomSong:Music/Home.ogg" />
+    <AddMissionToHubServer MissionFilepath="Missions/MNCSecondSet/TraceKill.xml" TargetComp="MNCHub" />
+  </Action>
+
+  <Action ValueRequired="8">
+    <RemoveMissionFromHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <RemoveMissionFromHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <RemoveMissionFromHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <RemoveMissionFromHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <RemoveMissionFromHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <RemoveMissionFromHubServer MissionFilepath="Missions/Noise/MNCNoise.xml" TargetComp="MNCHub" />
+    <AddMissionToHubServer MissionFilepath="Missions/MNCEndSet/KillingTheHydra.xml" TargetComp="MNCHub" />
+  </Action>
+
+</CustomFaction>

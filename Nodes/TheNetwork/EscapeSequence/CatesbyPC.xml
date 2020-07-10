@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="catesbyPC"
+          name="Catesby's PlotBook"
+          ip="52baef8e"
+          security="1"
+          icon="laptop"
+          allowsDefaultBootModule="true"
+          type="2" >
+
+  <ports>80, 443, 6881</ports>
+  <portRemap>6881=1605</portRemap>
+
+  <adminPass pass="FreedomDiesInSilence"/>
+
+  <portsForCrack val="3" />
+  <proxy time="5" />
+  <firewall level="8" solution="gunpowder" additionalTime="0.2"/>
+  <trace time="200"/>
+  <admin type="none"/>
+
+  <file path="home/gift" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+  <file path="home/gift" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <customthemefile path="home/gift" name="Dragon_x-server.sys" themePath="Themes/DragonTheme.xml"/>
+
+  <file path="bin/IMPORTANT" name="RTSPIgnite.exe">#RTSP_EXE#</file>
+  <file path="bin/when_youre_ready" name="Sequencer.exe">#EXT_SEQUENCER_EXE#</file>
+
+  <file path="bin/tools" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin/tools" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin/tools" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin/tools" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin/tools" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="bin/tools" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+  <file path="bin/tools" name="Tracekill.exe">#TRACEKILL_EXE#</file>
+  <file path="bin/tools" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  <file path="bin/tools" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+  <file path="bin/tools" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+
+
+  <account username="SYSTEM" password="paynoattentiontotheunhackableaccountsbehindthecurtain" type="2" />
+  <account username="catesby" password="paynoattentiontotheunhackableaccountsbehindthecurtain" type="2" />
+  <account username="friend" password="FreedomDiesInSilence" type="0" />
+
+  <IRCDaemon themeColor="190, 10, 10" name="The Plot" needsLogin="true">
+    <user name="SYSTEM" color="145,145,145"/>
+    <user name="catesby" color="255, 0, 0"/>
+    <user name="friend" color="145,145,145"/>
+  </IRCDaemon>
+
+</Computer>

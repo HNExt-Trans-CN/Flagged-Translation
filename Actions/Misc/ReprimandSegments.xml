@@ -1,0 +1,25 @@
+<ConditionalActions>
+  <HasFlags requiredFlags="citation3,CITATION_ACTIVE">
+    <RunFunction FunctionName="removeFlags:CITATION_ACTIVE,citation3" />
+    <RunFunction FunctionName="addFlags:FIRED" />
+    <AddConditionalActions Filepath="Actions/FinaleActions/BEnding/TooManyCitations.xml" DelayHost="FAH" Delay="0"/>
+  </HasFlags>
+
+  <HasFlags requiredFlags="citation2,CITATION_ACTIVE">
+    <RunFunction FunctionName="removeFlags:CITATION_ACTIVE,citation2" />
+    <RunFunction FunctionName="addFlags:citation3" />
+    <LaunchHackScript Filepath="HackerScripts/MNCReprimand2.txt" DelayHost="FAH" Delay="5.5" SourceComp="MNCHacker" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+  </HasFlags>
+
+  <HasFlags requiredFlags="citation1,CITATION_ACTIVE">
+    <RunFunction FunctionName="removeFlags:CITATION_ACTIVE,citation1" />
+    <RunFunction FunctionName="addFlags:citation2" />
+    <LaunchHackScript Filepath="HackerScripts/MNCReprimand1.txt" DelayHost="FAH" Delay="5.5" SourceComp="MNCHacker" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+  </HasFlags>
+
+  <HasFlags requiredFlags="citation0,CITATION_ACTIVE">
+    <RunFunction FunctionName="removeFlags:CITATION_ACTIVE,citation0" />
+    <RunFunction FunctionName="addFlags:citation1" />
+    <LaunchHackScript Filepath="HackerScripts/MNCReprimand0.txt" DelayHost="FAH" Delay="5.5" SourceComp="MNCHacker" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+  </HasFlags>
+</ConditionalActions>

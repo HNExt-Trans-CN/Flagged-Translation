@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="civilian1XDroid" name="Kyle's xDroid" icon="ePhone" ip="af4c4924" type="empty" >
+  <portsForCrack val="1" />
+  <ports>211, 22</ports>
+
+  <admin type="fast" resetPassword="true" isSuper="true"/>
+  <trace time="22"/>
+
+  <file path="xdroid/apps" name="01378aab40.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="1cc53b61b9.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="62583c07de.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="e8b5a93c9a.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="0da88afc7a.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="abf06159b8.apk">#BINARYSMALL#</file>
+  <file path="xdroid/mail/drafts" name="unsaved_draft_001.txt">KACPER, YOU MOTHERFUCKER
+
+WHAT DID YOU FUCKING DO TO MY COMPUTER YOU DAFT CUNT???
+DO YOU UNDERSTAND WHAT FUCKING DATA I HAD ON IT????
+OF COURSE NOT YOU GODDAMNED BRAINLET
+
+EXPECT ME, BITCH.</file>
+<file path="xdroid/mail/drafts" name="unsaved_draft_002.txt">Mr. Nowak,
+
+This is Kyle's mother. We are disgusted by what you have done. You should offer an immediate apology to our son and give him his files back or we will be alerting the Municipal Network Committee about your actions.
+
+I work at a law firm, so we know how to litigate! We are giving you 48 hours.
+
+~ Sarah Brooks</file>
+  <file path="xdroid/mail" name="saintkyle@blackmail.com.act">MAIL ACCOUNT: saintkyle@blackmail.com
+Account  : saintkyle@blackmail.com
+Password : siberia11
+Last Sync : 1 DAY AGO
+
+[ ERR ] Unable to sync with device "Kyle's Workstation"
+[ INF ] Sync cancelled, 2 drafts saved
+
+#BINARYSMALL#</file>
+
+  <file path="xdroid/system" name="core.sys">#BINARYSMALL#</file>
+  <file path="xdroid/system" name="runtime.bin">#BINARYSMALL#</file>
+
+  <dlink target="civilian1Home"/>
+</Computer>

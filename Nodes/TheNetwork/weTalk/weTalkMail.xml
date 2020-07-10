@@ -1,0 +1,23 @@
+<Computer id="wtMail" name="weTalk Mail Server" security="5" type="3" ip="f582ec5c">
+
+  <ports>25, 80, 443</ports>
+  <portsForCrack val="5" />
+  <proxy time="5" />
+  <admin type="progress"/>
+  <trace time="160" />
+
+  <account username="darren" password="r0flc0pt3r" type="mail" />
+
+  <mailServer name="weTalk" color="122, 204, 51">
+
+    <email recipient="darren" sender="mgmt" subject="RE: RE: RE: RE: RE: RE: Raise PLEASE">Hello Darren,
+
+i swear to fucking god what do you "sysadmins" even do around here? security is NOT of our importance. the only thing we gotta worry about is the little shits running around being computer cops that the mnc have let loose, even then they're aren't getting into our stuff, mnc PROMISED us.
+
+you don't need a raise for shit. you're worthless. this will be the last discussion about it, ask again and ur getting the sack i swear to god
+
+~ ron</email>
+
+  </mailServer>
+
+</Computer>

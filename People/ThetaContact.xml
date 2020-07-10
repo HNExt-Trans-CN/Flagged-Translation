@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="thetarep" handle="bowenskribblez" firstName="Cindy" lastName="Bowen" isMale="false">
+  <Birthplace name="White Plains, New York, USA" />
+  <DOB>22/09/2015 09:00</DOB>
+  <Degrees>
+  	<Degree uni="New York University" gpa="3.5">Bachelor of Communications</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>A</Blood>
+    <Height>166</Height>
+    <Allergies>Perfume</Allergies>
+  </Medical>
+
+  <Notes>The long-suffering responder for the contact mail address of Theta Webhosting</Notes>
+</Person>

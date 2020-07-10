@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="Keyes" handle="k3y3s" firstName="Timothy" lastName="Keyes" isMale="true">
+  <Birthplace name="London, UK" />
+  <DOB>16/05/2001 04:00:00</DOB>
+
+  <Degrees>
+    <Degree uni="University of Oxford" gpa="4.0">Bachelor of Computer Science</Degree>
+    <Degree uni="University of Oxford" gpa="4.0">Masters in Cyber Security</Degree>
+  </Degrees>
+
+  <Medical>
+    <Blood>B</Blood>
+    <Height>179</Height>
+    <Allergies>Honey</Allergies>
+    <Notes>CITIZEN HAS BEEN FLAGGED: [REASON REMOVED]</Notes>
+  </Medical>
+
+  <Notes>Current acting "head" of Baphomet</Notes>
+</Person>

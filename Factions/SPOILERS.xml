@@ -1,0 +1,6 @@
+<CustomFaction name="Baphomet" id="baphomet" playerVal="0">
+
+  <Action ValueRequired="1">
+  </Action>
+
+</CustomFaction>

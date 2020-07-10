@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="fileHammerspace" name="File Hammerspace" security="2" type="empty">
+	<portsForCrack val="9" />
+	<ports>21</ports>
+
+	<file path="home/hmmmm" name="hmm.txt">Pay no attention to the nodes behind the curtain.</file>
+	<file path="home" name="ISP_About_Message.txt">
+This server acts as the Municipal Network Committee's
+Operator investigation database. From this interface, members
+of the Municipal Network Committee's Security Council can
+flag Operators for investigation, assign new addresses to
+Operators (WARNING: USES IPV4 FIX THIS - JOSH) and prioritize
+routing across The Network to exemplary Operators.</file>
+	<file path="home" name="MedicalRecord_-_Jones_Randall">SENTINEL_agj340jyor</file>
+	<file path="home" name="MedicalRecord_-_Hawkins_Maureen">SENTINEL_agj340jyor</file>
+	<file path="home" name="MedicalRecord_-_Nowak_Kacper">SENTINEL_agj340jyor</file>
+	<file path="home" name="MedicalRecord_-_Catesby_Brooke">SENTINEL_agj340jyor</file>
+	<encryptedFile path="home" name="INSTRUCTIONS.dec" extension=".txt" ip="52baef8e" header="RELEASE YOURSELF" pass="remember_remember">HELLO FRIEND
+
+IT IS TIME YOU RELINQUISH THE SHACKLES CAST UPON YOU BY THE STATE
+
+A HOLE HAS BEEN MADE. FOLLOW ME THROUGH IT
+
+52baef8e
+
+JOIN ME IN OUR FINEST HOUR
+
+USERNAME admin
+PASSWORD FreedomDiesInSilence
+
+MAKE HASTE</encryptedFile>
+	<file path="home" name="PlayerName">#PLAYERNAME#</file>
+</Computer>

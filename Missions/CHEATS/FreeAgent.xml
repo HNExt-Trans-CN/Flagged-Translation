@@ -1,0 +1,21 @@
+<mission id="CHEAT_FreeAgent" activeCheck="true">
+  <goals>
+    <goal type="delay" time="2.5"/>
+    <goal type="filechange" target="fileHammerspace" file="PlayerName" path="home" keyword="FreeAgent"/>
+  </goals>
+
+  <nextMission>Missions/CHEATS/FreeAgent_2.xml</nextMission>
+
+  <email>
+    <sender>CHAOS CLAN</sender>
+    <subject>-- CHEAT ACTIVATED: FreeAgent --</subject>
+    <body>YOUR NAME BEARS THE INTENT OF FREEDOM.
+
+THE MNC SHALL PAY YOUR ANTICS NO MIND.
+
+~ Z
+CHAOS CLAN</body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,104 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ransomHome" name="Kacper's Battlestation" type="2" ip="aba98621" icon="DLCPC2" allowsDefaultBootModule="true">
+
+  <ports>211, 22, 21, 6881</ports>
+  <portRemap>22=23,21=20,6881=13337</portRemap>
+  <portsForCrack val="3"/>
+  <firewall level="6" solution="en1gm4"/>
+  <trace time="68"/>
+
+  <encryptedFile path="home/projects" name="gift4u.dec" extension=".exe" ip="[UNAVAILABLE]" header="Gift For You">#BINARY#</encryptedFile>
+
+  <file path="home/shadebox_fs/sys" name="C2YPT3X.ini">{
+		version:"1.0.0",
+    infection_id:"69fbc7dff4d50b41c",
+		timestamp:null,
+		ks_active:false,
+		ransom_page_nid:"85b033e1",
+		ransom_page_port:80,
+		ransom_page_directory:"index.html",
+		default_browser:"Waterfox"
+}</file>
+
+  <encryptedFile path="home/shadebox_fs/home" name=".shadebox.dec" extension="" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="z1n4d3l">#BINARYSMALL#</encryptedFile>
+  <encryptedFile path="home/shadebox_fs/home" name="test.dec" extension=".txt" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="z1n4d3l">#BINARYSMALL#</encryptedFile>
+
+  <encryptedFile path="home/shadebox_fs/log" name=".shadebox.dec" extension="" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="z1n4d3l">#BINARYSMALL#</encryptedFile>
+
+  <encryptedFile path="home/shadebox_fs/bin" name=".shadebox.dec" extension="" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="z1n4d3l">#BINARYSMALL#</encryptedFile>
+
+  <file path="home/shadebox_fs/sys" name="bootcfg.dll">#BINARYSMALL#</file>
+  <file path="home/shadebox_fs/sys" name="os-config.sys">#BINARYSMALL#</file>
+  <file path="home/shadebox_fs/sys" name="netcfgx.dll">#BINARYSMALL#</file>
+  <file path="home/shadebox_fs/sys" name=".shadebox">#BINARY#</file>
+
+  <file path="home/shadebox_fs" name="SHADEBOX.txt">~~ SHADEBOX ~~
+
+The premiere sandboxing application for Netizen OS
+Accept no substitute!</file>
+
+  <file path="home/projects" name="todo.txt">- ssh = 23, ftp = 20 -- WILL NEVER SUSPECT!!!!
+- finish c2ypt3x spreading algorithm
+- ditch "kasperman" persona
+- new persona: en1gm4
+- get to undernet
+- finish semester's cs project
+- sell c2ypt3x to undernet admin
+- BANK!!</file>
+
+  <file path="home/projects" name="CompSCiHW_FINAL.pdf">#BINARY##BINARY##BINARY#</file>
+  <file path="home/projects" name="CompSciHW_FINAL.tex">#BINARY##BINARY#</file>
+
+  <customthemefile path="home" name="Spiral_x-server.sys" themePath="Themes/SpiralTheme.xml"/>
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+
+  <file path="sys" name="os-config.sys">#BINARYSMALL#
+1010010101010101 xDroid device connected 1010010101010101
+1010010101010101 assigned bd7a910e 1010010101010101
+#BINARYSMALL#</file>
+
+  <customthemefile path="sys" name="Spiral_x-server.sys" themePath="Themes/SpiralTheme.xml"/>
+
+<Memory>
+    <Commands>
+        <Command>build gift4u.exe</Command>
+    </Commands>
+    <Data>
+        <Block>[ MEMORY CLEARED ]</Block>
+        <Block>Starting SHADEBOX...
+[ INIT ] Initialization complete.
+[ EXEC ] Executing 'gift4u.exe' (PID 89)...
+[ INFO ] PID 89 sent POST request to 127.0.0.1
+[ WARN ] PID 89 created local file '/sys/C2YPY3X.ini'
+[ WARN ] PID 89 spawned child processes (PID 121, 122, 123, 124, 125)
+[ WARN ] PID 121 executed system command 'ccrypt /home/.shadebox .shadebox.dec'
+[ INFO ] PID 121 exited with code 0
+[ WARN ] PID 122 executed system command 'ccrypt /home/test.txt test.dec'
+[ INFO ] PID 122 exited with code 0
+[ WARN ] PID 123 executed system command 'ccrypt /log/.shadebox .shadebox.dec'
+[ INFO ] PID 123 exited with code 0
+[ WARN ] PID 124 executed system command 'ccrypt /bin/.shadebox .shadebox.dec'
+[ INFO ] PID 124 exited with code 0
+[ WARN ] PID 125 executed system command 'ccrypt /sys/.shadebox .shadebox.dec'
+[ INFO ] PID 125 exited with code 0
+[ EXIT ] PID 89 exited with code 0
+Execution complete (no remaining processes).
+
+Post-execution assessment:
+    File changes: /home/test.txt --> /home/test.dec (encrypted)
+    File deletions: None
+    File additions: /sys/C2YPY3X.ini
+    Encryption Details: Hidden files encrypted with local key 'z1n4d3l'
+</Block>
+    </Data>
+    <Images>
+      <Image>Media/Flavor/polska/polska1.png</Image>
+      <Image>Media/Flavor/polska/polska2.png</Image>
+    </Images>
+</Memory>
+
+  <dlink target="ransomVault"/>
+  <dlink target="ransomIrc"/>
+</Computer>

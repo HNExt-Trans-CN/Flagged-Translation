@@ -1,0 +1,34 @@
+config playerComp MNCHacker 0.2 $#%#$
+connect $#%#$
+hideRam $#%#$
+delay 4.3 $#%#$
+stopMusic $#%#$
+clearTerminal $#%#$
+delay 1.3 $#%#$
+hideNetMap $#%#$
+hideDisplay $#%#$
+delay 2.3 $#%#$
+writel $#%#$
+writel $#%#$
+writel Operator. $#%#$
+delay 2.5 $#%#$
+writel $#%#$
+writel $#%#$
+writel You must correct your disruptive behavior immediately. $#%#$
+delay 3.5 $#%#$
+writel $#%#$
+writel $#%#$
+writel Any further citations will result in the termination of your contract. $#%#$
+delay 3.5 $#%#$
+writel $#%#$
+writel $#%#$
+writel Consider this your last warning. $#%#$
+delay 3.5 $#%#$
+clearTerminal $#%#$
+flash $#%#$
+startMusic $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
+showTerminal $#%#$
+disconnect $#%#$

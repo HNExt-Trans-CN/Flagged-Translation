@@ -1,0 +1,6 @@
+<ConditionalActions>
+  <HasFlags requiredFlags="detainmentsActive">
+    <HideNode DelayHost="FAH" Delay="25" TargetComp="rjones_laptop" />
+    <ChangeIP DelayHost="FAH" Delay="25" TargetComp="rjones_laptop" NewIP="00000000" />
+  </HasFlags>
+</ConditionalActions>

@@ -1,0 +1,76 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="funRuiner"
+          name="Fun Ruiner 9001"
+          ip="deadbeef"
+          security="0"
+          allowsDefaultBootModule="false"
+          type="1" >
+  <adminPass pass="admin" />
+
+  <account username="admin" password="admin" type="0" />
+  <ports>21</ports>
+  <proxy time="-1" />
+  <portsForCrack val="999" />
+
+  <firewall level="-1" />
+  <trace time="-1" />
+  <admin type="none" />
+
+  <file path="OUR_DECLARATION" name="README.txt">HERE AT THE CHAOS CLAN, WE HAVE TRANSCENDED THE WORLD TO LOCATE EVERY FILE THAT YOU CAN EXECUTE AND EVERY FORM OF CUSTOMISABILITY HUMANS CAN COME UP WITH.
+~=~=~=~=~
+
+TAKE ONLY WHAT YOU NEED. DO NOT BE GREEDY.
+
+THE MORE YOU LOOK, THE MORE CORRUPTED YOU BECOME.
+
+WE ARE WATCHING.</file>
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="bin" name="FTPSprint.exe">#FTP_FAST_EXE#</file>
+  <file path="bin" name="WebServerWorm.exe">#WEB_CRACK#</file>
+  <file path="bin" name="SMTPOverflow.exe">#SMTP_CRACK#</file>
+  <file path="bin" name="SQLBufferOverflow.exe">#SQL_CRACK#</file>
+  <file path="bin" name="SSLTrojan.exe">#SSL_EXE#</file>
+  <file path="bin" name="Decypher.exe">#DECYPHER_PROGRAM#</file>
+  <file path="bin" name="DECHead.exe">#DECHEAD_PROGRAM#</file>
+  <file path="bin" name="KBTPortTest.exe">#MEDICAL_PROGRAM#</file>
+  <file path="bin" name="Tracekill.exe">#TRACEKILL_EXE#</file>
+  <file path="bin" name="ThemeChanger.exe">#THEMECHANGER_EXE#</file>
+  <file path="bin" name="TorrentStreamInjector.exe">#TORRENT_EXE#</file>
+  <file path="bin" name="ComShell.exe">#SHELL_CONTROLLER_EXE#</file>
+  <file path="bin" name="OpShell.exe">#SHELL_OPENER_EXE#</file>
+  <file path="bin" name="DNotes.exe">#NOTES_DUMPER_EXE#</file>
+  <file path="bin" name="SignalScramble.exe">#SIGNAL_SCRAMBLER_EXE#</file>
+  <file path="bin" name="eosDeviceScan.exe">#EOS_SCANNER_EXE#</file>
+  <file path="bin" name="PacificPortCrusher.exe">#PACIFIC_EXE#</file>
+  <file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+  <file path="bin" name="RTSPCrack.exe">#RTSP_EXE#</file>
+  <file path="bin" name="Sequencer.exe">#EXT_SEQUENCER_EXE#</file>
+  <file path="bin" name="MemForensics.exe">#MEM_FORENSICS_EXE#</file>
+  <file path="bin" name="MemDumpGenerator.exe">#MEM_DUMP_GENERATOR#</file>
+  <file path="bin" name="NetmapOrganizer.exe">#NETMAP_ORGANIZER_EXE#</file>
+  <file path="bin" name="Tuneswap.exe">#DLC_MUSIC_EXE#</file>
+
+  <customthemefile path="home" name="Operator_x-server.sys" themePath="Themes/IntroTheme.xml"/>
+  <customthemefile path="home" name="Bunsen_x-server.sys" themePath="Themes/BunsenTheme.xml"/>
+  <customthemefile path="home" name="Ribbons_x-server.sys" themePath="Themes/RibbonsTheme.xml"/>
+  <customthemefile path="home" name="Fandango_x-server.sys" themePath="Themes/FandangoTheme.xml"/>
+  <customthemefile path="home" name="Phantom_x-server.sys" themePath="Themes/PhantomTheme.xml"/>
+  <customthemefile path="home" name="Wormhole_x-server.sys" themePath="Themes/WormholeTheme.xml"/>
+  <customthemefile path="home" name="Ocean_x-server.sys" themePath="Themes/OceanTheme.xml"/>
+  <customthemefile path="home" name="Spiral_x-server.sys" themePath="Themes/SpiralTheme.xml"/>
+  <customthemefile path="home" name="Dragon_x-server.sys" themePath="Themes/DragonTheme.xml"/>
+  <customthemefile path="home" name="Baphomet_x-server.sys" themePath="Themes/ATheme.xml"/>
+  <customthemefile path="home" name="Galaxy_x-server.sys" themePath="Themes/GalaxyTheme.xml"/>
+
+  <customthemefile path="home" name="BunsenAlt_x-server.sys" themePath="Themes/BunsenAltTheme.xml"/>
+  <customthemefile path="home" name="PhantomAlt_x-server.sys" themePath="Themes/PhantomAltTheme.xml"/>
+  <customthemefile path="home" name="PhantomStandard_x-server.sys" themePath="Themes/PhantomStandardTheme.xml"/>
+  <customthemefile path="home" name="WormholeAlt_x-server.sys" themePath="Themes/WormholeAltTheme.xml"/>
+
+  <customthemefile path="home" name="HighContrast_x-server.sys" themePath="Themes/HCTheme.xml"/>
+  <customthemefile path="home" name="Meat_x-server_desporous.sys" themePath="Themes/MeatTheme.xml"/>
+  <customthemefile path="home" name="Meat_x-server_hammel.sys" themePath="Themes/MeatClassicTheme.xml"/>
+
+</Computer>

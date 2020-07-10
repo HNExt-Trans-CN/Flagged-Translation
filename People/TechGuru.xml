@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="techguru" handle="gurudaniel" firstName="Daniel" lastName="Sanders" isMale="true">
+  <Birthplace name="Utica, New York, USA" />
+  <DOB>13/07/1999 10:00</DOB>
+  <Degrees>
+    <Degree uni="University of Utica" gpa="3.7">Bachelor of Computer Science</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>AB</Blood>
+    <Height>181</Height>
+    <Allergies>Cats</Allergies>
+  </Medical>
+
+  <Notes>Tech enthusiast who has a rather tenuous grasp on password security, but still does a great job of archiving software and old television shows on his server</Notes>
+</Person>

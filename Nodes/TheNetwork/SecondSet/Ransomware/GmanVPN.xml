@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="gmanVPN" name="OmegaVPN-Passthrough-G" type="3" security="1" ip="e6fbd1fe" icon="DLCServer" allowsDefaultBootModule="true">
+
+  <ports>443, 80</ports>
+  <portRemap>80=8080</portRemap>
+  <proxy time="0.5"/>
+  <trace time="125"/>
+  <portsForCrack val="1"/>
+
+  <file path="home" name="browsing.log">XXXXXXXX -> fa4ae8e5/g/
+XXXXXXXX -> 85b033e1
+XXXXXXXX -> {{BitTorrent traffic; unable to log}}
+XXXXXXXX -> bbc1332f
+XXXXXXXX -> fa4ae8e5/g/</file>
+  <file path="home" name="readme.txt">Note to sysadmins,
+
+Due to our data-retention requirements outlined in the Proxy Data Retention Act 2028, browsing activity from this node will be logged for at least 3 days, though network IDs may be anonymised for GoldPackage(TM) customers.
+
+Please do not erase this data!
+
+~ OmegaVPN Legal Department</file>
+
+</Computer>

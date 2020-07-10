@@ -1,0 +1,13 @@
+<Person id="tracekill_kylesmom" handle="sbrooks" firstName="Sarah" lastName="Brooks" isMale="true">
+  <Birthplace name="Weldona, Colorado, USA" />
+  <DOB>02/04/1979 08:00</DOB>
+  <Degrees>
+  </Degrees>
+  <Medical>
+    <Blood>O</Blood>
+    <Height>160</Height>
+    <Perscription>Nelora :: oral injestion daily</Perscription>
+  </Medical>
+
+  <Notes>Kyle's mom</Notes>
+</Person>

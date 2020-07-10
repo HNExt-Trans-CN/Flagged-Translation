@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="ransomware_author" handle="kasperman" firstName="Kacper" lastName="Nowak" isMale="true">
+  <Birthplace name="Chorzow, Poland" />
+  <DOB>11/06/2010 09:00</DOB>
+  <Degrees>
+    <Degree uni="WSB Chorzow" gpa="3.5">Bachelor of Computer Science</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>O</Blood>
+    <Height>178</Height>
+    <Allergies>Peanuts</Allergies>
+  </Medical>
+
+  <Notes>Author of the C2YPT3X ransomware</Notes>
+</Person>

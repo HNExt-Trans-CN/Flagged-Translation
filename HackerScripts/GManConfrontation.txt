@@ -1,0 +1,55 @@
+config playerComp gmanHome 0.2 $#%#$
+connect $#%#$
+stopMusic $#%#$
+delay 0.3 $#%#$
+hideDisplay $#%#$
+hideRam $#%#$
+hideNetMap $#%#$
+clearTerminal $#%#$
+
+delay 2.1 $#%#$
+write Who $#%#$
+delay 0.4 $#%#$
+write are $#%#$
+delay 0.3 $#%#$
+write you...? $#%#$
+
+delay 0.5 $#%#$
+writel $#%#$
+delay 2.3 $#%#$
+writel An $#%#$
+delay 0.3 $#%#$
+write operator, $#%#$
+delay 0.3 $#%#$
+write eh? $#%#$
+delay 1.1 $#%#$
+
+writel Well, $#%#$
+delay 0.8 $#%#$
+write your aggression certainly looks the part. $#%#$
+delay 0.5 $#%#$
+writel $#%#$
+writel $#%#$
+
+delay 2.5 $#%#$
+writel You could've just asked before barging in, man. $#%#$
+
+delay 3 $#%#$
+writel Look, do whatever you need to. Just don't break anything. $#%#$
+
+delay 2.5 $#%#$
+writel $#%#$
+write I $#%#$
+delay 0.3 $#%#$
+write *really* $#%#$
+delay 0.7 $#%#$
+write don't want to have to wipe this drive, too. $#%#$
+delay 3.5 $#%#$
+
+clearTerminal $#%#$
+showDisplay $#%#$
+showRam $#%#$
+showNetMap $#%#$
+showTerminal $#%#$
+startMusic $#%#$
+disconnect $#%#$

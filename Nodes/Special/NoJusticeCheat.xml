@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nojusticeComp" name="No Justice Cheat" security="0" ip="711571c3" allowsDefaultBootModule="true" type="empty">
+
+  <ports>22, 21, 9418</ports>
+  <portsForCrack val="0" />
+
+  <file path="home" name="CreditsData.txt">%-- NO JUSTICE CHEAT ACTIVATED --</file>
+
+<CreditsDaemon Title="No Justice Cheat" ButtonText="Activate Cheat" ConditionalActionSetToRunOnButtonPressPath="Actions/Meta/Cheats/NoJustice.xml"/>
+
+</Computer>

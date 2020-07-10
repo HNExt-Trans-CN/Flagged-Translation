@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MNCEscapeFailure" name="MNC Detainment Server" ip="ccb22ec0" icon="Psylance" allowsDefaultBootModule="true" type="3">
+	<portsForCrack val="3" />
+	<ports>80, 443, 554</ports>
+
+  <account username="SYSTEM" password="paynoattentiontotheunhackableaccountsbehindthecurtain" type="2" />
+  <account username="mpowell" password="paynoattentiontotheunhackableaccountsbehindthecurtain" type="2" />
+
+  <IRCDaemon themeColor="60, 60, 60" name="MNC Detainment Server" needsLogin="false">
+    <user name="SYSTEM" color="145,145,145"/>
+		<user name="DISPATCH" color="132, 100, 161"/>
+    <user name="mpowell" color="125, 0, 0"/>
+  </IRCDaemon>
+
+</Computer>

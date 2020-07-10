@@ -1,0 +1,107 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="nin_vps" name="NoneOfYoBznz's Rackspace" security="3" type="3" ip="f1b0cab2" allowsDefaultBootModule="true">
+
+  <ports>22, 21, 6881</ports>
+  <portRemap>22=4105,21=4021,6881=</portRemap>
+  <portsForCrack val="2"/>
+  <proxy time="1" />
+  <firewall level="9" additionalTime="-0.25" solution="moonlight"/>
+  <admin type="progress"/>
+  <trace time="195" />
+
+  <file path="home" name="README.txt">If you are reading this message, this means you have successfully logged into your VPS through SSH.
+You can now further configure the machine to your liking. If you have any questions, feel free to check out our support page and community forums.
+Please remember that administrative access is currently only whitelisted for the NID(s) you have specified in your account settings.
+
+IMPORTANT: By default, TFW (Theta Firewall) will not accept any external connections except for SSH and FTP. If you want to allow traffic to a particular port, try `sudo tfw allow inbound $PORT`. In addition, the default firewall solution of "theta" has been set. You should change this at your earliest convenience.
+
+Happy shenanigans,
+- Theta Hosting (4e3338db)
+</file>
+
+  <customthemefile path="home" name="Ocean_x-server.sys" themePath="Themes/OceanTheme.xml"/>
+
+  <file path="home/torrents" name="mylartown_140596.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="hexic_a92bf.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="hexic_c41fe.torrent">#BINARYSMALL#</file>
+
+  <file path="home/personal_backup" name="drivers_license_scan.png">#BINARY#</file>
+  <file path="home/personal_backup" name="termination_letter.txt">### FILE SHREDDED BY BITBURNER ###</file>
+  <file path="home/personal_backup" name="class_of_2027_prom_night.mp4">#BINARY##BINARY##BINARY##BINARY#</file>
+
+  <file path="home/personal_backup/xxx" name="a4215206f24982f1ef756c82d5032157.png">#BINARY#</file>
+  <file path="home/personal_backup/xxx" name="c0a61fd3ae0ed379d88f31b2aae26ded.png">#BINARY#</file>
+  <file path="home/personal_backup/xxx" name="865dde951b4047f5c3b7825cf1149bc0.png">#BINARY#</file>
+  <file path="home/personal_backup/xxx" name="363b122c528f54df4a0446b6bab05515.png">#BINARY#</file>
+  <file path="home/personal_backup/xxx" name="0b4110f4f2f06e18d5670348f7965d1c.png">#BINARY#</file>
+  <file path="home/personal_backup/xxx" name="a1caf2642e5eba765974fc1e188d55ad.png">#BINARY#</file>
+
+  <file path="home/LEAKS_backup" name="nutrico_0x7af30.eml">to the proprieter of Get Choppy Lumber,
+
+we require your services in order to process larger quantites of meatstock, as recent planning permission for a factory in wyoming fell through.
+
+please contact us as soon as possible.
+
+~ Sean White
+Nutrico Food Solutions
+
+~~ NABBED BY EMLSPY v2.3 ~~</file>
+  <file path="home/LEAKS_backup" name="nutrico_0x11b39.eml">Hello Mr. White,
+
+We can gladly oblige to your requirements! Please submit a forwarding bid of 150,000,000 credits to our NuCredz address at bcf6e406bc6d1c59454f01c0
+
+Thank you for your time!
+
+~~ NABBED BY EMLSPY v2.3 ~~</file>
+
+  <file path="home/LEAKS_backup" name="nutrico_tax_return_sheet_2036.docx">#BINARY##BINARY#</file>
+
+  <file path="home/LEAKS_backup" name="nutrico_fda_investigation_results.docx">#BINARY#</file>
+
+  <file path="sys" name="theta_stats.dll">#SECURITYTRACER_PROGRAM#</file>
+  <customthemefile path="sys" name="Ocean_x-server.sys" themePath="Themes/OceanTheme.xml"/>
+
+  <Memory>
+   <Commands>
+     <Command>dc</Command>
+     <Command>cd /home</Command>
+     <Command>bitburner -k termination_letter.txt</Command>
+     <Command>ls</Command>
+     <Command>cd personal_backup</Command>
+     <Command>ls</Command>
+   </Commands>
+   <Data>
+     <Block>~~ WELCOME TO BITBURNER v0.15 ~~
+HIDING YOUR EMBARASSING FILES SINCE 2025
+#####
+Content removed with -k flag - file structure retained
+#####
+Contents of termination_letter.txt:
+
+Company: Nutrico Food Solutions
+Employee: Maureen Hawkins
+DOB: June 6 2009
+Nationality: US
+
+Summary of violations: embezzlement of corporate money, property or records; gathering, transmitting or losing sensitive corporate information; conspiracy to peform unauthorised disclosure of sensitive corporate information.
+
+Summary of penalties: termination of employment with prejudice; suspension of Nutrico Food Solutions healthcare benefits; placement on National Business Association watchlist for 10 years.
+
+This submission confirms the immediate termination of the relationship between Employee Maureen Hawkins and Nutrico Food Solutions following internal monitoring commencing January 12 2037 and concluding February 15 2037. Employee was confirmed to have abused privileged access to sensitive corporate information with the intent to disseminate said information to the public anonymously. Advise appropriate sanctions and removal from operational area.
+
+Report signed: Sean White
+Report submitted: February 29 2037
+     </Block>
+     <Block>[blazemore] i hate when you're trying to own someone
+[blazemore] and then you own yourself</Block>
+   </Data>
+   <Images>
+     <Image>Media/Flavor/meme21.jpg</Image>
+     <Image>Media/Flavor/meme23.jpg</Image>
+     <Image>Media/Flavor/meme17.jpg</Image>
+   </Images>
+  </Memory>
+
+
+  <dlink target="thetaWebsite"/>
+</Computer>

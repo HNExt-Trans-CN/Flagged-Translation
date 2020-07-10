@@ -1,0 +1,14 @@
+<Person id="tracekill_g_user" handle="egom493" firstName="Vincent" lastName="Manning" isMale="true">
+  <Birthplace name="Birmingham, UK" />
+  <DOB>13/05/2008 09:00</DOB>
+  <Degrees>
+    <Degree uni="University of Birmingham" gpa="3.3">Bachelor of Physics</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>AB</Blood>
+    <Height>176</Height>
+    <Allergies>Shellfish</Allergies>
+  </Medical>
+
+  <Notes>Victim of the C2YPT3X ransomware. Uses FreeChat's /g/ board</Notes>
+</Person>

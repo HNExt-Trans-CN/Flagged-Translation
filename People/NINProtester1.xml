@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="ninprotester1" handle="raynestorm" firstName="Maureen" lastName="Hawkins" isMale="false">
+  <Birthplace name="Houston, Texas, USA" />
+  <DOB>06/06/2009 11:00</DOB>
+  <Degrees>
+    <Degree uni="Houtston University" gpa="3.6">Bachelor of Sociology</Degree>
+    <Degree uni="Houtston University" gpa="3.3">Masters in Sociology</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>O</Blood>
+    <Height>169</Height>
+    <Allergies>Latex</Allergies>
+    <Perscription>Adenorolac :: 20mg daily</Perscription>
+  </Medical>
+
+  <Notes>One of the NUTRICO_IS_NASTY protestors</Notes>
+</Person>

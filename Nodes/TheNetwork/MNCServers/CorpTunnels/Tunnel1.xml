@@ -1,0 +1,9 @@
+<Computer id="MNCloretunnel1" name="MNC Secure Tunnel A14B" security="2" ip="eeeea14b" type="empty">
+	<portsForCrack val="999" />
+	<ports>443</ports>
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="true"/>
+
+  <dlink target="MNCEscape2"/>
+
+</Computer>

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="MNCFactionGainHelper" activeCheck="true">
+  <goals>
+    <goal type="delay" time="1"/>
+  </goals>
+  <missionStart val="1">addRankSilent</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>MNC Dispatch</sender>
+    <subject>-- Assignment Complete --</subject>
+    <body>
+Operator #27,
+
+We have confirmed that your assignment has been successfully carried out. Good work.
+
+Check the Assignment Hub for new assignments from the dispatch team.
+
+- MNC Dispatch
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

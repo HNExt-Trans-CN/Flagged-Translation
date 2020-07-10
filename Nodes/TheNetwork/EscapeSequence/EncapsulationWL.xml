@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="encapWhitelist" name="MNC Encapsulation Whitelist" security="6" allowsDefaultBootModule="true" ip="ffff0001">
+
+  <WhitelistAuthenticatorDaemon SelfAuthenticating="true"/>
+
+  <file path="Whitelist" name="list.txt">#PLAYER_IP#</file>
+</Computer>

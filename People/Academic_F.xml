@@ -1,0 +1,15 @@
+<Person id="Academic_E" handle="fouriertform" firstName="Dave" lastName="Tucker" isMale="false">
+  <Birthplace name="Ellington, Minnesota, USA" />
+  <DOB>12/01/2018 16:00:00</DOB>
+
+  <Degrees>
+    <Degree uni="Ellington University" gpa="1.2">Bachelor of Animal Science</Degree>
+  </Degrees>
+
+  <Medical>
+    <Blood>A</Blood>
+    <Height>180</Height>
+  </Medical>
+
+  <Notes>One of the Ellington University cheaters.</Notes>
+</Person>

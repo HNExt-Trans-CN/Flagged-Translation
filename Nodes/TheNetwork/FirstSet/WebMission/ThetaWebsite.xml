@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="thetaWebsite" name="Theta Webhosting" security="1" type="3" ip="4e3338db" allowsDefaultBootModule="true">
+
+	<ports>80, 443, 1443</ports>
+	<portsForCrack val="1"/>
+	<proxy time="1.5" />
+	<admin type="progress"/>
+	<trace time="115" />
+
+	<LogoCustomConnectDisplayDaemon logo="Media/Theta.png" title="Media/theta_txt.png" overdrawLogo="false" buttonAlignment="left" />
+
+	<addWebServer name="Theta Webhosting" url="Web/Sites/Theta/index.html"/>
+
+	<dlink target="thetaMail"/>
+
+</Computer>

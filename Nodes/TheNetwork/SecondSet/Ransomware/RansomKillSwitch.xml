@@ -1,0 +1,25 @@
+<Computer id="ransomKillswitch" name="C2YPT3X Killswitch" secruity="4" ip="ec01a839" type="3" >
+  <ports>22, 21, 80, 443, 6881</ports>
+
+  <proxy time="2.5" />
+  <portsForCrack val="4" />
+  <firewall level="3" />
+
+  <file path="home" name="CreditsData.txt">%!! C2YPT3X KILLSWITCH !!
+
+Processing request...
+
+Reticulating splines...
+
+Distributing kill code...
+
+...
+
+^Received (27) feedback pings.
+
+%~~ INFECTION ALGORITHM DISABLED ~~
+% (C) EN1GM4, GREETZ 2 UNDERNET
+</file>
+
+  <CreditsDaemon Title="C2YPT3X Killswitch" ButtonText="Activate Killswitch" ConditionalActionSetToRunOnButtonPressPath="Actions/MissionActions/MNC/KillSwitchActivate.xml"/>
+</Computer>

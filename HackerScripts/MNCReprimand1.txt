@@ -1,0 +1,34 @@
+config playerComp MNCHacker 0.2 $#%#$
+connect $#%#$
+hideRam $#%#$
+delay 4.3 $#%#$
+stopMusic $#%#$
+clearTerminal $#%#$
+delay 1.3 $#%#$
+hideNetMap $#%#$
+hideDisplay $#%#$
+delay 2.3 $#%#$
+writel $#%#$
+writel $#%#$
+writel Attention, Operator. $#%#$
+delay 2.5 $#%#$
+writel $#%#$
+writel $#%#$
+writel This is your second instance of misconduct recently. $#%#$
+delay 3.5 $#%#$
+writel $#%#$
+writel $#%#$
+writel Please make sure you only attack hosts that are relevant to your assignments. $#%#$
+delay 3.5 $#%#$
+writel $#%#$
+writel $#%#$
+writel In the future we may not be so lenient. $#%#$
+delay 3.5 $#%#$
+clearTerminal $#%#$
+flash $#%#$
+startMusic $#%#$
+showNetMap $#%#$
+showRam $#%#$
+showDisplay $#%#$
+showTerminal $#%#$
+disconnect $#%#$

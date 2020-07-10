@@ -1,0 +1,21 @@
+<Computer id="catesbyPuzzle2" name="WE_ARE_WALLED_OFF's Rackspace" security="5" ip="0c64d0c9" type="empty">
+
+	<portsForCrack val="1" />
+	<ports>25</ports>
+
+	<proxy time="1"/>
+	<firewall level="-1"/>
+	<trace time="35"/>
+	<admin type="fast"/>
+
+	<file path="home" name="DECLARATION.txt">WE BROUGHT DEATH, AND NOW WE BRING LIFE.
+
+THEY SEEK ONLY TO CONTROL.
+TO DESTROY.
+TO OVERWRITE.
+
+IN THEIR SWOLLEN GRAVEYARD OF RUIN, WE THRIVE.
+
+I HOPE YOU remember_remember MY INSTRUCTIONS.</file>
+
+</Computer>

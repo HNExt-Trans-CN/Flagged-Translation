@@ -1,0 +1,129 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="civilian2Home" name="Vlad's PC" type="2" ip="4046951d" icon="DLCPC1" allowsDefaultBootModule="true">
+
+  <ports>22, 21, 6881</ports>
+  <portRemap>6881=9000</portRemap>
+  <portsForCrack val="1"/>
+  <trace time="50"/>
+
+  <encryptedFile path="bin" name="gift4u.dec" extension=".exe" ip="[UNAVAILABLE]" header="Gift For You">#BINARY#</encryptedFile>
+  <file path="home/irc_logs" name="latest.txt">The latest data I've been able to gather from the klubhouse:
+
+Server's NID: 1a5e3642
+
+chatter NIDs:
+me: 4046951d
+K: aba98621
+kyle: 5bc1e80e
+kathy: dont know, dont care
+oskar: see above
+
+---
+[kasperman] mnc will never touch me!
+[OskDaBoss] i mean, did you even do anything wrong
+[kasperman] heh
+---
+[kasperman] kyle is gone for being a bitch hahahahaha
+[kasperman] haha kyle shithead gone
+---
+Despite K's gloating and his deep, deep incompetence, I believe that Kyle still has access to the IRC and maybe even the rest of the ""network"" it's on.
+(also, a pair of shitty apple pi's is NOT a network. he thinks he's now suddenly a world class sysadmin cuz he got told how to hook 2 APi's together in his work experience lmao)
+
+This is not particularly surprising, though. Even from day one everyone's thought that K is a shithead. He yells at his mom in the teamspeak (still lives with parents lol), he's never had a job, he doesn't even try to speak english properly and he wants to be this cool looking "hacker" but got rejected from undernet and sucks up to the MNC when someone else tries to threaten him. Complete and utter embarassment.</file>
+  <file path="home/irc_logs" name="exposed.txt">[kasperman] hahahahaha
+[OskDaBoss] yeah agreed. seeing "kasperman" popping up on my screen made me laugh too
+[kasperman] so you guys remmber stupid shithead kyle?
+[kaffster49] how could we forget? he's living in your head rent-free these day
+[kasperman] ikr haha
+{kaffster49 (whisper -> rad_vlad)} holy shit he doesnt even get insults
+[kasperman] anyway he's seen the wrath of my hacking prowess!
+[rad_vlad] What did you do to Kyle?
+[kasperman] gave him a "gift" privately :)
+[rad_vlad] oh ffs is it that
+[OskDaBoss] yeah it is lmao
+[kasperman] pretty cool yes?
+[rad_vlad] whatever, Kasp
+[kasperman] but he faced my wrath! is not exciting?
+[kaffster49] he faced the wrath of the code you copy-pasted into an ide and compiled? sure
+[kasperman] careful kathy :)</file>
+  <file path="home/ks_dumb_ransomware" name="analysis.txt">K's malware forwards the victim to a webpage asking for money to get their key back, when the key to retrieve files is stored LOCALLY.
+What the fuck? This is the dumbest shit I've ever seen, next to the man's horrendous mismanagement of his ""network"" and his attitude to us in general.
+
+The "ransomware" doesn't clear the memory, thankfully.</file>
+  <encryptedFile path="home/ks_dumb_ransomware" name="gift4u.dec" extension=".exe" ip="[UNAVAILABLE]" header="Gift For You" pass="infected">#BINARY#</encryptedFile>
+
+  <file path="home/anime" name="Kaiju_The_Flower_Festival.mp4">#BINARYSMALL#</file>
+  <file path="home/anime" name="Mesuochi_Love_and_Sweet.mp4">#BINARY#</file>
+  <file path="home/anime" name="Genshi_and_Makoto.mp4">#BINARY##BINARYSMALL#</file>
+  <file path="home/anime" name="The_Girl_Who's_In_The_Morning.mp4">#BINARYSMALL#</file>
+  <file path="home/anime" name="Koi_wa_Aru_Mono.mp4">#BINARY##BINARY#</file>
+  <file path="home/anime" name="Yusuke_kara_kana.mp4">#BINARYSMALL##BINARYSMALL#</file>
+
+
+  <file path="home/shadebox_fs/sys" name="C2YPT3X.ini">{
+		version:"1.0.0",
+		infection_id:"f876a4e5c2f46cd75",
+		timestamp:null,
+		ks_active:false,
+		ransom_page_nid:"85b033e1",
+		ransom_page_port:80,
+		ransom_page_directory:"index.html",
+		default_browser:"Waterfox"
+}</file>
+
+  <encryptedFile path="home/shadebox_fs/home" name=".shadebox.dec" extension="" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="m1an2lo">#BINARYSMALL#</encryptedFile>
+  <encryptedFile path="home/shadebox_fs/home" name="test.dec" extension=".txt" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="m1an2lo">#BINARYSMALL#</encryptedFile>
+
+  <encryptedFile path="home/shadebox_fs/log" name=".shadebox.dec" extension="" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="m1an2lo">#BINARYSMALL#</encryptedFile>
+
+  <encryptedFile path="home/shadebox_fs/bin" name=".shadebox.dec" extension="" ip="[UNAVAILABLE]" header="PHUCK3D.BY.C2YPT3X" pass="m1an2lo">#BINARYSMALL#</encryptedFile>
+
+  <file path="home/shadebox_fs/sys" name="bootcfg.dll">#BINARYSMALL#</file>
+  <file path="home/shadebox_fs/sys" name="os-config.sys">#BINARYSMALL#</file>
+  <file path="home/shadebox_fs/sys" name="netcfgx.dll">#BINARYSMALL#</file>
+  <file path="home/shadebox_fs/sys" name=".shadebox">#BINARY#</file>
+
+  <file path="home/shadebox_fs" name="SHADEBOX.txt">~~ SHADEBOX ~~
+
+The premiere sandboxing application for Netizen OS
+Accept no substitute!</file>
+
+<Memory>
+    <Commands>
+        <Command>shadebox -xla gift4u.exe > home/memdump.txt</Command>
+    </Commands>
+    <Data>
+        <Block>[ MEMORY CLEARED ]</Block>
+        <Block>Starting SHADEBOX...
+[ INIT ] Initialization complete.
+[ EXEC ] Executing 'gift4u.exe' (PID 89)...
+[ INFO ] PID 89 sent POST request to 0x00a8b72f
+[ WARN ] PID 89 created local file '/sys/C2YPY3X.ini'
+[ WARN ] PID 89 spawned child processes (PID 121, 122, 123, 124, 125)
+[ WARN ] PID 121 executed system command 'ccrypt /home/.shadebox .shadebox.dec'
+[ INFO ] PID 121 exited with code 0
+[ WARN ] PID 122 executed system command 'ccrypt /home/test.txt test.dec'
+[ INFO ] PID 122 exited with code 0
+[ WARN ] PID 123 executed system command 'ccrypt /log/.shadebox .shadebox.dec'
+[ INFO ] PID 123 exited with code 0
+[ WARN ] PID 124 executed system command 'ccrypt /bin/.shadebox .shadebox.dec'
+[ INFO ] PID 124 exited with code 0
+[ WARN ] PID 125 executed system command 'ccrypt /sys/.shadebox .shadebox.dec'
+[ INFO ] PID 125 exited with code 0
+[ EXIT ] PID 89 exited with code 0
+Execution complete (no remaining processes).
+
+Post-execution assessment:
+    File changes: /home/test.txt --> /home/test.dec (encrypted)
+    File deletions: None
+    File additions: /sys/C2YPY3X.ini
+    Encryption Details: Hidden files encrypted with local key 'm1an2lo'
+</Block>
+    </Data>
+    <Images>
+      <Image>Media/Flavor/meme11.jpg</Image>
+      <Image>Media/Flavor/meme13.jpg</Image>
+      <Image>Media/Flavor/meme18.jpg</Image>
+    </Images>
+</Memory>
+</Computer>

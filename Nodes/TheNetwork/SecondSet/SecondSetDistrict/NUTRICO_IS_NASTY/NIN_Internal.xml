@@ -1,0 +1,80 @@
+<Computer id="nin_internal" name="NUTRICO_IS_NASTY Internal Services" ip="498fbb8a" security="3" allowsDefaultBootModule="true" type="3" >
+
+  <ports>6881, 22, 21, 3659, 25</ports>
+  <portRemap>22=7050</portRemap>
+
+  <portsForCrack val="3" />
+  <firewall level="4" solution="tofu" additionalTime="0.5" />
+  <trace time="200" />
+  <admin type="progress"/>
+
+  <tracker />
+
+  <file path="home/LEAKS" name="nutrico_0x7af30.eml">to the proprieter of Get Choppy Lumber,
+
+we require your services in order to process larger quantites of meatstock, as recent planning permission for a factory in wyoming fell through.
+
+please contact us as soon as possible.
+
+~ Sean White
+Nutrico Food Solutions
+
+~~ NABBED BY EMLSPY v2.3 ~~</file>
+  <file path="home/LEAKS" name="nutrico_0x11b39.eml">Hello Mr. White,
+
+We can gladly oblige to your requirements! Please submit a forwarding bid of 150,000,000 credits to our NuCredz address at bcf6e406bc6d1c59454f01c0
+
+Thank you for your time!
+
+~~ NABBED BY EMLSPY v2.3 ~~</file>
+
+<file path="home/LEAKS" name="nutrico_tax_return_sheet_2036.docx">#BINARY##BINARY#</file>
+
+<file path="home/LEAKS" name="nutrico_fda_investigation_results.docx">#BINARY#</file>
+
+  <eosDevice name="MNC_Spy_Van's ePhone ZX" id="eosNIN" icon="ePhone2" empty="false">
+    <note>tasks
+lots to think about today, make sure to take breaks every now and then! love yourself {3
+
+* ask around for someone to do active trace stuff on the IS server {DONE}
+* take backups
+* get wetalk installed {DONE}
+* update my vps to latest kernel version (f1b0cab2)
+* talk to Rene about outreach</note>
+<note>AWESOME EOS HACK -- PRANK POTENTIAL SOARS
+Did you know that if you change your first name on your eOS device, it will broadcast that name to everyone else when you activate your wifi hotspot?
+You can name yourself all kinds of silly things, like "IF_U_CAN_READ_THIS_UR_A_TOOL". L M A O!
+
+For more hilarious (and useful!) network tips and tricks, check out my website at 9d801345
+~ GuruDaniel</note>
+
+  <file path="eos/apps/wetalk" name="app.pkg">#BINARYSMALL#</file>
+  <file path="eos/apps/wetalk" name="wt_config.ini"># weTalk configuration file
+
+{
+  version:"2.5.1",
+  eos_proxy_nid:"411c8ade",
+  username:"raynestorm",
+  password:"L3tmein",
+  pro_status:false,
+  acct_db_proxy:false,
+  acct_db_nid:"6bcdf784"
+}
+#BINARYSMALL#</file>
+
+  <file path="eos/wetalk" name="wt_config.ini"># weTalk configuration file
+
+{
+  version:"2.5.1",
+  eos_proxy_nid:"411c8ade",
+  username:"raynestorm",
+  password:"L3tmein",
+  pro_status:false,
+  acct_db_proxy:false,
+  acct_db_nid:"6bcdf784"
+}
+#BINARYSMALL#</file>
+
+  </eosDevice>
+
+</Computer>

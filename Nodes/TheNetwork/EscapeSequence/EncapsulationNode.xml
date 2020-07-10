@@ -1,0 +1,65 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MNCEscape1" name="MNC Encapsulation Node B14" security="3" allowsDefaultBootModule="false" ip="ffff0b14" type="3" >
+
+  <ports>21, 80, 22, 6881, 554</ports>
+
+  <proxy time="1" />
+  <portsForCrack val="5" />
+  <firewall level="6" solution="keeper" />
+  <trace time="-1"/>
+  <admin type="none"/>
+
+  <LogoCustomConnectDisplayDaemon logo="Media/municipal2.png" title="Media/mnc_logo.png" overdrawLogo="false" buttonAlignment="left" />
+
+  <WhitelistAuthenticatorDaemon Remote="encapWhitelist"/>
+
+  <dlink target="MNCInvioable1" />
+  <dlink target="MNCInvioable2" />
+  <dlink target="MNCInvioable3" />
+  <dlink target="MNCInvioable4" />
+  <dlink target="MNCInvioable5" />
+  <dlink target="MNCEscape2" />
+
+  <dlink target="playerComp" />
+  <dlink target="MNCHub" />
+  <dlink target="jmail" />
+  <dlink target="MNCDrop" />
+  <dlink target="MNCEdu" />
+  <dlink target="MNCTestServer" />
+  <dlink target="medical" />
+  <dlink target="academic" />
+
+  <dlink target="blackMail" />
+  <dlink target="nutricoWebsite" />
+
+  <dlink target="torrentDisabled" />
+  <dlink target="MNCDebunked" />
+  <dlink target="MNCDebunkedOwner" />
+  <dlink target="thetaWebsite" />
+
+  <dlink target="eosRouter" />
+
+  <dlink target="district18Dir" />
+  <dlink target="TechGuruServer" />
+  <dlink target="hotdogWeb" />
+  <dlink target="nerdForum" />
+  <dlink target="goawayBookings" />
+  <dlink target="networkPointclicker" />
+  <dlink target="cindy_laptop" />
+
+  <dlink target="ellingtonPublic" />
+
+  <dlink target="operator14terminal" />
+  <dlink target="operator8terminal" />
+  <dlink target="gmanVPN" />
+  <dlink target="civilian1Home" />
+  <dlink target="civilian2Home" />
+
+  <dlink target="catesbyPuzzle0" />
+  <dlink target="catesbyPC" />
+  <dlink target="MNCEscape0" />
+
+  <dlink target="MNCEscape2" />
+
+  <positionNear target="MNCEscape2" position="1" total="10" extraDistance="-0.2"/>
+</Computer>

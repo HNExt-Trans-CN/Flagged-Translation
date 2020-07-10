@@ -1,0 +1,49 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="ransomXDroid" name="Kacper's xDroid" icon="ePhone" ip="bd7a910e" type="empty" >
+  <portsForCrack val="1" />
+  <ports>211, 22</ports>
+
+  <admin type="fast" resetPassword="true" isSuper="true"/>
+  <trace time="22"/>
+
+  <file path="xdroid/apps" name="71d9d84e70.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="8b70cea766.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="436f4674d1.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="4298e29075.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="fce73d0e82.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="0f7c5c6a4d.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="414b23b25d.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="8143fe0b46.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="8b25c3ee57.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="19ea314607.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="b4559a16ea.apk">#BINARYSMALL#</file>
+  <file path="xdroid/apps" name="4859932a19.apk">#BINARYSMALL#</file>
+  <file path="xdroid/notes" name="shopping_list.txt">shopping list
+3 Apple Pi's. will make hacker network more powerful</file>
+  <file path="xdroid/notes" name="passwd.txt">passwd
+vault pass is polskadobrze</file>
+  <file path="xdroid/mail" name="kasperman@blackmail.com.act">MAIL ACCOUNT: kasperman@blackmail.com
+Account  : kasperman@blackmail.com
+Password : poggers99
+Last Sync : 2 HOURS AGO
+
+#BINARYSMALL#</file>
+  <file path="xdroid/mail" name="en1gm4@blackmail.com.act">MAIL ACCOUNT: en1gm4@blackmail.com
+  Account  : en1gm4@blackmail.com
+  Password : poggers99
+  Last Sync : 2 HOURS AGO
+
+  #BINARYSMALL#</file>
+  <file path="xdroid/mail" name="a_8pj2zv@dumpmail.com.act">MAIL ACCOUNT: a_8pj2zv@dumpmail.com
+  Account  : a_8pj2zv@dumpmail.com
+  Password : en1gm4_k0ska
+  Last Sync : 2 HOURS AGO
+
+  #BINARYSMALL#</file>
+
+  <file path="xdroid/system" name="core.sys">#BINARYSMALL#</file>
+  <file path="xdroid/system" name="runtime.bin">#BINARYSMALL#</file>
+
+  <dlink target="ransomHome"/>
+  <positionNear target="ransomHome" position="3" total="3" extraDistance="-0.2"/>
+</Computer>

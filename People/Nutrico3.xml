@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="nutrico3" handle="jicklan" firstName="Robert" lastName="Causey" isMale="true">
+  <Birthplace name="Huntington, New York, USA" />
+  <DOB>17/06/2001 10:00</DOB>
+  <Degrees>
+    <Degree uni="New York University" gpa="3.5">Bachelor of Literature</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>A</Blood>
+    <Height>187</Height>
+    <Allergies>Dust</Allergies>
+  </Medical>
+
+  <Notes>A miscellaneous employee of Nutrico. Is asked to fudge up some FDA documents, much to his dismay.</Notes>
+</Person>

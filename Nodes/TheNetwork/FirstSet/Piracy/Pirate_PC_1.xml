@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="torrentPC1"
+          name="Jason's PC"
+          ip="812ddf7a"
+          security="0"
+          allowsDefaultBootModule="false"
+          icon="DLCPC1"
+          type="2" >
+
+  <ports>21, 22, 6881, 3659</ports>
+  <portRemap>6881=51092</portRemap>
+  <portsForCrack val="3" />
+  <trace time="-1" />
+
+  <dlink target="torrentTracker" />
+
+  <file path="home/torrents" name="Planet.Scuffle.2.2019.1080p.BluRay.DTS.x264-XBC.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="Four.and.a.half.Dogs.S02.1080p.WEB-DL.DDP2.0.H.264-AltHD.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="Cracknet.v5_069.w.DLC.ISO-SkiDcOlumn.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="Plateu.Photolab.Pro.2032.v29.3.X64.Multilingual-XBC.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="James.Proton.vs.James.Negatron.2002.NoCD.Crack-CoNSPIRACY.torrent">#BINARYSMALL#</file>
+
+  <file path="home/novel" name="Once_Gone_Never_Found_by_J_Aubjekt.docx">#BINARY#</file>
+  <file path="home/novel" name="journal.txt">ugh i'm never going to actually finish this
+
+why the fuck did i think i could become a professional writer? the title doesnt even make any sense! "Once Gone Never Found"? like yeah no shit.
+
+i'm just a geek. that's why my family kicked me out of my home :(
+
+all i'm ever gonna be known for is helping people commit crimes. honestly idk if i should just shut down the tracker and turn everyone in. maybe the mnc will go easier on me if i do.</file>
+
+  <file path="home/tracker_stuff" name="xbc_stuff.txt">seasharp managed to hit me up with the nid of the xbc topsite
+
+87b62498
+
+gonna siphon their pres and then we'll be the best tracker in the world!</file>
+</Computer>

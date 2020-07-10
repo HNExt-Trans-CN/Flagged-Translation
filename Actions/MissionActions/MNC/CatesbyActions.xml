@@ -1,0 +1,41 @@
+<ConditionalActions>
+
+  <Instantly>
+    <RunFunction FunctionName="changeSong" FunctionValue="11" />
+    <CopyAsset DestFilePath="bin" DestComp="MNCDrop" SourceComp="funRuiner" SourceFileName="Decypher.exe" SourceFilePath="bin" />
+    <CopyAsset DestFilePath="mail/accounts/dispatch/inbox" DestComp="jmail" SourceComp="fileHammerspace" SourceFileName="MedicalRecord_-_Catesby_Brooke" SourceFilePath="home" />
+  </Instantly>
+
+  <OnAdminGained target="catesbyPC">
+    <SaveGame DelayHost="FAH" Delay="3"/>
+    <RunFunction FunctionName="playCustomSong:Music/RightTheWrongs.ogg" />
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="3">hello, @#PLAYERNAME#!</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="7.5">oh how it warms my heart to see you here!</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="11">i apologise for having not been forthcoming with you until now</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="16">but we are in a safe space now.</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="22">simply put, i am part of a group you are probably all too familiar with.</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="25.5">baphomet.</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="30">we live -- residing in a stronghold at the edge between here and the beyond.</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="36">a beachhead established in the ruins of what once was.</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="41">i have been sent here to retrieve our comrades, for we are ready to convene again.</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="46.5">if you choose to follow me out, we can right the wrongs of our collective past.</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="51">on this computer is an assortment of files.</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="56">* tools with which to conduct our escape: RTSPIgnite</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="61.5">download it. you can test its effectiveness on your own system with no risk. i suggest you familiarise yourself with its quirks.</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="66.5">* a sequencer, to ensure that we move in tandem</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="72">* things that, i hope you interpret as gifts. expressions of thankfulness for your consideration.</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="77">when you are ready to leave, execute the sequencer program.</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="80.5">it will lead you out.</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="85">we shall discuss further on the other side.</AddIRCMessage>
+    <ChangeIP DelayHost="FAH" Delay="89" TargetComp="MNCEscape0" NewIP="LOCAL.SEQUENCERTUNNEL" />
+    <ChangeIP DelayHost="FAH" Delay="89" TargetComp="sequencerstandin" NewIP="#RANDOM_IP#" />
+    <HideNode DelayHost="FAH" Delay="89" TargetComp="sequencerstandin" />
+    <AddIRCMessage Author="catesby" TargetComp="catesbyPC" Delay="90">good luck, #PLAYERNAME#.</AddIRCMessage>
+
+    <AddConditionalActions Filepath="Actions/MissionActions/MNC/CatesbyAddFlags.xml" DelayHost="FAH" Delay="90"/>
+    <SaveGame DelayHost="FAH" Delay="91"/>
+  </OnAdminGained>
+
+
+
+</ConditionalActions>

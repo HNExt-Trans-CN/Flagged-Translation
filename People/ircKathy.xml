@@ -1,0 +1,12 @@
+<Person id="tracekill_kathy" handle="kaffster49" firstName="Kathy" lastName="Gresham" isMale="false">
+  <Birthplace name="Boise, Idaho, USA" />
+  <DOB>21/10/2014 09:00</DOB>
+  <Degrees>
+  </Degrees>
+  <Medical>
+    <Blood>O</Blood>
+    <Height>179</Height>
+  </Medical>
+
+  <Notes>A member of en1gm4's IRC. Primarily an onlooker.</Notes>
+</Person>

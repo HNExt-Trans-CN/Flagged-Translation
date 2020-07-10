@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Network IDs">
+Network IDs, or "NIDs", are The Network's primary method of host addressing. This scheme was implemented as a means of phasing out outdated addressing schemes such as IPv4 in favor of something that is shorter and easier to use, because denizens of The Network deserve only the best!
+
+Network IDs are constructed from 8 hexadecimal digits, for example, "67f8675f" is the Network ID of this education archive!
+
+There have been some cases in which hosts on The Network accidentally revert to antiquated addressing schemes such as IPv4. In the unlikely event that this happens, please remain calm and alert the MNC Security Council as soon as possible. An Operator shall be dispatched to deal with your situation.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="torrentPC2"
+          name="Chris' Battlestation"
+          ip="b0ff3c24"
+          security="0"
+          allowsDefaultBootModule="false"
+          icon="DLCPC2"
+          type="2" >
+
+  <ports>22, 25, 6881</ports>
+  <portRemap>6881=59016</portRemap>
+  <proxy time="0.5" />
+  <portsForCrack val="2" />
+  <trace time="200" />
+
+  <dlink target="torrentTracker" />
+
+  <file path="home/torrents" name="Another.Stick.in.the.Mud-CoMPLEX.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="WAPublisher.for.Plateu.Scribbler.v10.6.PC-VOLTAGE.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="Square.Empires.RIP-CoMPLEX.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="Cracknet.v5_069.w.DLC.ISO-SkiDcOlumn.torrent">#BINARYSMALL#</file>
+  <file path="home/torrents" name="The.Lonely.Operator.S07E17.720p.HDTV.x264-YARRHARR.torrent">#BINARYSMALL#</file>
+
+  <file path="home/torrents/important" name="RATIO_WINNER.exe">#SECURITYTRACER_PROGRAM#</file>
+
+  <file path="home/homework" name="english_homework.txt">Write a clear reasoned argument in the form of a newspaper article for or against graffiti in public spaces. Understand key features of arguments.
+
+due in a week
+due in 2 days
+due tomorrow fuck fuck fuck
+
+oh god im gonna be in so much trouble</file>
+
+  <file path="home/homework" name="english_homework.docx">1010101010010101101010</file>
+
+  <file path="home/hacker_tools" name="anarchist_cookbook.docx">#BINARY#</file>
+  <file path="home/hacker_tools" name="hackers_manifesto.docx">#BINARY#</file>
+  <file path="home/hacker_tools" name="FTPBounce.exe">#FTP_CRACK#</file>
+  <file path="home/hacker_tools" name="plans.txt">caught a motherlode of a file today while pwning some nooby boxes on random nids!!
+
+FTPBOUNCE!!!!!!!!
+been looking for this for months!!!!
+
+now i can tell my friends at school how easily i can hack them
+
+i bet i could even hack bit4bit if i wanted -- dont even need to ratio cheat anymore i could just hack them and adjust my ratio. if only i knew how to get past the proxy... :(</file>
+
+  <file path="bin" name="SSHCrack.exe">#SSH_CRACK#</file>
+  <file path="bin" name="FTPBounce.exe">#FTP_CRACK#</file>
+</Computer>

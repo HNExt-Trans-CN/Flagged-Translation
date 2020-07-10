@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="jamesr" handle="TheOddGuyOut" firstName="James" lastName="Rallison" isMale="true">
+  <Birthplace name="Mesa, Arizona, USA" />
+  <DOB>14/05/1996 07:00</DOB>
+  <Degrees>
+    <Degree uni="University of Arizona" gpa="3.5">Masters in Digital Art</Degree>
+    <Degree uni="University of Arizona" gpa="3.2">Bachelor of Mathematics</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>O</Blood>
+    <Height>182</Height>
+    <Notes>Citizen is deceased</Notes>
+  </Medical>
+
+  <Notes>To be expanded upon ;)</Notes>
+</Person>

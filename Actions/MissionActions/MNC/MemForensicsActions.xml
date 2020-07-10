@@ -1,0 +1,7 @@
+<ConditionalActions>
+  <Instantly>
+  	<CopyAsset DestFilePath="mail/accounts/dispatch/inbox" DestComp="jmail" SourceComp="fileHammerspace" SourceFileName="MedicalRecord_-_Hawkins_Maureen" SourceFilePath="home" />
+  	<CopyAsset DestFilePath="bin" DestComp="MNCDrop" SourceComp="funRuiner" SourceFileName="MemDumpGenerator.exe" SourceFilePath="bin" />
+    <CopyAsset DestFilePath="bin" DestComp="MNCDrop" SourceComp="funRuiner" SourceFileName="MemForensics.exe" SourceFilePath="bin" />
+  </Instantly>
+</ConditionalActions>

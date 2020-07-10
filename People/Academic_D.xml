@@ -1,0 +1,16 @@
+<Person id="Academic_D" handle="hallmath" firstName="Matthew" lastName="Hall" isMale="true">
+  <Birthplace name="Charlotte, North Carolina, USA" />
+  <DOB>21/01/2019 09:00:00</DOB>
+
+  <Degrees>
+    <Degree uni="Charlotte University" gpa="2.5">Bachelor of Sociology</Degree>
+  </Degrees>
+
+  <Medical>
+    <Blood>O</Blood>
+    <Height>172</Height>
+    <Allergies>None</Allergies>
+  </Medical>
+
+  <Notes>A junk person file that is cheating on their university course</Notes>
+</Person>

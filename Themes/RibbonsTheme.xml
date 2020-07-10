@@ -1,0 +1,35 @@
+<CustomTheme>
+  <themeLayoutName>white</themeLayoutName>
+  <backgroundImagePath>Themes/Backgrounds/ribbons.png</backgroundImagePath>
+
+  <defaultHighlightColor>240, 220, 89</defaultHighlightColor> <!-- 7,69,140 -->
+  <defaultTopBarColor>33, 98, 107</defaultTopBarColor> <!-- 125,29,51 -->
+  <warningColor>255,0,0</warningColor>
+  <darkBackgroundColor>26, 0, 26</darkBackgroundColor>
+
+  <shellColor>8,112,150,0</shellColor>
+  <shellButtonColor>7,69,140</shellButtonColor>
+
+  <moduleColorSolidDefault>0,86,143</moduleColorSolidDefault>
+  <moduleColorStrong>0,94,112</moduleColorStrong> <!-->behindTitlePanel -->
+  <moduleColorBacking>6,6,6,205</moduleColorBacking>
+
+  <AFX_KeyboardMiddle>255,231,46</AFX_KeyboardMiddle>
+  <AFX_KeyboardOuter>0,0,0</AFX_KeyboardOuter>
+  <AFX_WordLogo>255,255,0</AFX_WordLogo>
+  <AFX_Other>111,60,194</AFX_Other>
+
+  <thisComputerNode>4,181,110</thisComputerNode>
+
+  <exeModuleTopBar>0,43,51</exeModuleTopBar> <!-- 99,0,63 -->
+  <exeModuleTitleText>151,151,151,0</exeModuleTitleText>
+
+  <topBarIconsColor>200,200,200,0</topBarIconsColor>
+  <topBarTextColor>150,150,150,100</topBarTextColor>
+
+  <lockedColor>77,11,49,200</lockedColor>
+  <brightLockedColor>160,0,48</brightLockedColor>
+  <brightUnlockedColor>0,160,120</brightUnlockedColor>
+  <unlockedColor>0,92,69</unlockedColor>
+
+</CustomTheme>

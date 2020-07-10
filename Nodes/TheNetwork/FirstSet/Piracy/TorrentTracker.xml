@@ -1,0 +1,61 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="torrentTracker"
+          name="bit4bit Torrent Tracker"
+          ip="be95f741"
+          security="3"
+          allowsDefaultBootModule="true"
+          type="3" >
+
+  <account username="JaySon" password="beatles" type="0" />
+  <account username="SeaSharp" password="hardcore" type="2" />
+  <account username="ExEmel" password="123456a" type="2" />
+
+  <ports>22, 6881, 21, 80, 443</ports>
+
+  <portsForCrack val="2" />
+  <proxy time="0.75" />
+  <trace time="85" />
+  <admin type="progress"/>
+
+  <dlink target="torrentDisabled" />
+  <dlink target="torrentPC2" />
+  <dlink target="torrentPC3" />
+  <dlink target="torrentPC1" />
+
+  <uploadServerDaemon name="bit4bit Upload Endpoint" folder="ftp" needsAuth="true" hasReturnViewButton="true" color="67,204,148"/>
+
+  <IRCDaemon themeColor="67,204,148" name="bit4bit IRC" needsLogin="true">
+    <user name="SYSTEM" color="145,145,145"/>
+    <user name="Jayson" color="0,209,232"/>
+    <user name="SeaSharp" color="202,98,0"/>
+    <user name="ExEmel" color="0,196,82"/>
+    <user name="MonGouh" color="199, 147, 64"/>
+
+    <post user="SYSTEM">-- CHATLOG ROTATION COMPLETE --</post>
+    <post user="ExEmel">I've caught wind of this tracker named Hexic. Anyone know what's up?</post>
+    <post user="Jayson">was it on the OpenTracker forums</post>
+    <post user="ExEmel">Yeah.</post>
+    <post user="Jayson">ugh</post>
+    <post user="MonGouh">Sucks.</post>
+    <post user="SeaSharp">most of the sites on opentrackers are a waste of time</post>
+    <post user="SeaSharp">they have no content. no topsite access. just the table scraps of the scene.</post>
+    <post user="ExEmel">How did you even rope in XBC anyway, @Jayson ?</post>
+    <post user="Jayson">Well let's just say @SeaSharp knows how to persuade people</post>
+    <post user="SeaSharp">i hack them</post>
+    <post user="SeaSharp">and if they say anything i'll sic the operators on them. ezpz</post>
+    <post user="ExEmel">Yikes.</post>
+
+
+    <post user="Jayson"></post>
+    <post user="ExEmel"></post>
+    <post user="SeaSharp"></post>
+  </IRCDaemon>
+
+  <LogoDaemon Name="bit4bit" ShowsTitle="true" TextColor="67,204,148, 200" LogoImagePath="Media/bit4bit.png" >
+------------------------
+    WELCOME 2 bit4bit
+-- GIVE -- AND -- GET --
+------------------------
+  </LogoDaemon>
+
+</Computer>

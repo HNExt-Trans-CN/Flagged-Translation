@@ -1,0 +1,28 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="MNCeosGainHelper" activeCheck="true">
+  <goals>
+    <goal type="delay" time="1"/>
+  </goals>
+  <missionStart val="1">addRankSilent</missionStart>
+  <nextMission>NONE</nextMission>
+  <email>
+    <sender>MNC Dispatch</sender>
+    <subject>!! Important Information !!</subject>
+    <body>
+Operator #27,
+
+Congratulations on having carried out your assignment.
+
+You have now been assigned access to District 18, wherein the majority of your upcoming assignments shall take place. The public directory for the district has been linked to you in this email and will be linked in subsequent emails.
+
+You are permitted to attack nodes connected to this district, excluding any with a large "ACCESS DENIED" banner. You will be reprimanded for attacking such nodes.
+
+Your service so far is appreciated.
+
+- MNC Dispatch
+    </body>
+    <attachments>
+      <link comp="district18Dir" />
+    </attachments>
+  </email>
+</mission>

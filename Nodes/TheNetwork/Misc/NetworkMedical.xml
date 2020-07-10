@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="medical" name="Network Medical Database" security="3" ip="3abc5955" type="empty" icon="kellis">
+  <adminPass pass="qwerty"/>
+  <ports>80, 443, 554, 104</ports>
+  <trace time="250" />
+  <portsForCrack val="4" />
+  <admin type="progress"/>
+  <firewall level="6" solution="sedate" additionalTime="2.0"/>
+
+  <MedicalDatabase/>
+
+  <dlink target="MNCHub" />
+
+  <positionNear target="MNCHub" position="5" total="6"/>
+</Computer>

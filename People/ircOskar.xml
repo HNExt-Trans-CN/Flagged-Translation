@@ -1,0 +1,13 @@
+<Person id="tracekill_oskar" handle="OskDaBoss" firstName="Oskar" lastName="Pawlak" isMale="true">
+  <Birthplace name="Warsaw, Poland" />
+  <DOB>24/03/2012 11:00</DOB>
+  <Degrees>
+  </Degrees>
+  <Medical>
+    <Blood>A</Blood>
+    <Height>171</Height>
+    <Allergies>Leather</Allergies>
+  </Medical>
+
+  <Notes>A member of en1gm4's IRC. Primarily an onlooker.</Notes>
+</Person>

@@ -1,0 +1,74 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="blackMail" name="BlackMail" security="5" type="3" ip="3188b189">
+
+  <ports>22, 25</ports>
+  <portsForCrack val="2" />
+  <proxy time="-1" />
+  <firewall level="6" solution="abc123"/>
+  <admin type="progress"/>
+  <trace time="160" />
+
+  <account username="molluskman25" password="s1n1st3r" type="mail" />
+  <account username="f4rinel" password="monkey" type="mail" />
+  <account username="saintkyle" password="siberia11" type="mail" />
+  <account username="kasperman" password="poggers99" type="mail" />
+  <account username="pngrfol" password="gatehouse" type="mail" />
+  <account username="daganman" password="gbwzdugg3" type="mail" />
+  <account username="en1gm4" password="poggers99" type="mail" />
+  <account username="mavisa1965" password="password" type="mail" />
+  <account username="slickskimmer" password="qwertyuiop" type="mail" />
+  <account username="vishnu2016" password="gandako" type="mail" />
+
+  <mailServer name="BlackMail" color="60,60,60">
+
+  <email recipient="daganman" sender="admin" subject="Suspicious Actions Recorded From This Account">Hello daganman,
+
+This email is just checking in to ensure everything is fine on this account.
+
+It has come to our attention that you have deleted [2613] emails from this account permanently today. We just want to make sure you performed this action yourself. If you did, you do not need to reply. If this was not your doing, please contact us ASAP to reinstate the emails.</email>
+
+	<email recipient="f4rinel" sender="pngrfol" subject="WE RISE SOON">the time has come, comrade!
+
+if you can remember remember us, then reply to this email!</email>
+
+  <email recipient="pngrfol" sender="f4rinel" subject="RE: WE RISE SOON">omg is it really you?
+
+idk man, it's been ages. is it even worth it to do our old shit again? it'll just make things worse</email>
+
+  <email recipient="f4rinel" sender="pngrfol" subject="RE: RE: WE RISE SOON">i think you lack faith, friend.
+
+at least tell me where to locate you, so i may transfer you a file.</email>
+
+  <email recipient="pngrfol" sender="f4rinel" subject="RE: RE: RE: WE RISE SOON">alright fine. my nid is 4b4307bb
+
+got ftp open for you</email>
+
+<email recipient="kasperman" sender="saintkyle" subject="sick of ur shit">Look, I'm gonna be as clear as I can with you.
+
+You're a piece of shit.
+I've said it, Kathy's said it, Oskar's said it, even Vlad's said it. We're sick of your shit, and we're leaving the IRC.
+You'll never make a good piece of code in your life, you sick bastard.</email>
+
+<email recipient="saintkyle" sender="kasperman" subject="RE: sick of ur shit">Fuck you piece of shit
+
+I literally whipped up magnum opus and you all are never see it!!
+Unless you want to: come back to IRC and download my little gift4u.exe ;)
+
+- K</email>
+
+<email recipient="en1gm4" sender="a_9uyfc2@dumpmail.com" subject="RE: Application for UNDERNET">Hello en1gm4,
+
+Your application to join the members of UNDERNET has been *rejected*. A custom staff message has been included below:
+
+--
+are you shitting me? is this some kind of joke application? you have a "hacker network" of dribbling imbeciles that you call "friends" and now you suddenly think you're a superhacker with the chops for undernet?
+
+gtfo, don't associate with our name ever again.
+--
+
+You may appeal and resubmit this application within 7 days from this email. We hope you can make the cut eventually!
+
+- Undernet Administration</email>
+</mailServer>
+
+</Computer>

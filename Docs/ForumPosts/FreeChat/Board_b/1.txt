@@ -1,0 +1,15 @@
+n_bIntroThread
+------------------------------------------
+#Mod
+>== STICKIED POST ==
+Hello!
+
+Welcome to the FreeChat Forums -- a space for free-thinking individuals to post whatever they want!
+------------------------------------------
+Please ensure that you follow the rules of the site and that you remain on-topic with a thread's theme.
+------------------------------------------
+Timestamps have been disabled for now, due to the related database entries having been corrupted.
+------------------------------------------
+Due to yet another unforseen database issue, we have needed to split the board up into 6 "sub-nodes". Apologies for the inconvenience
+~ Matt
+------------------------------------------

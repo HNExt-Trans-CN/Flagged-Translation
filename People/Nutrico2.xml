@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="nutrico2" handle="thoplit" firstName="Sean" lastName="White" isMale="true">
+  <Birthplace name="Dallas, Texas, USA" />
+  <DOB>30/12/1989 06:00</DOB>
+  <Degrees>
+    <Degree uni="Dallas University" gpa="1.6">Bachelor of Economics</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>B</Blood>
+    <Height>183</Height>
+    <Allergies>Nuts</Allergies>
+  </Medical>
+
+  <Notes>The slimy CEO of Nutrico. Is hounded by Jim's Fine Meats PR to deal with the NUTRICO_IS_NASTY movement</Notes>
+</Person>

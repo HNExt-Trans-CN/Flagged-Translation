@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="ninprotester2" handle="z_b_d" firstName="James" lastName="Caron" isMale="true">
+  <Birthplace name="New York City, New York, USA" />
+  <DOB>06/02/2013 11:00</DOB>
+  <Degrees>
+    <Degree uni="New York University" gpa="3.4">Bachelor of Philosophy</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>A</Blood>
+    <Height>181</Height>
+    <Allergies>Dairy</Allergies>
+    <Perscription>Interprin :: 15mg daily</Perscription>
+  </Medical>
+
+  <Notes>One of the NUTRICO_IS_NASTY protestors</Notes>
+</Person>

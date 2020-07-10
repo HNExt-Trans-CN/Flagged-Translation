@@ -1,0 +1,98 @@
+<ConditionalActions>
+
+  <Instantly>
+    <RunFunction FunctionName="setHubServer:MNCEscape2" />
+    <RunFunction FunctionName="setAssetServer:MNCEscape2" />
+  </Instantly>
+
+  <OnAdminGained target="MNCEscape2">
+    <RunFunction FunctionName="setFaction:baphomet" />
+    <RunFunction FunctionName="setHubServer:baphHub" />
+    <RunFunction FunctionName="setAssetServer:baphDrop" />
+
+    <AddConditionalActions Filepath="Actions/Sequencer/KillSeqEXE.xml" DelayHost="FAH" Delay="0"/>
+    <RunFunction FunctionName="removeFlags:SEQUENCER_SPINUP" />
+    <RunFunction FunctionName="removeFlags:SEQUENCER_EXE_ACTIVE" />
+    <RunFunction FunctionName="removeFlags:sequencerUnlocked" />
+    <RunFunction FunctionName="removeFlags:catesbyEscape"/>
+    <RunFunction FunctionName="removeFlags:MNC_Member"/>
+    <RunFunction FunctionName="removeFlags:DHS_authenticated" />
+    <RunFunction FunctionName="addFlags:SEQUENCER_LOCKED" />
+
+    <KillExe DelayHost="FAH" Delay="0" ExeName="*" />
+    <CancelScreenBleedEffect DelayHost="FAH" Delay="0" />
+    <RunFunction FunctionName="playCustomSong:Music/Ambient/ComputerHum.ogg" />
+    <LaunchHackScript Filepath="HackerScripts/EscapeSuccessBeeps.txt" DelayHost="FAH" Delay="0" SourceComp="playerComp" TargetComp="playerComp" RequireLogsOnSource="false" RequireSourceIntact="false"/>
+    <GivePlayerUserAccount DelayHost="FAH" Delay="0" TargetComp="baphHub" Username="#PLAYERNAME#" />
+    <ChangeIP DelayHost="FAH" Delay="1" TargetComp="MNCEscape0" NewIP="604a4053" />
+
+    <SwitchToTheme ThemePathOrName="TerminalOnlyBlack" FlickerInDuration="1.5" DelayHost="FAH" Delay="1.5" />
+    <DeleteFile TargetComp="playerComp" FilePath="home" FileName="recovery.txt" DelayHost="FAH" Delay="4"/>
+
+    <ChangeIP DelayHost="FAH" Delay="4.5" TargetComp="MNCEscape0" NewIP="71b1492a" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="sequencerstandin" NewIP="LOCAL.SEQUENCERTUNNEL" />
+    <ChangeIP DelayHost="FAH" Delay="4.5" TargetComp="MNCHub" NewIP="32c0dbc3" />
+    <ChangeIP DelayHost="FAH" Delay="4.5" TargetComp="MNCMail" NewIP="d1e2ffd5" />
+    <ChangeIP DelayHost="FAH" Delay="4.5" TargetComp="MNCDrop" NewIP="97343182" />
+    <ChangeIP DelayHost="FAH" Delay="4.5" TargetComp="MNCEdu" NewIP="b6cf9045" />
+    <ChangeIP DelayHost="FAH" Delay="4.5" TargetComp="catesbyPC" NewIP="a05250e8" />
+    <ChangeIP DelayHost="FAH" Delay="4.5" TargetComp="baphDrop" NewIP="39.238.157.125" />
+    <ChangeAlertIcon Target="baphHub" Type="irchub" DelayHost="FAH" Delay="4.8"/>
+    <HideAllNodes DelayHost="FAH" Delay="6.5"/>
+    <ShowNode DelayHost="FAH" Delay="6.6" Target="playerComp" />
+    <ShowNode DelayHost="FAH" Delay="6.6" Target="MNCEscape2" />
+
+    <SwitchToTheme ThemePathOrName="Themes/DragonTheme.xml" FlickerInDuration="1.5" DelayHost="FAH" Delay="7" />
+
+    <AddMissionToHubServer MissionFilepath="Missions/DemoMission/DemoEnd.xml" TargetComp="baphHub"/>
+  </OnAdminGained>
+
+  <OnConnect target="baphHub">
+    <AddAsset FileName="recovery.txt" FileContents="If someone decides to fuck with your system, we've got your back at the filedrop (IP: 39.238.157.125, admin/beelzebub)" TargetComp="playerComp" TargetFolderpath="home" />
+    <HideAllNodes DelayHost="FAH" Delay="0"/>
+    <ShowNode DelayHost="FAH" Delay="0" Target="playerComp" />
+    <ShowNode DelayHost="FAH" Delay="0" Target="baphHub" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="playerComp" NewIP="#RANDOM_IP#" />
+    <ChangeIP DelayHost="FAH" Delay="0" TargetComp="MNCEscape2" NewIP="#RANDOM_IP#" />
+    <SetLock DelayHost="FAH" Delay="0" Module="terminal" IsLocked="true" IsHidden="false" />
+    <SetLock DelayHost="FAH" Delay="0" Module="netmap" IsLocked="true" IsHidden="false" />
+    <SetLock DelayHost="FAH" Delay="0" Module="display" IsLocked="true" IsHidden="false" />
+    <RunFunction FunctionName="addFlags:CSEC_Member" />
+    <SwitchToTheme ThemePathOrName="Themes/ATheme.xml" FlickerInDuration="1.55" DelayHost="FAH" Delay="5" />
+    <GivePlayerUserAccount DelayHost="FAH" Delay="1" TargetComp="playerComp" Username="admin" />
+    <AddConditionalActions Filepath="Actions/FinaleActions/Ending2/EscapeSuccessMusicChange.xml" DelayHost="FAH" Delay="6.55"/>
+    <SaveGame DelayHost="FAH" Delay="15"/>
+
+    <SetLock DelayHost="FAH" Delay="14.9" Module="terminal" IsLocked="false" IsHidden="false" />
+    <SetLock DelayHost="FAH" Delay="14.9" Module="netmap" IsLocked="false" IsHidden="false" />
+    <SetLock DelayHost="FAH" Delay="14.9" Module="display" IsLocked="false" IsHidden="false" />
+    <AddIRCMessage Author="SYSTEM" TargetComp="baphHub" Delay="10">!ANNOUNCEMENT! @#PLAYERNAME# has joined the channel @Channel</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="baphHub" Delay="15">@#PLAYERNAME#!</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="baphHub" Delay="18">you are safe!</AddIRCMessage>
+    <AddIRCMessage Author="keyes" TargetComp="baphHub" Delay="20">Your return has been much anticipated, @#PLAYERNAME#</AddIRCMessage>
+    <AddIRCMessage Author="HACKER_KING_14" TargetComp="baphHub" Delay="21">HEY I THINK I KNOW WHO YOU ARE @#PLAYERNAME#</AddIRCMessage>
+    <AddIRCMessage Author="HACKER_KING_14" TargetComp="baphHub" Delay="25.5">DID YOU MAKE YOUR MARK?</AddIRCMessage>
+    <AddIRCMessage Author="whispr" TargetComp="baphHub" Delay="28">Hey!</AddIRCMessage>
+    <AddIRCMessage Author="keyes" TargetComp="baphHub" Delay="33">We have reconvened, in the emptiness of the "old" Internet.</AddIRCMessage>
+    <AddIRCMessage Author="keyes" TargetComp="baphHub" Delay="39">You used to be a valuable asset. "Stellar hacker", I believe was the term we used.</AddIRCMessage>
+    <AddIRCMessage Author="keyes" TargetComp="baphHub" Delay="43">You are needed once again.</AddIRCMessage>
+    <AddIRCMessage Author="n3t2unn3r" TargetComp="baphHub" Delay="47">with our collective experience, we can aid in rebuilding what is here</AddIRCMessage>
+    <AddIRCMessage Author="quicksilver" TargetComp="baphHub" Delay="52.9">Sorry wasn't checking chat. Salutations @#PLAYERNAME#</AddIRCMessage>
+    <AddIRCMessage Author="keyes" TargetComp="baphHub" Delay="57">We have cast off the shackles of formality and have forgone our former anonymity.</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="baphHub" Delay="61">great losses have been incurred. our hopes are diminished.</AddIRCMessage>
+    <AddIRCMessage Author="keyes" TargetComp="baphHub" Delay="66">But... we can't idly stand by and keep praying for change.</AddIRCMessage>
+    <AddIRCMessage Author="keyes" TargetComp="baphHub" Delay="70">We have to try.</AddIRCMessage>
+    <AddIRCMessage Author="keyes" TargetComp="baphHub" Delay="73">Together.</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="baphHub" Delay="75">together.</AddIRCMessage>
+    <AddIRCMessage Author="whispr" TargetComp="baphHub" Delay="78">Together.</AddIRCMessage>
+    <AddIRCMessage Author="HACKER_KING_14" TargetComp="baphHub" Delay="80">@#PLAYERNAME# DID YOU SEE MY MANIFESTO??</AddIRCMessage>
+    <AddIRCMessage Author="catesby" TargetComp="baphHub" Delay="88">@HACKER_KING_14 patience, new one. give them some space.</AddIRCMessage>
+    <AddIRCMessage Author="HACKER_KING_14" TargetComp="baphHub" Delay="91">OH OK</AddIRCMessage>
+    <AddIRCMessage Author="keyes" TargetComp="baphHub" Delay="96">Our current toolkit shall be made available to you.</AddIRCMessage>
+    <AddIRCMessage Author="keyes" TargetComp="baphHub" Delay="100">!ATTACHMENT:account#%#Baphomet Filedrop#%#39.238.157.125#%#admin#%#beelzebub</AddIRCMessage>
+    <AddIRCMessage Author="keyes" TargetComp="baphHub" Delay="103">You should be mostly inline with our own resources so far.</AddIRCMessage>
+    <AddIRCMessage Author="keyes" TargetComp="baphHub" Delay="110">After all, the MNC overindulge to compensate for their attempts to circumvent legal restrictions.</AddIRCMessage>
+    <AddIRCMessage Author="keyes" TargetComp="baphHub" Delay="115">Anyway... it is good to have you back, @#PLAYERNAME#.</AddIRCMessage>
+  </OnConnect>
+
+</ConditionalActions>

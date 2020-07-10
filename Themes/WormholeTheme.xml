@@ -1,0 +1,33 @@
+<CustomTheme>
+  <themeLayoutName>riptide2</themeLayoutName>
+  <backgroundImagePath>Themes\Backgrounds\Wormhole.png</backgroundImagePath>
+
+  <defaultHighlightColor>232,232,232</defaultHighlightColor>
+  <defaultTopBarColor>76,76,76,180</defaultTopBarColor>
+  <warningColor>255,0,0</warningColor>
+
+  <shellColor>45,43,220</shellColor>
+  <shellButtonColor>204,204,204</shellButtonColor>
+
+  <moduleColorSolidDefault>200,200,200</moduleColorSolidDefault>
+  <moduleColorStrong>76,76,76</moduleColorStrong>
+  <moduleColorBacking>6,6,6,190</moduleColorBacking>
+
+  <displayModuleExtraLayerBackingColor>0,0,0,160</displayModuleExtraLayerBackingColor>
+
+  <AFX_KeyboardMiddle>127,127,127</AFX_KeyboardMiddle>
+  <AFX_KeyboardOuter>178,178,178</AFX_KeyboardOuter>
+  <AFX_WordLogo>229,229,229</AFX_WordLogo>
+  <AFX_Other>153,153,153</AFX_Other>
+
+  <thisComputerNode>140,209,0</thisComputerNode>
+
+  <exeModuleTopBar>95,95,95</exeModuleTopBar>
+  <exeModuleTitleText>110,110,110,50</exeModuleTitleText>
+
+  <lockedColor>105,0,0,200</lockedColor>
+  <brightLockedColor>140,0,0</brightLockedColor>
+  <brightUnlockedColor>141,212,0</brightUnlockedColor>
+  <unlockedColor>92,138,0</unlockedColor>
+
+</CustomTheme>

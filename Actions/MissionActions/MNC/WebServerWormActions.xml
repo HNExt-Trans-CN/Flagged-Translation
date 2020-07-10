@@ -1,0 +1,7 @@
+<ConditionalActions>
+
+  <Instantly>
+  	<CopyAsset DestFilePath="bin" DestComp="MNCDrop" SourceComp="funRuiner" SourceFileName="WebServerWorm.exe" SourceFilePath="bin" />
+  </Instantly>
+
+</ConditionalActions>

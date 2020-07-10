@@ -1,0 +1,12 @@
+<ConditionalActions>
+
+<Instantly>
+  <RunFunction FunctionName="addFlags:gameComplete" />
+  <RunFunction FunctionName="removeFlags:MNC_Member"/>
+  <ChangeAlertIcon Target="jmail" Type="mail" DelayHost="FAH" Delay="0.1"/>
+  <SwitchToTheme ThemePathOrName="Themes/GalaxyTheme.xml" FlickerInDuration="1.5" DelayHost="FAH" Delay="0.5" />
+  <AddConditionalActions Filepath="Actions/FinaleActions/LoadCreditsMission.xml" DelayHost="FAH" Delay="0.25"/>
+  <RunFunction FunctionName="playCustomSong:Music/GreetingsOperatorRemix.ogg" />
+
+</Instantly>
+</ConditionalActions>

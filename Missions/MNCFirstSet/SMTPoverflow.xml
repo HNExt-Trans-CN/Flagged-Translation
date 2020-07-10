@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="MNC_STMP">
+  <goals>
+    <goal type="filechange" target="jmail" file="MedicalRecord_-_Jones_Randall" path="mail/accounts/dispatch/inbox" keyword="SENTINEL_agj340jyor" removal="true"/>
+  </goals>
+
+  <missionStart>loadConditionalActions:Actions/MissionActions/MNC/SMTPoverflowActions.xml</missionStart>
+  <missionEnd>loadConditionalActions:Actions/MissionActions/MNC/SMTPoverflowFinish.xml</missionEnd>
+
+  <nextMission>Missions/GainHelpers/MNC_Gain_Helper.xml</nextMission>
+
+  <posting title="Communication Investigation" client="MNC" target="f4rinel">Investigation is required into a private citizen's email communications.</posting>
+
+  <email>
+    <sender>MNC Dispatch</sender>
+    <subject>Communication Investigation</subject>
+    <body>Thank you for your continued interest in the Operator program.
+
+A citizen has recently been flagged for investigation by our automated systems for conspiring to undermine the infrastructure of The Network. A manual investigation must be conducted to confirm their identity and their intentions. You have been linked to an email server where the flagged user appears to own an account.
+
+The flagged handle is "f4rinel". Please uncover their identity, email a copy of their medical records to "dispatch@mnc.gov" and reply to this email to complete your assignment.
+
+In order to complete this task, you have received access to the SMTPOverflow tool, designed to exploit SMTP servers. This has now been made available to you on the Asset Server. Also attached to this email is credentials for the Network Medical Database, which you can use to correlate information that you gather. A minimum of a surname is required to perform a search -- a suspect's forename is insufficient.
+
+Good luck, Operator!
+
+- MNC Dispatch
+</body>
+    <attachments>
+      <link comp="medical" />
+      <account comp="medical" user="admin" pass="qwerty" />
+      <link comp="blackMail" />
+      <note title="Assignment Goals">1. Determine the identity of the online handle "f4rinel"
+
+2. Email their medical records to dispatch@mnc.gov</note>
+    </attachments>
+  </email>
+</mission>

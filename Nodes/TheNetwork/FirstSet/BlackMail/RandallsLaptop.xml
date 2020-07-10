@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="rjones_laptop" name="Randall's Laptop" security="1" type="2" icon="laptop" ip="4b4307bb">
+
+  <ports>22, 21, 6881</ports>
+  <portRemap>ssh=1000</portRemap>
+  <portsForCrack val="1" />
+  <proxy time="-1" />
+  <firewall level="-1"/>
+  <admin type="progress"/>
+  <trace time="150" />
+
+  <file path="home" name="ricing_guide.txt">Even on the Netizen OS, there's still plenty of room to customize your system and make it your own! Here's some cool suggestions:
+
+1. Remap the ports on your machine. Stops botnets from hammering certain ports and makes people stop and think about YOU and why YOU chose that port!
+
+2. Side-load x-servers. This is a kinda controversial one and you need to be super careful when you do it. If you can "source" an x-server from somewhere, swap it by renaming your own x-server.sys in the sys/ directory to something random, then mv the x-server of your choice into sys/x-server.sys and reboot! Stylish!</file>
+
+  <customthemefile path="home/cool_stuff" name="Bunsen_x-server.sys" themePath="Themes/BunsenTheme.xml"/>
+  <customthemefile path="home/cool_stuff" name="BunsenAlt_x-server.sys" themePath="Themes/BunsenAltTheme.xml"/>
+  <file path="home/transfer" name="hello.jpg">#BINARY#</file>
+
+  <file path="home/transfer" name="fuck_you.txt">yeah i know what u did randall. you owe me 50 bucks. go fuck yourself
+
+you're still a bigger asshole than this guy's</file>
+
+  <file path="home/work" name="INFO.txt">Timesheets have been assigned to employee Randall Jones -- these should be filled out daily and then the finished result should be emailed to the employee's line manager on or before the 5th of the following month.
+
+- Nutrico HR
+Contact: 2bd139be</file>
+
+  <file path="home/work" name="timesheet_january.xls">#BINARY#</file>
+
+  <file path="home/work" name="timesheet_february.xls">#BINARY#</file>
+
+  <file path="home/work" name="timesheet_april.xls">#BINARY#</file>
+
+  <file path="home/work" name="timesheet_march.xls">#BINARY#</file>
+
+  <file path="home/work" name="non_disclosure_agreement.doc">#BINARY#</file>
+
+  <Memory>
+   <Commands>
+	<Command>wget ftp://xxxxxxxx/themedump/Blue_x-server.sys</Command>
+	<Command>mv Blue_x-server.sys x-server.sys</Command>
+	<Command>yes | cp x-server.sys /sys/x-server.sys</Command>
+   </Commands>
+   <Images>
+     <Image>Media/Flavor/meme16.jpg</Image>
+     <Image>Media/Flavor/meme9.jpg</Image>
+     <Image>Media/Flavor/meme15.jpg</Image>
+   </Images>
+ </Memory>
+
+</Computer>

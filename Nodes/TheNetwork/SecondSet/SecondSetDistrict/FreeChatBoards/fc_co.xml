@@ -1,0 +1,17 @@
+<Computer id="nerdForum_co" name="FreeChat Forums - /co/" security="1" ip="fa4ae8e5/co/" type="3" >
+  <ports>80, 443, 1433</ports>
+
+  <proxy time="2.5" />
+  <portsForCrack val="2" />
+  <firewall level="-1" />
+  <trace time="300"/>
+
+  <messageBoard name="/co/ - Comics and Cartoons">
+    <thread>Docs/ForumPosts/FreeChat/Board_co/1.txt</thread>
+    <thread>Docs/ForumPosts/FreeChat/Board_co/2.txt</thread>
+  </messageBoard>
+
+  <dlink target="nerdForum"/>
+
+  <positionNear target="nerdForum" position="5" total="6" extraDistance="-0.3"/>
+</Computer>

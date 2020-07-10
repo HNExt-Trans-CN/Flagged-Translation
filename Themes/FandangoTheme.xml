@@ -1,0 +1,33 @@
+<CustomTheme>
+  <themeLayoutName>yellow</themeLayoutName>
+  <backgroundImagePath>Themes/Backgrounds/Fandango.png</backgroundImagePath>
+
+  <defaultHighlightColor>255,231,46</defaultHighlightColor>
+  <defaultTopBarColor>13,0,18,180</defaultTopBarColor>
+  <warningColor>255,0,0</warningColor>
+
+  <shellColor>111,60,194</shellColor>
+  <shellButtonColor>111,60,194</shellButtonColor>
+
+  <moduleColorSolidDefault>255,234,0</moduleColorSolidDefault>
+  <moduleColorStrong>13,0,18</moduleColorStrong>
+  <moduleColorBacking>6,6,6,200</moduleColorBacking>
+
+  <displayModuleExtraLayerBackingColor>0,0,0,160</displayModuleExtraLayerBackingColor>
+
+  <AFX_KeyboardMiddle>255,231,46</AFX_KeyboardMiddle>
+  <AFX_KeyboardOuter>0,0,0</AFX_KeyboardOuter>
+  <AFX_WordLogo>255,255,0</AFX_WordLogo>
+  <AFX_Other>111,60,194</AFX_Other>
+
+  <thisComputerNode>245,147,227</thisComputerNode>
+
+  <exeModuleTopBar>105,61,02,80</exeModuleTopBar>
+  <exeModuleTitleText>10,10,10,200</exeModuleTitleText>
+
+  <lockedColor>82,12,0,200</lockedColor>
+  <brightLockedColor>160,75,0</brightLockedColor>
+  <brightUnlockedColor>0,160,144</brightUnlockedColor>
+  <unlockedColor>36,69,64</unlockedColor>
+
+</CustomTheme>

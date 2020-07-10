@@ -1,0 +1,13 @@
+Hi!
+
+If you're reading this text file, you're probably either curious as to how this extension works internally or, likely, you're stuck on a puzzle and want solutions.
+
+I don't mind datamining as a concept and I admit that I do it all the time; however, I would like to ask that you respect the time and effort that goes into designing extensions and the puzzles within them.
+
+Inside these folders is spoilers galore. Feel free to datamine it (after all, I can't reasonably stop you either way), but I'd at least like to ask that you do not publicly share anything you uncover in here until the puzzles are solved legitimately.
+
+Thanks
+
+- Matrix
+
+:)

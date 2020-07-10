@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="education01">
+  <goals>
+  </goals>
+  <nextMission>NONE</nextMission>
+  <posting title="Proxies">In the computing world, there are times where you simply don't want people to see the origin of a remote server. You may think that the server is under risk of hacking attacks or perhaps you just want to conceal yourself a little. Proxies are designed to act as a "barrier" of sorts between the real host and the outside world. Communications over most ports are passed through the proxy server while it is active. This has the side-effect of causing most contemporary hacking tools to fail due to inconsistencies in the connection.
+
+This doesn't mean proxies are without their flaws however. Certain protocols are unable to use proxies, such as the BitTorrent file-sharing protocol, and as such they are potentially exploitable while a proxy is active.
+
+Most proxies also lack proper failsafes for bandwidth saturation, meaning a large amount of connections to a host at once will exceed most commercially-available Network bandwidth packages, rendering the proxy inoperable, allowing unfiltered traffic to pass through. An attacker controlling a large amount of remote shells (using the built-in "shell" remote administration tool on most Netizen OS lines) can overload proxies with ease. Especially weak proxies can potentially crumble at just a single or two hostile nodes.
+
+It is also worth noting that proxies do not prevent the execution of the PortHack program provided to Operators.
+  </posting>
+  <email>
+    <sender>ERROR</sender>
+    <subject>ERROR</subject>
+    <body>
+Receiving this email indicates that an unexpected error has occurred.
+Please panic.
+    </body>
+    <attachments>
+    </attachments>
+  </email>
+</mission>

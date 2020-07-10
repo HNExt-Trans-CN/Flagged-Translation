@@ -1,0 +1,5 @@
+<ConditionalActions>
+  <Instantly>
+    <RunFunction FunctionName="playCustomSong:Music/Ambient/detain_008.ogg" />
+  </Instantly>
+</ConditionalActions>

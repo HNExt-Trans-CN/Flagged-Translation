@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Person id="webowner" handle="no1taz" firstName="Paul" lastName="Haan" isMale="true">
+  <Birthplace name="Amsterdam, Netherlands" />
+  <DOB>26/04/2010 17:38</DOB>
+  <Degrees>
+	<Degree uni="Universiteit Maastricht" gpa="3.9">Bachelor of Biology</Degree>
+  </Degrees>
+  <Medical>
+    <Blood>AB</Blood>
+    <Height>184</Height>
+    <Allergies>Peanuts,Pollen</Allergies>
+  </Medical>
+
+  <Notes>Whistleblowing truther who sets up a webpage airing the dirt laundry of the MNC's operator program. Page is inevitably scrubbed by the MNC</Notes>
+</Person>

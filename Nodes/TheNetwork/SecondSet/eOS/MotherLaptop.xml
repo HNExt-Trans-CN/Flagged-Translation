@@ -1,0 +1,76 @@
+<Computer id="eosPC2" name="Linda's Laptop" security="1" icon="DLCLaptop" allowsDefaultBootModule="true" ip="3154b993" type="2">
+
+  <ports>3659, 22, 6881</ports>
+  <portRemap>6881=29084</portRemap>
+
+  <portsForCrack val="1" />
+  <trace time="-1" />
+  <firewall level="-1" />
+  <admin type="progress"/>
+
+  <file path="home/analyses" name="DO_NOT_LET_YOUR_KIDS_PLAY_TF2.txt">hi all
+
+first i must say thank you all for this board so i can keep my son away from nasty stuff the devil puts on this earth
+
+as grateful as i am i am here to tell you all to ban team fortress 2 (abbreviated as TF2) for the following reasons
+
+i discovered about it this weekend when my 15 year old son charlie brought home his friend and they were playing on his friend's laptop a game where it's nothing but killing, bad words, god bashing, anti-american propaganda, and worst of all HOMOSEXUALITY
+
+first off this is their artwork they use to advertise to the MASSES
+
+as you can see, they all are posed to look threatening (i guess that's what boys like these days)
+
+there is also blantent homosexuality (when the doctor heals his patients they all say things like "i love this doctor" or "get behind me doctor!")
+
+they made a character that looks like a soldier and he talks about god's world being his ("this is my world, you are not welcome in my world!") when i heard this i was MORBIDLY SHOCKED and appalled and ashamed of my son and he knew it
+
+i was wondering why my son was getting into fights and after i saw this i banned him from ever seeing his friends
+
+if you see your child playing this, tell them to uninstall it and watch him do it!!!
+
+hope this helps parents out so your child doesn't stray far from god!
+
+-baseballmom67
+
+### NOTES ###
+This all reads like nonsense. Is this really how parents raise their kids today? I'm certain this must be some kind of sick parody!</file>
+
+  <file path="home" name="journal.txt">Today Annie came up to me and asked me "why are you still a christian?"
+
+It was an interesting question; one which I had considered easy to answer until today. I love Annie with all my heart and only want what's the best for her, but something overtook me at the time when she said that. I froze up, then I yelled at her and she ran off back to her computer, working on whatever it is she does up there.
+
+Am I the bad person? Someone questioning something that is a fundamental part of you *should* allow you to at least respond negatively, but I feel really bad for doing that to my daughter. I'm going to make her her fav kind of dinner tonight to make it up to her. I hope she can forgive me, just as the Lord shall forgive her.
+
+I don't know. :(</file>
+
+  <eosDevice name="Linda's ePhone X5" id="eosIntro2" icon="ePhone2" empty="false">
+    <note>shopping list
+bread
+eggs
+milk
+pasta
+toilet paper
+rosemary
+candles
+toothpaste
+silverware
+apples
+wine</note>
+  </eosDevice>
+
+  <Memory>
+   <Commands>
+   </Commands>
+   <Data>
+
+   </Data>
+   <Images>
+     <Image>Media/MemImages/christian1.jpg</Image>
+     <Image>Media/MemImages/christian2.jpg</Image>
+     <Image>Media/MemImages/christian3.jpg</Image>
+   </Images>
+  </Memory>
+
+  <positionNear target="eosRouter" position="2" total="4"/>
+
+</Computer>

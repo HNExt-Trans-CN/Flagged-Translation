@@ -1,0 +1,37 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<mission id="operatorTrialMission">
+  <goals>
+    <goal type="filedownload" target="MNCTestServer" file="MNC_test_file.dll" path="home/induction"/>
+  </goals>
+
+  <missionStart>loadConditionalActions:Actions/MissionActions/MNC/SSHcrackActions.xml</missionStart>
+
+  <nextMission>Missions/GainHelpers/MNC_Gain_Helper.xml</nextMission>
+
+  <posting title="Operator Trial" client="MNC" target="Test Environment">Retrieve a file from a test environment employing basic security practices.</posting>
+
+  <email>
+    <sender>MNC Dispatch</sender>
+    <subject>Operator Trial</subject>
+    <body>Thank you for your continued interest in the Operator program. Thanks to people like you, The Network can maintain the top-notch security it is known for!
+
+In order to ensure you're up for the challenges ahead of you, your first task is to access a local test environment with a closed SSH port. You will need to use proprietary tools to exploit this port, and as such the binary file "SSHCrack.exe" has been added to the Asset Server, which has been attached to this email. Use the "scp" program to download a copy of the file to your terminal.
+
+You are once again reminded that you must only use the tools granted to you for carrying out your duties as an Operator. Abuse of these assets is grounds for termination from the program as well as unlimited detainment in exceptional circumstances.
+
+The port is exploited by running the command "SSHCrack 22", where "SSHCrack" designates the SSHCrack.exe program and "22" specifies the SSH port to exploit (which is 22 by default). Afterwards, run the PortHack program to gain administrative access to the system. Copy the test file in the home directory and reply to this email to confirm your completion!
+
+If you are lost, be sure to check out our Networking Archive, which is sure to fill you in on the history of The Network, the MNC and shall elaborate on certain paradigms you may encounter during your work here.
+
+Good luck, Operator!
+
+- MNC Dispatch
+</body>
+    <attachments>
+      <link comp="MNCTestServer" />
+  	  <link comp="MNCEdu" />
+  	  <link comp="MNCDrop" />
+      <note title="Assignment Goals">Download the test file from our test environment</note>
+    </attachments>
+  </email>
+</mission>

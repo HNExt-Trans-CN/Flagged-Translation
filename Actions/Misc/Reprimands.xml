@@ -1,0 +1,40 @@
+<ConditionalActions>
+  <!-- Nodes that the player should be punished for hacking -->
+
+  <OnAdminGained target="nutricoWebsite">
+    <AddConditionalActions Filepath="Actions/Misc/RunCitation.xml" DelayHost="FAH" Delay="5.5"/>
+  </OnAdminGained>
+
+  <OnAdminGained target="thetaWebsite">
+    <AddConditionalActions Filepath="Actions/Misc/RunCitation.xml" DelayHost="FAH" Delay="5.5"/>
+  </OnAdminGained>
+
+  <OnAdminGained target="thetaMail">
+    <AddConditionalActions Filepath="Actions/Misc/RunCitation.xml" DelayHost="FAH" Delay="5.5"/>
+  </OnAdminGained>
+
+  <OnAdminGained target="wtAccountDB">
+    <AddConditionalActions Filepath="Actions/Misc/RunCitation.xml" DelayHost="FAH" Delay="5.5"/>
+  </OnAdminGained>
+
+  <OnAdminGained target="hotdogInternal">
+    <AddConditionalActions Filepath="Actions/Misc/RunCitation.xml" DelayHost="FAH" Delay="5.5"/>
+  </OnAdminGained>
+
+  <OnAdminGained target="goawayBookings">
+    <AddConditionalActions Filepath="Actions/Misc/RunCitation.xml" DelayHost="FAH" Delay="5.5"/>
+  </OnAdminGained>
+
+  <OnAdminGained target="MNCHub">
+    <AddConditionalActions Filepath="Actions/Misc/RunCitation.xml" DelayHost="FAH" Delay="5.5"/>
+  </OnAdminGained>
+
+  <OnAdminGained target="MNCEdu">
+    <AddConditionalActions Filepath="Actions/Misc/RunCitation.xml" DelayHost="FAH" Delay="5.5"/>
+  </OnAdminGained>
+
+  <OnAdminGained target="jmail">
+    <AddConditionalActions Filepath="Actions/Misc/RunCitation.xml" DelayHost="FAH" Delay="5.5"/>
+  </OnAdminGained>
+
+</ConditionalActions>

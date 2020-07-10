@@ -1,0 +1,32 @@
+<CustomTheme>
+  <themeLayoutName>blue</themeLayoutName>
+  <backgroundImagePath>Themes/Backgrounds/Phantom.png</backgroundImagePath>
+
+  <defaultHighlightColor>0,179,119</defaultHighlightColor>
+  <defaultTopBarColor>9,45,27, 0</defaultTopBarColor>
+  <warningColor>255,0,0</warningColor>
+
+  <shellColor>214,166,222</shellColor>
+  <shellButtonColor>255,180,0</shellButtonColor>
+
+  <moduleColorSolidDefault>0,191,255</moduleColorSolidDefault>
+  <moduleColorStrong>0,123,136</moduleColorStrong>
+  <moduleColorBacking>6,6,6,160</moduleColorBacking>
+
+  <AFX_KeyboardMiddle>255,231,46</AFX_KeyboardMiddle>
+  <AFX_KeyboardOuter>0,0,0</AFX_KeyboardOuter>
+  <AFX_WordLogo>255,255,0</AFX_WordLogo>
+  <AFX_Other>111,60,194</AFX_Other>
+
+  <thisComputerNode>255,180,0</thisComputerNode>
+
+  <exeModuleTopBar>0,57,77, 200</exeModuleTopBar>
+  <exeModuleTitleText>110,110,110,0</exeModuleTitleText>
+
+  <!--
+  <lockedColor>201,40,255,150</lockedColor>
+  <brightLockedColor>201,40,255</brightLockedColor>
+  <brightUnlockedColor>255,180,0</brightUnlockedColor>
+  <unlockedColor>255,180,0, 150</unlockedColor>
+  -->
+</CustomTheme>

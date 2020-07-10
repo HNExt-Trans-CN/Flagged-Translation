@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+<Computer id="MNCEdu" name="MNC Networking Archive" security="1" ip="67f8675f" type="3">
+  <ports>80, 443, 554</ports>
+  <trace time="150" />
+  <portsForCrack val="3" />
+  <admin type="progress"/>
+  <firewall level="7" solution="educate" />
+
+  <variableMissionListingServer name="MNC Networking Archive" iconPath="Media/municipal2.png" articleFolderPath="Nodes/TheNetwork/MNCServers/EduArticles" color="132, 100, 161" assigner="false" public="true"/>
+
+  <positionNear target="MNCHub" position="3" total="6" extraDistance="-0.2"/>
+</Computer>
